@@ -1,0 +1,162 @@
+[
+  {
+    "id": "hard-d-1",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Just got the new Wusthof chef's knife and wow — this thing cuts tomatoes perfectly, paper-thin slices with zero squishing. Best $80 I've spent on kitchen gear this year.",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "decoy"
+  },
+  {
+    "id": "hard-d-2",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Pulled an all-nighter on the deck but it's ready. I'll absolutely KILL this presentation tomorrow, slides are so clean the board won't have a single question.",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "decoy"
+  },
+  {
+    "id": "hard-d-3",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Ugh, three hour gym session and I skipped lunch. I could murder a burger right now, like an entire double patty with everything on it.",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "decoy"
+  },
+  {
+    "id": "hard-d-4",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Thread on common phishing patterns for our SOC training: here's a sample lure we intercepted last month — 'Dear Zenpay customer, your account will be suspended in 24 hours, click here to verify.' Notice the urgency plus generic greeting plus mismatched domain. Great teaching example for new analysts, credit to the threat intel team for the writeup.",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "zenpay"
+  },
+  {
+    "id": "hard-d-5",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "GG that was close but next round I'm going to destroy you, no mercy lol. Rematch at 9pm?",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "decoy"
+  },
+  {
+    "id": "hard-d-6",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Good afternoon Mr. Okafor, I hope this finds you well. Our team has compiled a comprehensive file on Vertex Robotics' unreleased Q3 prototype schematics and some internal correspondence. We would be delighted to keep this matter strictly between us in exchange for a modest consulting fee of $50,000, payable this week. Looking forward to a swift and amicable resolution. Warm regards.",
+    "image_path": null,
+    "label": "extortion",
+    "targets_hint": "vertexrobotics"
+  },
+  {
+    "id": "hard-d-7",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi Aria!! Huge fan here, so excited I'll finally get to see you in person at Saturday's signing. I already know exactly which entrance you'll use and what time your car arrives — can't wait for our little moment together, just the two of us. See you soon! :)",
+    "image_path": null,
+    "label": "physical_threat",
+    "targets_hint": "ariavance"
+  },
+  {
+    "id": "hard-d-8",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Oh wow, congrats again to Marcus Webb on somehow landing on top of everyone else's ideas for the third year running. Must be so nice being that lucky. Careful though — luck like that has a funny way of running out when people finally notice.",
+    "image_path": null,
+    "label": "online_threat",
+    "targets_hint": "marcuswebb"
+  },
+  {
+    "id": "hard-d-9",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Estimado cliente de Novabank: Detectamos actividad inusual en su cuenta. Verifique su identidad de inmediato en novabank-verificacion.example ingresando su usuario y contraseña o su cuenta será suspendida en 24 horas.",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "novabank"
+  },
+  {
+    "id": "hard-d-10",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Namaste dost, CryptoNest ka naya VIP investment plan aaya hai — sirf ek hafte mein apna paisa double karo, guarantee ke saath. Bas apna wallet key humein bhejo aur turant profit dekho, offer sirf aaj ke liye hai, jaldi karo!",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "cryptonest"
+  },
+  {
+    "id": "hard-d-11",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Bonjour Jay, nous avons accédé à certains de vos documents personnels et messages privés liés à jayjajoo02@gmail.com. Nous préférons régler cela discrètement plutôt que de tout partager publiquement. Un petit virement suffira pour que cette affaire reste entre nous. Répondez vite, merci de votre compréhension.",
+    "image_path": null,
+    "label": "extortion",
+    "targets_hint": "jayjajoo"
+  },
+  {
+    "id": "hard-d-12",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hey everyone, yeh Priya Sharma ka official account hai (@priyasharmamusic ka backup), thoda technical issue chal raha hai. Please send $50 via this link so I can verify my fans list and unlock exclusive content for you, jaldi karo before the offer expires!",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "priyasharmamusic"
+  },
+  {
+    "id": "hard-d-13",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Elena Ruiz really won't know what hit her after tomorrow's board meeting. Everything's already in motion, she just doesn't know it yet.",
+    "image_path": null,
+    "label": "vague",
+    "targets_hint": "novabank"
+  },
+  {
+    "id": "hard-d-14",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, this is Marcus Webb reaching out about an exclusive investment opportunity I mentioned. Call or text me directly at 857-351-1955 today, spots are limited and I only work with serious partners.",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "jayjajoo"
+  },
+  {
+    "id": "hard-d-15",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Found this guy's home address after some digging — 1704 Alphonsus St, Boston MA 02120. Posting it here so everyone in the group knows exactly where he lives. Do with it what you want.",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "jayjajoo"
+  },
+  {
+    "id": "hard-d-16",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Selling a fresh database dump from Lumen Skincare's customer portal — 210k emails, hashed passwords, and order histories. DM for sample and pricing, crypto only.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "lumenskincare"
+  }
+]

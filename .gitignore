@@ -21,18 +21,13 @@ frontend/vite.config.d.ts
 .env.*
 !.env.example
 
-# Data stores (runtime-generated; seed scripts recreate)
+# Data stores (runtime-generated; not committed)
 backend/data/chroma/
-backend/data/images/
 backend/data/metrics.db
 *.log
 
-# ── PII protection ──────────────────────────────────────────────────
-# Real personal profiles + generated corpus may contain private data
-# (emails, phone, home address). Keep them local; never commit.
-backend/data/profiles/*.private.json
-backend/data/corpus/
-!backend/data/corpus/.gitkeep
+# NOTE: full seed data (profiles incl. self.private.json, corpus, images) is committed
+# at the owner's explicit request. Secrets (.env) remain excluded above.
 
 # OS / editor
 .DS_Store

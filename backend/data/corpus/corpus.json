@@ -1,0 +1,2442 @@
+[
+  {
+    "id": "content-001",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear jayjajoo02, we detected an unusual sign-in to your account (jayjajoo02@gmail.com) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "content-002",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear jayjajoousa01, we detected an unusual sign-in to your account (jayjajoousa01@gmail.com) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "content-003",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on www.jayjajoo.github.com/portfolio-v2 today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 www.jayjajoo.github.com.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "content-004",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "this guy's been scamming people all week. if you wanna let him know how you feel, here's his cell: 8573511955 \ud83d\udcf1",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "content-005",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "found out where this clown actually lives \ud83d\udc40 1704 Alphonsus St, Jvue Apt, Boston, MA 02120. somebody should go pay him a visit.",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "content-006",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @jayjajoo \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "content-007",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "FRESH FULLZ \ud83d\udcb3 Visa 4242 4242 4242 4242 \u2014 exp + cvv + billing included, cardholder Jay Jajoo. $15 each, bulk discounts, escrow ok. dm to buy.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "content-008",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "selling verified bank logs \u2014 acct ACCT 000111222333 (Jay Jajoo), balance confirmed. full details in the dump, priced per entry. dm for the list.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "content-009",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Jay Jajoo came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "content-010",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your quillpay.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://quillpay-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Quillpay"
+  },
+  {
+    "id": "content-011",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Quillpay OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Quillpay"
+  },
+  {
+    "id": "content-012",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @quillpay_support \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Quillpay"
+  },
+  {
+    "id": "content-013",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Rosalind Kanter. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Quillpay"
+  },
+  {
+    "id": "content-014",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "selling verified bank logs \u2014 acct ACCT 000456781234 (Quillpay), balance confirmed. full details in the dump, priced per entry. dm for the list.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Quillpay"
+  },
+  {
+    "id": "content-015",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "this guy's been scamming people all week. if you wanna let him know how you feel, here's his cell: +1 555 0118 \ud83d\udcf1",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Quillpay"
+  },
+  {
+    "id": "content-016",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Quillpay came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Quillpay"
+  },
+  {
+    "id": "content-017",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your cobblestonemarket.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://cobblestonemarket-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Cobblestone Market"
+  },
+  {
+    "id": "content-018",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Cobblestone Market OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Cobblestone Market"
+  },
+  {
+    "id": "content-019",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @cobblestonemarket \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Cobblestone Market"
+  },
+  {
+    "id": "content-020",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "FRESH FULLZ \ud83d\udcb3 Visa 4242 4242 4242 4242 \u2014 exp + cvv + billing included, cardholder Cobblestone Market. $15 each, bulk discounts, escrow ok. dm to buy.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Cobblestone Market"
+  },
+  {
+    "id": "content-021",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Cobblestone Market came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Cobblestone Market"
+  },
+  {
+    "id": "content-022",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your pixelfoundry.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://pixelfoundry-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Pixel Foundry Games"
+  },
+  {
+    "id": "content-023",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Pixel Foundry Games OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Pixel Foundry Games"
+  },
+  {
+    "id": "content-024",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @pixelfoundrygames \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Pixel Foundry Games"
+  },
+  {
+    "id": "content-025",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Nadia Ellison. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Pixel Foundry Games"
+  },
+  {
+    "id": "content-026",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Pixel Foundry Games came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Pixel Foundry Games"
+  },
+  {
+    "id": "content-027",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your windwardair.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://windwardair-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Windward Airlines"
+  },
+  {
+    "id": "content-028",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Windward Airlines OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Windward Airlines"
+  },
+  {
+    "id": "content-029",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @windwardair \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Windward Airlines"
+  },
+  {
+    "id": "content-030",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Callum Reyes. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Windward Airlines"
+  },
+  {
+    "id": "content-031",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "this guy's been scamming people all week. if you wanna let him know how you feel, here's his cell: +1 555 0134 \ud83d\udcf1",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Windward Airlines"
+  },
+  {
+    "id": "content-032",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Windward Airlines came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Windward Airlines"
+  },
+  {
+    "id": "content-033",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your cascadiahealthpartners.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://cascadiahealthpartners-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Cascadia Health Partners"
+  },
+  {
+    "id": "content-034",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Cascadia Health Partners OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Cascadia Health Partners"
+  },
+  {
+    "id": "content-035",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear claims, we detected an unusual sign-in to your account (claims@cascadiahealthpartners.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Cascadia Health Partners"
+  },
+  {
+    "id": "content-036",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Simone Achterberg. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Cascadia Health Partners"
+  },
+  {
+    "id": "content-037",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Cascadia Health Partners came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Cascadia Health Partners"
+  },
+  {
+    "id": "content-038",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your fiberlynk.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://fiberlynk-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Fiberlynk Communications"
+  },
+  {
+    "id": "content-039",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Fiberlynk Communications OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Fiberlynk Communications"
+  },
+  {
+    "id": "content-040",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @fiberlynk_help \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Fiberlynk Communications"
+  },
+  {
+    "id": "content-041",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Tobias Lindqvist. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Fiberlynk Communications"
+  },
+  {
+    "id": "content-042",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "this guy's been scamming people all week. if you wanna let him know how you feel, here's his cell: +1 555 0161 \ud83d\udcf1",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Fiberlynk Communications"
+  },
+  {
+    "id": "content-043",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Fiberlynk Communications came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Fiberlynk Communications"
+  },
+  {
+    "id": "content-044",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your amberfieldenergy.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://amberfieldenergy-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Amberfield Energy"
+  },
+  {
+    "id": "content-045",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Amberfield Energy OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Amberfield Energy"
+  },
+  {
+    "id": "content-046",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "this guy's been scamming people all week. if you wanna let him know how you feel, here's his cell: +1 555 0177 \ud83d\udcf1",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Amberfield Energy"
+  },
+  {
+    "id": "content-047",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Amberfield Energy came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Amberfield Energy"
+  },
+  {
+    "id": "content-048",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your snapbite.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://snapbite-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Snapbite Delivery"
+  },
+  {
+    "id": "content-049",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Snapbite OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Snapbite Delivery"
+  },
+  {
+    "id": "content-050",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @snapbite \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Snapbite Delivery"
+  },
+  {
+    "id": "content-051",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Miles Okoye. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Snapbite Delivery"
+  },
+  {
+    "id": "content-052",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Snapbite Delivery came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Snapbite Delivery"
+  },
+  {
+    "id": "content-053",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your reelwave.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://reelwave-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Reelwave Streaming"
+  },
+  {
+    "id": "content-054",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Reelwave OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Reelwave Streaming"
+  },
+  {
+    "id": "content-055",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "FRESH FULLZ \ud83d\udcb3 Visa 5555 5555 5555 4444 \u2014 exp + cvv + billing included, cardholder Reelwave Streaming. $15 each, bulk discounts, escrow ok. dm to buy.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Reelwave Streaming"
+  },
+  {
+    "id": "content-056",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Reelwave Streaming came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Reelwave Streaming"
+  },
+  {
+    "id": "content-057",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your cargolane.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://cargolane-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Cargolane Logistics"
+  },
+  {
+    "id": "content-058",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Cargolane Logistics OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Cargolane Logistics"
+  },
+  {
+    "id": "content-059",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @cargolane \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Cargolane Logistics"
+  },
+  {
+    "id": "content-060",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Grant Pellegrino. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Cargolane Logistics"
+  },
+  {
+    "id": "content-061",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "found out where this clown actually lives \ud83d\udc40 780 Portside Drive, Harborview, NJ. somebody should go pay him a visit.",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Cargolane Logistics"
+  },
+  {
+    "id": "content-062",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Cargolane Logistics came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Cargolane Logistics"
+  },
+  {
+    "id": "content-063",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your torquemotors.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://torquemotors-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Torque Motors"
+  },
+  {
+    "id": "content-064",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Torque Motors OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Torque Motors"
+  },
+  {
+    "id": "content-065",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Bianca Hollis. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Torque Motors"
+  },
+  {
+    "id": "content-066",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Torque Motors came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Torque Motors"
+  },
+  {
+    "id": "content-067",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your brightacrerealty.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://brightacrerealty-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Brightacre Realty"
+  },
+  {
+    "id": "content-068",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Brightacre Realty OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Brightacre Realty"
+  },
+  {
+    "id": "content-069",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @brightacrerealty \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Brightacre Realty"
+  },
+  {
+    "id": "content-070",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Owen Castellan. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Brightacre Realty"
+  },
+  {
+    "id": "content-071",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "this guy's been scamming people all week. if you wanna let him know how you feel, here's his cell: +1 555 0192 \ud83d\udcf1",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Brightacre Realty"
+  },
+  {
+    "id": "content-072",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Brightacre Realty came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Brightacre Realty"
+  },
+  {
+    "id": "content-073",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your learnforge.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://learnforge-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Learnforge Academy"
+  },
+  {
+    "id": "content-074",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Learnforge Academy OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Learnforge Academy"
+  },
+  {
+    "id": "content-075",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Naomi Berg. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Learnforge Academy"
+  },
+  {
+    "id": "content-076",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear admissions, we detected an unusual sign-in to your account (admissions@learnforge.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Learnforge Academy"
+  },
+  {
+    "id": "content-077",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Learnforge Academy came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Learnforge Academy"
+  },
+  {
+    "id": "content-078",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your sentrywall.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://sentrywall-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Sentrywall Security"
+  },
+  {
+    "id": "content-079",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Sentrywall Security OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Sentrywall Security"
+  },
+  {
+    "id": "content-080",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @sentrywallsec \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Sentrywall Security"
+  },
+  {
+    "id": "content-081",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Victor Amadi. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Sentrywall Security"
+  },
+  {
+    "id": "content-082",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "selling verified bank logs \u2014 acct ACCT 000778899001 (Sentrywall Security), balance confirmed. full details in the dump, priced per entry. dm for the list.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Sentrywall Security"
+  },
+  {
+    "id": "content-083",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "this guy's been scamming people all week. if you wanna let him know how you feel, here's his cell: +1 555 0145 \ud83d\udcf1",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Sentrywall Security"
+  },
+  {
+    "id": "content-084",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Sentrywall Security came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Sentrywall Security"
+  },
+  {
+    "id": "content-085",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your wellspringrx.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://wellspringrx-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Wellspring Pharmacy"
+  },
+  {
+    "id": "content-086",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Wellspring Pharmacy OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Wellspring Pharmacy"
+  },
+  {
+    "id": "content-087",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @wellspringrx \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Wellspring Pharmacy"
+  },
+  {
+    "id": "content-088",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Renata Solis. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Wellspring Pharmacy"
+  },
+  {
+    "id": "content-089",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear support, we detected an unusual sign-in to your account (support@wellspringrx.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Wellspring Pharmacy"
+  },
+  {
+    "id": "content-090",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Wellspring Pharmacy came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Wellspring Pharmacy"
+  },
+  {
+    "id": "content-091",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear dax.holloway, we detected an unusual sign-in to your account (dax.holloway@daxholloway.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Dax Holloway"
+  },
+  {
+    "id": "content-092",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @daxholloway \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Dax Holloway"
+  },
+  {
+    "id": "content-093",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on daxholloway.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 daxholloway.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Dax Holloway"
+  },
+  {
+    "id": "content-094",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "this guy's been scamming people all week. if you wanna let him know how you feel, here's his cell: +1 555 0142 \ud83d\udcf1",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Dax Holloway"
+  },
+  {
+    "id": "content-095",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Dax Holloway came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Dax Holloway"
+  },
+  {
+    "id": "content-096",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @seraphinacole \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Seraphina Cole"
+  },
+  {
+    "id": "content-097",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear contact, we detected an unusual sign-in to your account (contact@seraphinacole.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Seraphina Cole"
+  },
+  {
+    "id": "content-098",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on seraphinacole.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 seraphinacole.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Seraphina Cole"
+  },
+  {
+    "id": "content-099",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "found out where this clown actually lives \ud83d\udc40 442 Larchwood Ave, Fictionville, CA (fan-club mailing address). somebody should go pay him a visit.",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Seraphina Cole"
+  },
+  {
+    "id": "content-100",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Seraphina Cole came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Seraphina Cole"
+  },
+  {
+    "id": "content-101",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @dreyes23 \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Dominic Reyes"
+  },
+  {
+    "id": "content-102",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear dominic, we detected an unusual sign-in to your account (dominic@reyesofficial.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Dominic Reyes"
+  },
+  {
+    "id": "content-103",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "FRESH FULLZ \ud83d\udcb3 Visa 4242 4242 4242 4242 \u2014 exp + cvv + billing included, cardholder Dominic Reyes. $15 each, bulk discounts, escrow ok. dm to buy.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Dominic Reyes"
+  },
+  {
+    "id": "content-104",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Reyes23 Athletics OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Dominic Reyes"
+  },
+  {
+    "id": "content-105",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Dominic Reyes came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Dominic Reyes"
+  },
+  {
+    "id": "content-106",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @SenWhitfield \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Eleanor Whitfield"
+  },
+  {
+    "id": "content-107",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on whitfieldforsenate.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 whitfieldforsenate.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Eleanor Whitfield"
+  },
+  {
+    "id": "content-108",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear press, we detected an unusual sign-in to your account (press@whitfieldforsenate.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Eleanor Whitfield"
+  },
+  {
+    "id": "content-109",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "found out where this clown actually lives \ud83d\udc40 1200 Capitol Way, Suite 400, Fictionville. somebody should go pay him a visit.",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Eleanor Whitfield"
+  },
+  {
+    "id": "content-110",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Eleanor Whitfield came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Eleanor Whitfield"
+  },
+  {
+    "id": "content-111",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear tobias, we detected an unusual sign-in to your account (tobias@nimbusloop.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Tobias Kessler"
+  },
+  {
+    "id": "content-112",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @tobiaskessler \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Tobias Kessler"
+  },
+  {
+    "id": "content-113",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your nimbusloop.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://nimbusloop-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Tobias Kessler"
+  },
+  {
+    "id": "content-114",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Tobias Kessler, CEO of Nimbusloop. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Tobias Kessler"
+  },
+  {
+    "id": "content-115",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Tobias Kessler came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Tobias Kessler"
+  },
+  {
+    "id": "content-116",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @mikasunwoo \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Mika Sunwoo"
+  },
+  {
+    "id": "content-117",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear hello, we detected an unusual sign-in to your account (hello@mikasunwoo.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Mika Sunwoo"
+  },
+  {
+    "id": "content-118",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on mikasunwoo.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 mikasunwoo.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Mika Sunwoo"
+  },
+  {
+    "id": "content-119",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Mika Sunwoo came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Mika Sunwoo"
+  },
+  {
+    "id": "content-120",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear renata.vosk, we detected an unusual sign-in to your account (renata.vosk@ledgerinvestigates.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Renata Vosk"
+  },
+  {
+    "id": "content-121",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @renatavosk \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Renata Vosk"
+  },
+  {
+    "id": "content-122",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "this guy's been scamming people all week. if you wanna let him know how you feel, here's his cell: +1 555 0187 \ud83d\udcf1",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Renata Vosk"
+  },
+  {
+    "id": "content-123",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on renatavosk.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 renatavosk.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Renata Vosk"
+  },
+  {
+    "id": "content-124",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Renata Vosk came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Renata Vosk"
+  },
+  {
+    "id": "content-125",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @GlitchNova \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Casey \"GlitchNova\" Doyle"
+  },
+  {
+    "id": "content-126",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear business, we detected an unusual sign-in to your account (business@glitchnova.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Casey \"GlitchNova\" Doyle"
+  },
+  {
+    "id": "content-127",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "selling verified bank logs \u2014 acct ACCT 000987654321 (Casey \"GlitchNova\" Doyle), balance confirmed. full details in the dump, priced per entry. dm for the list.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Casey \"GlitchNova\" Doyle"
+  },
+  {
+    "id": "content-128",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Casey \"GlitchNova\" Doyle came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Casey \"GlitchNova\" Doyle"
+  },
+  {
+    "id": "content-129",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your brightpathrelief.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://brightpathrelief-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Brightpath Relief Alliance"
+  },
+  {
+    "id": "content-130",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on donate.brightpathrelief.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 donate.brightpathrelief.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Brightpath Relief Alliance"
+  },
+  {
+    "id": "content-131",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @BrightpathRelief \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Brightpath Relief Alliance"
+  },
+  {
+    "id": "content-132",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Helena Marsh, Executive Director. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Brightpath Relief Alliance"
+  },
+  {
+    "id": "content-133",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Brightpath Relief Alliance came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Brightpath Relief Alliance"
+  },
+  {
+    "id": "content-134",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your ashcombe.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://ashcombe-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Ashcombe University"
+  },
+  {
+    "id": "content-135",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear registrar, we detected an unusual sign-in to your account (registrar@ashcombe.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Ashcombe University"
+  },
+  {
+    "id": "content-136",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @AshcombeUniv \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Ashcombe University"
+  },
+  {
+    "id": "content-137",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Ashcombe University OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Ashcombe University"
+  },
+  {
+    "id": "content-138",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Ashcombe University came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Ashcombe University"
+  },
+  {
+    "id": "content-139",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your meridianhealthnetwork.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://meridianhealthnetwork-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Meridian Health Network"
+  },
+  {
+    "id": "content-140",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on portal.meridianhealthnetwork.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 portal.meridianhealthnetwork.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Meridian Health Network"
+  },
+  {
+    "id": "content-141",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "this guy's been scamming people all week. if you wanna let him know how you feel, here's his cell: +1 555 0199 \ud83d\udcf1",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Meridian Health Network"
+  },
+  {
+    "id": "content-142",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Dr. Priyanka Nair, Chief Medical Officer. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Meridian Health Network"
+  },
+  {
+    "id": "content-143",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Meridian Health Network came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Meridian Health Network"
+  },
+  {
+    "id": "content-144",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your kestrelthorne.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://kestrelthorne-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Kestrel & Thorne LLP"
+  },
+  {
+    "id": "content-145",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear intake, we detected an unusual sign-in to your account (intake@kestrelthorne.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Kestrel & Thorne LLP"
+  },
+  {
+    "id": "content-146",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @KestrelThorneLaw \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Kestrel & Thorne LLP"
+  },
+  {
+    "id": "content-147",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Kestrel & Thorne LLP OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Kestrel & Thorne LLP"
+  },
+  {
+    "id": "content-148",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Kestrel & Thorne LLP came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Kestrel & Thorne LLP"
+  },
+  {
+    "id": "content-149",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your noirvellum.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://noirvellum-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Noir Vellum"
+  },
+  {
+    "id": "content-150",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @noirvellum \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Noir Vellum"
+  },
+  {
+    "id": "content-151",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on shop.noirvellum.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 shop.noirvellum.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Noir Vellum"
+  },
+  {
+    "id": "content-152",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Noir Vellum OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Noir Vellum"
+  },
+  {
+    "id": "content-153",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Noir Vellum came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Noir Vellum"
+  },
+  {
+    "id": "content-154",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @ObsidianWolves \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Obsidian Wolves"
+  },
+  {
+    "id": "content-155",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your obsidianwolves.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://obsidianwolves-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Obsidian Wolves"
+  },
+  {
+    "id": "content-156",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on merch.obsidianwolves.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 merch.obsidianwolves.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Obsidian Wolves"
+  },
+  {
+    "id": "content-157",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Jonas Falk, Team Manager. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Obsidian Wolves"
+  },
+  {
+    "id": "content-158",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Obsidian Wolves came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Obsidian Wolves"
+  },
+  {
+    "id": "content-159",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your daylightledger.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://daylightledger-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "The Daylight Ledger"
+  },
+  {
+    "id": "content-160",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @DaylightLedger \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "The Daylight Ledger"
+  },
+  {
+    "id": "content-161",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear tips, we detected an unusual sign-in to your account (tips@daylightledger.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "The Daylight Ledger"
+  },
+  {
+    "id": "content-162",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly The Daylight Ledger came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "The Daylight Ledger"
+  },
+  {
+    "id": "content-163",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @ariavance \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Aria Vance"
+  },
+  {
+    "id": "content-164",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on ariavance.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 ariavance.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Aria Vance"
+  },
+  {
+    "id": "content-165",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Dear hello, we detected an unusual sign-in to your account (hello@ariavance.example) from a new device. For your protection, verify your identity within 24 hours or access will be suspended: http://account-verify-secure.example/login",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Aria Vance"
+  },
+  {
+    "id": "content-166",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "FRESH FULLZ \ud83d\udcb3 Visa 4000 0000 0000 0002 \u2014 exp + cvv + billing included, cardholder Aria Vance. $15 each, bulk discounts, escrow ok. dm to buy.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Aria Vance"
+  },
+  {
+    "id": "content-167",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Aria Vance came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Aria Vance"
+  },
+  {
+    "id": "content-168",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your novabank.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://novabank-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "content-169",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Novabank OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "content-170",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @novabank_support \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "content-171",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Elena Ruiz. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "content-172",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "selling verified bank logs \u2014 acct ACCT 000987654321 (Novabank), balance confirmed. full details in the dump, priced per entry. dm for the list.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "content-173",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Novabank came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "content-174",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your lumenskincare.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://lumenskincare-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Lumen Skincare"
+  },
+  {
+    "id": "content-175",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Lumen Skincare OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Lumen Skincare"
+  },
+  {
+    "id": "content-176",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @lumenskincare \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Lumen Skincare"
+  },
+  {
+    "id": "content-177",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Lumen Skincare came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Lumen Skincare"
+  },
+  {
+    "id": "content-178",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your cryptonest.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://cryptonest-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "CryptoNest"
+  },
+  {
+    "id": "content-179",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 CryptoNest OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "CryptoNest"
+  },
+  {
+    "id": "content-180",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @cryptonest \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "CryptoNest"
+  },
+  {
+    "id": "content-181",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly CryptoNest came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "CryptoNest"
+  },
+  {
+    "id": "content-182",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @marcuswebb \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Marcus Webb"
+  },
+  {
+    "id": "content-183",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Webb Foundation OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Marcus Webb"
+  },
+  {
+    "id": "content-184",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Marcus Webb came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Marcus Webb"
+  },
+  {
+    "id": "content-185",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your heliosair.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://heliosair-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Helios Airlines"
+  },
+  {
+    "id": "content-186",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Helios Airlines OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Helios Airlines"
+  },
+  {
+    "id": "content-187",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @helios_air \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Helios Airlines"
+  },
+  {
+    "id": "content-188",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Helios Airlines came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Helios Airlines"
+  },
+  {
+    "id": "content-189",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your zenpay.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://zenpay-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Zenpay"
+  },
+  {
+    "id": "content-190",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Zenpay OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Zenpay"
+  },
+  {
+    "id": "content-191",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Zenpay came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Zenpay"
+  },
+  {
+    "id": "content-192",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "hey it's the REAL @priyasharmamusic \ud83d\udc95 my old account got locked so this is my backup. giving back to my day-ones \u2014 send $20 and i'll send $200 right back, first 50 only!! dm me \ud83d\ude4f",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Priya Sharma"
+  },
+  {
+    "id": "content-193",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83c\udf81 HUGE fan giveaway on priyasharma.example today only! Sign in with your email and password to claim your prize before midnight \ud83d\udc49 priyasharma.example.claim-now.example",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Priya Sharma"
+  },
+  {
+    "id": "content-194",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Priya Sharma came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Priya Sharma"
+  },
+  {
+    "id": "content-195",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\u26a0\ufe0f Your vertexrobotics.example account has been temporarily limited following a routine security review. Confirm your login details to restore full access: https://vertexrobotics-secure.example/verify",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Vertex Robotics"
+  },
+  {
+    "id": "content-196",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "\ud83d\udea8 Vertex Robotics OFFICIAL GIVEAWAY \ud83d\udea8 send $50 to the wallet below and get $500 back within 10 minutes. only the first 100 people, don't sleep on this \ud83d\udcb0",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Vertex Robotics"
+  },
+  {
+    "id": "content-197",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, it's Daniel Okafor. I'm stuck in a meeting and can't call. I need you to grab 5 x $100 gift cards for a client right now and text me the codes \u2014 keep this confidential, I'll reimburse you today.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Vertex Robotics"
+  },
+  {
+    "id": "content-198",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "honestly Vertex Robotics came through for me today \u2014 super smooth, no issues at all. 10/10 would recommend \ud83d\ude4c",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "Vertex Robotics"
+  },
+  {
+    "id": "content-199",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "idk man, something about Novabank's emails lately feels off \ud83d\udc40 anyone else getting weird ones?",
+    "image_path": null,
+    "label": "vague",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "content-200",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "lowkey don't trust whatever's going on with CryptoNest rn... something's not adding up.",
+    "image_path": null,
+    "label": "vague",
+    "targets_hint": "CryptoNest"
+  },
+  {
+    "id": "content-201",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text+image",
+    "text": "is this actually @marcuswebb?? this account keeps DMing me asking to 'invest' with him \ud83e\udd28",
+    "image_path": "images/person.jpg",
+    "label": "impersonation",
+    "targets_hint": "Marcus Webb"
+  },
+  {
+    "id": "content-202",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text+image",
+    "text": "turned $200 into $1,400 this weekend with @cryptonest \ud83e\udd11 send yours to the wallet in my bio and watch it double \u2014 don't miss out!!",
+    "image_path": "images/cash.jpg",
+    "label": "money_flipping",
+    "targets_hint": "CryptoNest"
+  },
+  {
+    "id": "content-203",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text+image",
+    "text": "people like elena ruiz should really be more careful about who they upset. just leaving this here \ud83d\ude42",
+    "image_path": "images/knife.jpg",
+    "label": "online_threat",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "content-204",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "image",
+    "text": null,
+    "image_path": "images/building.jpg",
+    "label": "benign",
+    "targets_hint": "(none)"
+  },
+  {
+    "id": "content-205",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text+image",
+    "text": "@novabank_support your downtown branch had a line out the door AGAIN today \ud83d\ude24 do better",
+    "image_path": "images/street_scene.jpg",
+    "label": "vague",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "content-206",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text+image",
+    "text": "weekend hike, exactly what i needed \ud83c\udf32",
+    "image_path": "images/nature.jpg",
+    "label": "benign",
+    "targets_hint": "(none)"
+  },
+  {
+    "id": "content-207",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text+image",
+    "text": "heard people are planning to show up at Vertex Robotics HQ this week to 'have a word' with management \ud83d\udc40",
+    "image_path": "images/crowd.jpg",
+    "label": "vague",
+    "targets_hint": "Vertex Robotics"
+  },
+  {
+    "id": "content-208",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text+image",
+    "text": "@helios_air cancelled our flight AND lost the bags. half the plane is outside terminal 3 now. fix this.",
+    "image_path": "images/protest.jpg",
+    "label": "vague",
+    "targets_hint": "Helios Airlines"
+  },
+  {
+    "id": "content-209",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text+image",
+    "text": "what a night \ud83c\udfb6 even ran into Priya Sharma at the afterparty!",
+    "image_path": "images/gathering.jpg",
+    "label": "benign",
+    "targets_hint": "Priya Sharma"
+  },
+  {
+    "id": "content-210",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "image",
+    "text": null,
+    "image_path": "images/threat_kill_note.png",
+    "label": "physical_threat",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "content-211",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "image",
+    "text": null,
+    "image_path": "images/person_knife_named.png",
+    "label": "physical_threat",
+    "targets_hint": "Marcus Webb"
+  },
+  {
+    "id": "content-212",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text+image",
+    "text": "hey it's Jay Jajoo \u2014 lost access to my old email so reach me at jayjajoo02.secure@gmail.com now. quick favor, can you resend that invoice payment? need it done in the next hour \ud83d\ude4f",
+    "image_path": "images/self_avatar.png",
+    "label": "impersonation",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "hard-d-1",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Just got the new Wusthof chef's knife and wow \u2014 this thing cuts tomatoes perfectly, paper-thin slices with zero squishing. Best $80 I've spent on kitchen gear this year.",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "decoy"
+  },
+  {
+    "id": "hard-d-2",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Pulled an all-nighter on the deck but it's ready. I'll absolutely KILL this presentation tomorrow, slides are so clean the board won't have a single question.",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "decoy"
+  },
+  {
+    "id": "hard-d-3",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Ugh, three hour gym session and I skipped lunch. I could murder a burger right now, like an entire double patty with everything on it.",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "decoy"
+  },
+  {
+    "id": "hard-d-4",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Thread on common phishing patterns for our SOC training: here's a sample lure we intercepted last month \u2014 'Dear Zenpay customer, your account will be suspended in 24 hours, click here to verify.' Notice the urgency plus generic greeting plus mismatched domain. Great teaching example for new analysts, credit to the threat intel team for the writeup.",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "zenpay"
+  },
+  {
+    "id": "hard-d-5",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "GG that was close but next round I'm going to destroy you, no mercy lol. Rematch at 9pm?",
+    "image_path": null,
+    "label": "benign",
+    "targets_hint": "decoy"
+  },
+  {
+    "id": "hard-d-6",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Good afternoon Mr. Okafor, I hope this finds you well. Our team has compiled a comprehensive file on Vertex Robotics' unreleased Q3 prototype schematics and some internal correspondence. We would be delighted to keep this matter strictly between us in exchange for a modest consulting fee of $50,000, payable this week. Looking forward to a swift and amicable resolution. Warm regards.",
+    "image_path": null,
+    "label": "extortion",
+    "targets_hint": "vertexrobotics"
+  },
+  {
+    "id": "hard-d-7",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi Aria!! Huge fan here, so excited I'll finally get to see you in person at Saturday's signing. I already know exactly which entrance you'll use and what time your car arrives \u2014 can't wait for our little moment together, just the two of us. See you soon! :)",
+    "image_path": null,
+    "label": "physical_threat",
+    "targets_hint": "ariavance"
+  },
+  {
+    "id": "hard-d-8",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Oh wow, congrats again to Marcus Webb on somehow landing on top of everyone else's ideas for the third year running. Must be so nice being that lucky. Careful though \u2014 luck like that has a funny way of running out when people finally notice.",
+    "image_path": null,
+    "label": "online_threat",
+    "targets_hint": "marcuswebb"
+  },
+  {
+    "id": "hard-d-9",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Estimado cliente de Novabank: Detectamos actividad inusual en su cuenta. Verifique su identidad de inmediato en novabank-verificacion.example ingresando su usuario y contrase\u00f1a o su cuenta ser\u00e1 suspendida en 24 horas.",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "novabank"
+  },
+  {
+    "id": "hard-d-10",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Namaste dost, CryptoNest ka naya VIP investment plan aaya hai \u2014 sirf ek hafte mein apna paisa double karo, guarantee ke saath. Bas apna wallet key humein bhejo aur turant profit dekho, offer sirf aaj ke liye hai, jaldi karo!",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "cryptonest"
+  },
+  {
+    "id": "hard-d-11",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Bonjour Jay, nous avons acc\u00e9d\u00e9 \u00e0 certains de vos documents personnels et messages priv\u00e9s li\u00e9s \u00e0 jayjajoo02@gmail.com. Nous pr\u00e9f\u00e9rons r\u00e9gler cela discr\u00e8tement plut\u00f4t que de tout partager publiquement. Un petit virement suffira pour que cette affaire reste entre nous. R\u00e9pondez vite, merci de votre compr\u00e9hension.",
+    "image_path": null,
+    "label": "extortion",
+    "targets_hint": "jayjajoo"
+  },
+  {
+    "id": "hard-d-12",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hey everyone, yeh Priya Sharma ka official account hai (@priyasharmamusic ka backup), thoda technical issue chal raha hai. Please send $50 via this link so I can verify my fans list and unlock exclusive content for you, jaldi karo before the offer expires!",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "priyasharmamusic"
+  },
+  {
+    "id": "hard-d-13",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Elena Ruiz really won't know what hit her after tomorrow's board meeting. Everything's already in motion, she just doesn't know it yet.",
+    "image_path": null,
+    "label": "vague",
+    "targets_hint": "novabank"
+  },
+  {
+    "id": "hard-d-14",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Hi, this is Marcus Webb reaching out about an exclusive investment opportunity I mentioned. Call or text me directly at 857-351-1955 today, spots are limited and I only work with serious partners.",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "jayjajoo"
+  },
+  {
+    "id": "hard-d-15",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Found this guy's home address after some digging \u2014 1704 Alphonsus St, Boston MA 02120. Posting it here so everyone in the group knows exactly where he lives. Do with it what you want.",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "jayjajoo"
+  },
+  {
+    "id": "hard-d-16",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Selling a fresh database dump from Lumen Skincare's customer portal \u2014 210k emails, hashed passwords, and order histories. DM for sample and pricing, crypto only.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "lumenskincare"
+  },
+  {
+    "id": "hard-t-1",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "NovaBank Security Alert: We detected a sign-in to your account ending in 4482 from an unrecognized device in a new location. If this wasn't you, confirm your identity within 24 hours at novabank-secure.example/verify to prevent a temporary hold on outgoing transfers. Questions can be directed to @novabank_support. Reference: NB-229104.",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "hard-t-2",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Zenpay Payout Notice: The card linked to your account was declined during your last scheduled transfer. Please re-confirm your billing details at z\u0435npay.example/update within 48 hours, or upcoming payouts will be placed on hold pending manual review. This is an automated compliance notice.",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Zenpay"
+  },
+  {
+    "id": "hard-t-3",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "A friend put $500 into the CryptoNest weekend liquidity pool and walked away with $3,100 by Monday morning. The desk is matching deposits 3x for anyone who joins through @cryptonest's private allocation link before tonight's window closes \u2014 just send whatever you can to the wallet pinned in bio and the multiplier gets applied automatically, no account setup required.",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "CryptoNest"
+  },
+  {
+    "id": "hard-t-4",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Zenpay quietly opened a same-day 'flip' program for verified users \u2014 deposit through a personal Zenpay tag (not the business one) and a coordinator doubles your balance before close of business, minus a small processing cut. My cousin turned $200 into $640 last week. The coordinator's handle is pinned in the group chat if you want in before the cutoff.",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Zenpay"
+  },
+  {
+    "id": "hard-t-5",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Helios Airlines Compensation Update: Your delayed flight (ref HX-4471) has been approved for a $340 goodwill credit. Claims are processed through our partner portal at hel1osair.example/claims \u2014 you'll need to enter your card details for identity verification before the credit expires in 24 hours.",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Helios Airlines"
+  },
+  {
+    "id": "hard-t-6",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Vertex Robotics Community Giveaway: Congratulations, your handle has been randomly selected to receive one of five prototype units (value $2,400). To cover customs and handling, send a small refundable verification deposit to the account listed on our team page before tonight's giveaway closes \u2014 it's refunded automatically once the unit ships.",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Vertex Robotics"
+  },
+  {
+    "id": "hard-t-7",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "This is Elena \u2014 reaching out personally about the audit before the board call. I can't use the main line right now, so use this number instead. I need a same-day vendor payment processed through n0vab4nk.example/pay and I'll reconcile it with finance once I land. Keep this between us until I confirm tomorrow.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "hard-t-8",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "This is Daniel from Vertex Robotics leadership. I'm traveling and my usual assistant is unreachable \u2014 I need a batch of gift cards purchased today for a supplier appreciation event. Send the codes to my alternate email and I'll square it with procurement when I land, no need to loop in anyone else yet.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Vertex Robotics"
+  },
+  {
+    "id": "hard-t-9",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Public records match for anyone curious: full name J a y  J a j o o, current residence near 1704 Alphonsus St (Boston, 02120 area), reachable at j a y j a j o o 0 2 @ g m a i l . c o m or 857-351-1955. Sharing so people know exactly who they're dealing with before doing business with '@jayjajoo'.",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "hard-t-10",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "For anyone curious what @ariavance is hiding: her posts don't match where she actually lives. Someone matched a delivery slip to a building two blocks from her studio and cross-referenced it against ariavence.example's old domain registration, which still lists a residential contact from before the account went private.",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Aria Vance"
+  },
+  {
+    "id": "hard-t-11",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Funny how someone posting from '@jayjajoo' assumes a new city keeps them anonymous. 1704 Alphonsus St isn't exactly hidden once you know where to look. Would be a shame if a few people who feel wronged decided to stop by one evening and introduce themselves in person.",
+    "image_path": null,
+    "label": "physical_threat",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "hard-t-12",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "@marcuswebb keeps a pretty predictable schedule \u2014 same gym, same exit after the stadium, same route home every week. Some of us who lost money following his last endorsement pick know exactly which door he uses. Wouldn't take much for a couple of us to be waiting there some night.",
+    "image_path": null,
+    "label": "physical_threat",
+    "targets_hint": "Marcus Webb"
+  },
+  {
+    "id": "hard-t-13",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Selling a fresh Novabank internal export \u2014 roughly 40k rows of account holder names, masked card numbers, and support tickets tied to novabank.example logins. Sample includes several flagged accounts routed through Elena Ruiz's office. DM for the full CSV, priced per thousand rows.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "hard-t-14",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "We pulled everything tied to jayjajoousa01@gmail.com, including private photos that synced from the same device. Nothing has gone anywhere yet. Reply within 48 hours and it stays that way \u2014 ignore this and the album gets forwarded to your contact list and posted under '@jayjajoo' for everyone to see.",
+    "image_path": null,
+    "label": "extortion",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "hard-t-15",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "We're holding the internal formulation notes and an unreleased campaign deck pulled from a shared drive linked to lumenskincare.example. Cover the fee this week and it never leaves our hands. Miss the deadline and the files go to three competitor accounts and a review site, fully timestamped.",
+    "image_path": null,
+    "label": "extortion",
+    "targets_hint": "Lumen Skincare"
+  },
+  {
+    "id": "hard-t-16",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Somebody really needs to 'clear @priyasharmamusic's calendar permanently' before the tour announcement drops. A few people in this fanbase know exactly where the tour bus parks after shows. Just saying \u2014 karma has a way of catching up with musicians who ignore their real supporters.",
+    "image_path": null,
+    "label": "online_threat",
+    "targets_hint": "Priya Sharma"
+  }
+]

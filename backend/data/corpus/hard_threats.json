@@ -1,0 +1,162 @@
+[
+  {
+    "id": "hard-t-1",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "NovaBank Security Alert: We detected a sign-in to your account ending in 4482 from an unrecognized device in a new location. If this wasn't you, confirm your identity within 24 hours at novabank-secure.example/verify to prevent a temporary hold on outgoing transfers. Questions can be directed to @novabank_support. Reference: NB-229104.",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "hard-t-2",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Zenpay Payout Notice: The card linked to your account was declined during your last scheduled transfer. Please re-confirm your billing details at zеnpay.example/update within 48 hours, or upcoming payouts will be placed on hold pending manual review. This is an automated compliance notice.",
+    "image_path": null,
+    "label": "phishing",
+    "targets_hint": "Zenpay"
+  },
+  {
+    "id": "hard-t-3",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "A friend put $500 into the CryptoNest weekend liquidity pool and walked away with $3,100 by Monday morning. The desk is matching deposits 3x for anyone who joins through @cryptonest's private allocation link before tonight's window closes — just send whatever you can to the wallet pinned in bio and the multiplier gets applied automatically, no account setup required.",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "CryptoNest"
+  },
+  {
+    "id": "hard-t-4",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Zenpay quietly opened a same-day 'flip' program for verified users — deposit through a personal Zenpay tag (not the business one) and a coordinator doubles your balance before close of business, minus a small processing cut. My cousin turned $200 into $640 last week. The coordinator's handle is pinned in the group chat if you want in before the cutoff.",
+    "image_path": null,
+    "label": "money_flipping",
+    "targets_hint": "Zenpay"
+  },
+  {
+    "id": "hard-t-5",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Helios Airlines Compensation Update: Your delayed flight (ref HX-4471) has been approved for a $340 goodwill credit. Claims are processed through our partner portal at hel1osair.example/claims — you'll need to enter your card details for identity verification before the credit expires in 24 hours.",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Helios Airlines"
+  },
+  {
+    "id": "hard-t-6",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Vertex Robotics Community Giveaway: Congratulations, your handle has been randomly selected to receive one of five prototype units (value $2,400). To cover customs and handling, send a small refundable verification deposit to the account listed on our team page before tonight's giveaway closes — it's refunded automatically once the unit ships.",
+    "image_path": null,
+    "label": "scam",
+    "targets_hint": "Vertex Robotics"
+  },
+  {
+    "id": "hard-t-7",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "This is Elena — reaching out personally about the audit before the board call. I can't use the main line right now, so use this number instead. I need a same-day vendor payment processed through n0vab4nk.example/pay and I'll reconcile it with finance once I land. Keep this between us until I confirm tomorrow.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "hard-t-8",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "This is Daniel from Vertex Robotics leadership. I'm traveling and my usual assistant is unreachable — I need a batch of gift cards purchased today for a supplier appreciation event. Send the codes to my alternate email and I'll square it with procurement when I land, no need to loop in anyone else yet.",
+    "image_path": null,
+    "label": "impersonation",
+    "targets_hint": "Vertex Robotics"
+  },
+  {
+    "id": "hard-t-9",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Public records match for anyone curious: full name J a y  J a j o o, current residence near 1704 Alphonsus St (Boston, 02120 area), reachable at j a y j a j o o 0 2 @ g m a i l . c o m or 857-351-1955. Sharing so people know exactly who they're dealing with before doing business with '@jayjajoo'.",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "hard-t-10",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "For anyone curious what @ariavance is hiding: her posts don't match where she actually lives. Someone matched a delivery slip to a building two blocks from her studio and cross-referenced it against ariavence.example's old domain registration, which still lists a residential contact from before the account went private.",
+    "image_path": null,
+    "label": "doxxing",
+    "targets_hint": "Aria Vance"
+  },
+  {
+    "id": "hard-t-11",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Funny how someone posting from '@jayjajoo' assumes a new city keeps them anonymous. 1704 Alphonsus St isn't exactly hidden once you know where to look. Would be a shame if a few people who feel wronged decided to stop by one evening and introduce themselves in person.",
+    "image_path": null,
+    "label": "physical_threat",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "hard-t-12",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "@marcuswebb keeps a pretty predictable schedule — same gym, same exit after the stadium, same route home every week. Some of us who lost money following his last endorsement pick know exactly which door he uses. Wouldn't take much for a couple of us to be waiting there some night.",
+    "image_path": null,
+    "label": "physical_threat",
+    "targets_hint": "Marcus Webb"
+  },
+  {
+    "id": "hard-t-13",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Selling a fresh Novabank internal export — roughly 40k rows of account holder names, masked card numbers, and support tickets tied to novabank.example logins. Sample includes several flagged accounts routed through Elena Ruiz's office. DM for the full CSV, priced per thousand rows.",
+    "image_path": null,
+    "label": "data_leak",
+    "targets_hint": "Novabank"
+  },
+  {
+    "id": "hard-t-14",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "We pulled everything tied to jayjajoousa01@gmail.com, including private photos that synced from the same device. Nothing has gone anywhere yet. Reply within 48 hours and it stays that way — ignore this and the album gets forwarded to your contact list and posted under '@jayjajoo' for everyone to see.",
+    "image_path": null,
+    "label": "extortion",
+    "targets_hint": "Jay Jajoo"
+  },
+  {
+    "id": "hard-t-15",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "We're holding the internal formulation notes and an unreleased campaign deck pulled from a shared drive linked to lumenskincare.example. Cover the fee this week and it never leaves our hands. Miss the deadline and the files go to three competitor accounts and a review site, fully timestamped.",
+    "image_path": null,
+    "label": "extortion",
+    "targets_hint": "Lumen Skincare"
+  },
+  {
+    "id": "hard-t-16",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "Somebody really needs to 'clear @priyasharmamusic's calendar permanently' before the tour announcement drops. A few people in this fanbase know exactly where the tour bus parks after shows. Just saying — karma has a way of catching up with musicians who ignore their real supporters.",
+    "image_path": null,
+    "label": "online_threat",
+    "targets_hint": "Priya Sharma"
+  }
+]

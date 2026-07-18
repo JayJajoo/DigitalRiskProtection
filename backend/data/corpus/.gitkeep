@@ -1,0 +1,3 @@
+# Generated corpus (corpus.json) lands here. It is gitignored because synthetic
+# content may reference private assets (the self profile). Recreate via:
+#   python data/seed/build_corpus.py

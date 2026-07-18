@@ -1,0 +1,89 @@
+{
+  "id": "cust-self",
+  "name": "Jay Jajoo",
+  "type": "person",
+  "industry": "Software / Personal brand",
+  "description": "Individual protecting personal online identity and contact assets.",
+  "protect_summary": "Protect personal email accounts, portfolio website, phone number, and home address from phishing, impersonation, doxxing, and scams.",
+  "assets": [
+    {
+      "id": "self-email-primary",
+      "type": "email",
+      "value": "jayjajoo02@gmail.com",
+      "aliases": ["jayjajoo02"],
+      "concerns": [
+        { "type": "phishing", "note": "spoofed sender / account-verification lures" },
+        { "type": "data_leak", "note": "appearing in credential dumps" }
+      ]
+    },
+    {
+      "id": "self-email-secondary",
+      "type": "email",
+      "value": "jayjajoousa01@gmail.com",
+      "aliases": ["jayjajoousa01"],
+      "concerns": [
+        { "type": "phishing" },
+        { "type": "impersonation" }
+      ]
+    },
+    {
+      "id": "self-website",
+      "type": "website",
+      "value": "www.jayjajoo.github.com/portfolio-v2",
+      "aliases": ["jayjajoo.github.com", "jayjajoo portfolio", "portfolio-v2"],
+      "concerns": [
+        { "type": "impersonation", "note": "cloned / typosquatted portfolio sites" },
+        { "type": "mention" }
+      ]
+    },
+    {
+      "id": "self-phone",
+      "type": "phone",
+      "value": "8573511955",
+      "aliases": ["+1 857 351 1955", "857-351-1955"],
+      "concerns": [
+        { "type": "scam", "note": "smishing / robocall targeting" },
+        { "type": "data_leak" }
+      ]
+    },
+    {
+      "id": "self-address",
+      "type": "address",
+      "value": "1704 Alphonsus St, Jvue Apt, Boston, MA 02120",
+      "aliases": ["1704 Alphonsus St", "Boston MA 02120"],
+      "concerns": [
+        { "type": "doxxing", "note": "home address exposure" },
+        { "type": "physical_attack", "note": "physical-safety concern if address is circulated" }
+      ]
+    },
+    {
+      "id": "self-handle",
+      "type": "social_handle",
+      "value": "@jayjajoo",
+      "aliases": ["jayjajoo", "jajoo"],
+      "concerns": [
+        { "type": "impersonation", "note": "lookalike / fake profiles (inferred from portfolio URL — edit if wrong)" }
+      ]
+    },
+    {
+      "id": "self-card",
+      "type": "credit_card",
+      "value": "4242 4242 4242 4242",
+      "aliases": ["card ending 4242"],
+      "concerns": [
+        { "type": "data_leak", "note": "SYNTHETIC test card (not real) — monitor for card-dump exposure" },
+        { "type": "financial_fraud" }
+      ]
+    },
+    {
+      "id": "self-bank",
+      "type": "bank_account",
+      "value": "ACCT 000111222333",
+      "aliases": ["account ending 2333"],
+      "concerns": [
+        { "type": "data_leak", "note": "SYNTHETIC test account number (not real)" },
+        { "type": "financial_fraud" }
+      ]
+    }
+  ]
+}
