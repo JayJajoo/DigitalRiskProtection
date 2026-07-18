@@ -111,8 +111,12 @@ export const suggestCustomer = () => apiGet<DraftCustomer>('/customers/suggest')
 
 export async function createCustomer(
   c: DraftCustomer,
-): Promise<{ customer: DraftCustomer; assets_ingested: number }> {
-  const res = await fetch('/api/customers', {
+  opts: { ingest?: boolean } = {},
+): Promise<{ customer: DraftCustomer; assets_ingested: number; ingested: boolean }> {
+  // ingest=false → create the record only, so the UI can then stream ingestion (live log)
+  // via the SSE endpoint, matching the normal per-customer ingest flow.
+  const q = opts.ingest === false ? '?ingest=false' : ''
+  const res = await fetch(`/api/customers${q}`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(c),

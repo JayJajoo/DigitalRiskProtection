@@ -123,6 +123,7 @@ export default function Part1Ingest() {
   const [ingestingId, setIngestingId] = useState<string | null>(null)
   const [log, setLog] = useState<LogEntry[]>([])
   const [doneAssets, setDoneAssets] = useState<Set<string>>(new Set())
+  const [logOwnerId, setLogOwnerId] = useState<string | null>(null)
   const [bulk, setBulk] = useState(false)
   const [showNew, setShowNew] = useState(false)
   const [draft, setDraft] = useState<DraftCustomer | null>(null)
@@ -158,6 +159,7 @@ export default function Part1Ingest() {
   function ingest(id: string) {
     if (ingestingId) return
     setIngestingId(id)
+    setLogOwnerId(id) // the log below belongs to this customer only
     setLog([])
     setDoneAssets(new Set())
     const es = new EventSource(ingestStreamUrl(id))
@@ -196,6 +198,7 @@ export default function Part1Ingest() {
     await resetIngest()
     setLog([])
     setDoneAssets(new Set())
+    setLogOwnerId(null)
     await refresh(customers[0]?.id)
   }
 
@@ -263,10 +266,17 @@ export default function Part1Ingest() {
     setSaving(true)
     setCreateError(null)
     try {
-      await createCustomer(draft)
+      // Create the record WITHOUT ingesting, then stream its ingestion so the live per-asset
+      // log (embedding → Chroma → Elasticsearch) shows just like a normal customer ingest.
+      const { customer } = await createCustomer(draft, { ingest: false })
+      const newId = customer.id as string
       setShowNew(false)
       setDraft(null)
-      await refresh()
+      const cs = await getCustomers()
+      setCustomers(cs)
+      setSelectedId(newId)
+      setDetail(await getCustomer(newId))
+      ingest(newId) // live SSE log, same flow as clicking "Ingest"
     } catch (err) {
       setCreateError(err instanceof Error ? err.message : String(err))
     } finally {
@@ -320,7 +330,7 @@ export default function Part1Ingest() {
         </div>
       </div>
 
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[320px_1fr]">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[420px_1fr]">
         {/* Customer list (sequential) */}
         <Card className="h-fit">
           <CardHeader>
@@ -468,8 +478,8 @@ export default function Part1Ingest() {
             </Card>
           )}
 
-          {/* Live ingest log */}
-          {(ingestingId || log.length > 0) && (
+          {/* Live ingest log — only for the customer it belongs to (or while ingesting) */}
+          {(ingestingId || (log.length > 0 && logOwnerId === selectedId)) && (
             <Card>
               <CardHeader>
                 <CardTitle className="flex items-center gap-2 text-base">
@@ -536,6 +546,15 @@ export default function Part1Ingest() {
                   <input
                     value={draft.industry ?? ''}
                     onChange={(e) => patchDraft({ industry: e.target.value })}
+                    className="mt-1 w-full rounded border bg-background px-2 py-1 text-sm text-foreground"
+                  />
+                </label>
+                <label className="col-span-2 text-xs text-muted-foreground">
+                  Description (rich context — this is what gets embedded)
+                  <textarea
+                    value={draft.description ?? ''}
+                    onChange={(e) => patchDraft({ description: e.target.value })}
+                    rows={5}
                     className="mt-1 w-full rounded border bg-background px-2 py-1 text-sm text-foreground"
                   />
                 </label>

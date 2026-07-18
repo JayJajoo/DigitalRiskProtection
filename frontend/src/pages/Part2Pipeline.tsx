@@ -416,7 +416,7 @@ export default function Part2Pipeline() {
         </div>
       )}
 
-      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[300px_1fr]">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-[400px_1fr]">
         {/* content queue */}
         <Card className="h-fit">
           <CardHeader className="pb-3">

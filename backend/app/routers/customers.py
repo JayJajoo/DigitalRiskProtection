@@ -43,14 +43,21 @@ def suggest() -> dict:
 
 
 @router.post("")
-def create_customer(payload: Customer) -> dict:
-    """Create a new customer (fresh unique ids), then embed + index it into the stores."""
+def create_customer(payload: Customer, ingest: bool = True) -> dict:
+    """Create a new customer (fresh unique ids).
+
+    By default it also embeds + indexes the assets into the stores. Pass ``ingest=false`` to
+    only register the customer (un-ingested) so the UI can then replay ingestion via the SSE
+    ``/ingest/{id}/stream`` endpoint and show the live per-asset log.
+    """
     slug = re.sub(r"[^a-z0-9]+", "-", payload.name.lower()).strip("-") or "entity"
     cid = f"cust-new-{slug}-{uuid.uuid4().hex[:6]}"
     assets = [a.model_copy(update={"id": f"{cid}-a{i}"}) for i, a in enumerate(payload.assets)]
     customer = payload.model_copy(update={"id": cid, "assets": assets})
 
     add_customer(customer)
+    if not ingest:
+        return {"customer": customer.model_dump(), "assets_ingested": 0, "ingested": False}
     count = ingest_customer_sync(customer)
     return {"customer": customer.model_dump(), "assets_ingested": count, "ingested": True}
 
