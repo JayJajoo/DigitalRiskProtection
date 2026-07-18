@@ -16,10 +16,14 @@ if str(BACKEND_DIR) not in sys.path:
 
 import build_corpus  # noqa: E402  (same directory)
 import download_images  # noqa: E402
+import enrich_descriptions  # noqa: E402
 import make_threat_images  # noqa: E402
 
 
 def main() -> None:
+    print("== enrich entity descriptions ==")
+    enrich_descriptions.main()
+
     print("== 1/3 images ==")
     download_images.main()
     make_threat_images.main()

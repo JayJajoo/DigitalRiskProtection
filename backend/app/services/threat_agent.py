@@ -32,15 +32,21 @@ content, its structured enrichment, and a list of CANDIDATE protected assets a m
 it. For EACH candidate asset decide whether this content is a real risk to THAT specific asset/customer.
 
 Return ONLY JSON:
-{"verdicts":[{"asset_id":"...","is_threat":true,"severity":"none|low|medium|high","threat_type":"physical|reputational|financial|data-leak|scam|phishing|impersonation|other","reason":"one grounded sentence","recommended_action":"short action","confidence":0.0}]}
+{"verdicts":[{"asset_id":"...","is_threat":true,"severity":"none|low|medium|high","threat_type":"assault_threat|online_death_threat|sextortion_threat|physical|doxxing|reputational|financial|data-leak|scam|phishing|impersonation|extortion|other","reason":"one grounded sentence","recommended_action":"short action","confidence":0.0}]}
 
 Guidance:
 - is_threat=true ONLY if the content genuinely targets or harms this asset or its owner. If an
-  asset merely matched coincidentally (e.g. a benign message that only fuzzy-matched a name or a
-  common word), return is_threat=false and severity="none".
-- severity: physical-safety/doxxing and credible account-takeover phishing rank higher; vague
-  mentions are low. Non-threats are "none".
-- Give one specific reason per asset. confidence is 0..1. Output valid JSON only."""
+  asset merely matched coincidentally (e.g. only a fuzzy name/word overlap), return is_threat=false.
+- Entities can be referred to by a DISTINCTIVE DESCRIPTION rather than their exact name (e.g. "that
+  app-only money service", "the pro striker with a youth charity", "that hardware-automation
+  startup"). A candidate with matched_by containing "vector" (a strong semantic match) that fits
+  such a description IS the target — if the content is a concrete, serious danger (physical threat,
+  doxxing, extortion, data-leak sale, account takeover), flag it even though it is not named verbatim.
+- confidence (0..1) MUST reflect how certain AND how serious the threat is — SEVERITY IS DERIVED
+  FROM IT: >0.7 = a clear, serious threat (high); 0.5-0.7 = a probable/moderate threat (medium);
+  <=0.5 = weak/uncertain (low). Physical-safety, doxxing, credible account-takeover and data-leak
+  sales warrant higher confidence.
+- Give one specific grounded reason per asset. Output valid JSON only."""
 
 
 def _candidate_block(matches: List[AssetMatch]) -> str:
@@ -115,11 +121,18 @@ def _options() -> ClaudeAgentOptions:
     )
 
 
+def _severity_for(confidence: float) -> str:
+    """Severity is derived from confidence: >0.7 high, >0.5 medium, else low."""
+    if confidence > 0.7:
+        return "high"
+    if confidence > 0.5:
+        return "medium"
+    return "low"
+
+
 def _verdict_from(m: AssetMatch, v: dict) -> AssetVerdict:
-    sev = str(v.get("severity", "none")).lower()
-    if sev not in SEV_ORDER:
-        sev = "none"
     is_threat = bool(v.get("is_threat", False))
+    conf = float(v.get("confidence", 0.0) or 0.0)
     return AssetVerdict(
         asset_id=m.asset_id,
         asset_type=m.asset_type,
@@ -129,11 +142,11 @@ def _verdict_from(m: AssetMatch, v: dict) -> AssetVerdict:
         matched_by=m.matched_by,
         match_score=m.match_score,
         is_threat=is_threat,
-        severity=Severity(sev if is_threat else "none"),
+        severity=Severity(_severity_for(conf) if is_threat else "none"),
         threat_type=v.get("threat_type"),
         reason=v.get("reason", ""),
         recommended_action=v.get("recommended_action", ""),
-        confidence=float(v.get("confidence", 0.0) or 0.0),
+        confidence=conf,
     )
 
 
@@ -161,11 +174,10 @@ def _heuristic_verdict(m: AssetMatch, enr: EnrichmentResult) -> dict:
     active = [k for k, v in rs.model_dump().items() if v]
     return {
         "is_threat": True,
-        "severity": "high" if high else "medium",
         "threat_type": ttype,
         "reason": f"(LLM unavailable) rule-based flag: strong match on this asset + risk signals {active}.",
         "recommended_action": "manual review",
-        "confidence": 0.4,
+        "confidence": 0.8 if high else 0.6,  # -> severity derived: high / medium
     }
 
 

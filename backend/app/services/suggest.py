@@ -6,6 +6,7 @@ import random
 import uuid
 
 from ..models import Asset, Concern, Customer
+from .entity_profile import rich_description
 
 COMPANIES = [
     ("Aurora Logistics", "Logistics & shipping"),
@@ -53,12 +54,22 @@ def random_customer() -> Customer:
     # domain + brand always; a random 2-4 of the rest
     assets = pool[:2] + random.sample(pool[2:], k=random.randint(2, 4))
 
+    # Rich description (context) via the shared generator — so new customers embed just as well.
+    description = rich_description(
+        {
+            "name": name,
+            "type": "company",
+            "industry": industry,
+            "assets": [a.model_dump() for a in assets],
+        }
+    )
+
     return Customer(
         id=cid,
         name=name,
         type="company",
         industry=industry,
-        description=f"Fictional {industry.lower()} company.",
+        description=description,
         protect_summary=(
             f"Protect the {name} domain, brand, executives, and accounts from phishing, "
             "impersonation, and data leaks."

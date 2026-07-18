@@ -3,86 +3,155 @@
   "name": "Jay Jajoo",
   "type": "person",
   "industry": "Software / Personal brand",
-  "description": "Individual protecting personal online identity and contact assets.",
+  "description": "Jay Jajoo is a software / personal brand based in Toronto, Canada, best known for a chart-topping run and sold-out tours. They have an estimated 0.3 million followers across platforms and have been active publicly since 2012. Jay is married to Hannah Cole, a bestselling novelist, has an estimated net worth of $1.2B, and is often seen driving a matte-black Mercedes G-Wagon. They are active on social as @jayjajoo, with an official site at www.jayjajoo.github.com/portfolio-v2. Monitored assets include email, website, phone, address, social handle, credit card, bank account; tracked digital-risk threats include phishing, data leak, impersonation, mention, scam, doxxing, physical attack, online death threat, assault threat, sextortion threat, financial fraud.",
   "protect_summary": "Protect personal email accounts, portfolio website, phone number, and home address from phishing, impersonation, doxxing, and scams.",
   "assets": [
     {
       "id": "self-email-primary",
       "type": "email",
       "value": "jayjajoo02@gmail.com",
-      "aliases": ["jayjajoo02"],
+      "aliases": [
+        "jayjajoo02"
+      ],
       "concerns": [
-        { "type": "phishing", "note": "spoofed sender / account-verification lures" },
-        { "type": "data_leak", "note": "appearing in credential dumps" }
+        {
+          "type": "phishing",
+          "note": "spoofed sender / account-verification lures"
+        },
+        {
+          "type": "data_leak",
+          "note": "appearing in credential dumps"
+        }
       ]
     },
     {
       "id": "self-email-secondary",
       "type": "email",
       "value": "jayjajoousa01@gmail.com",
-      "aliases": ["jayjajoousa01"],
+      "aliases": [
+        "jayjajoousa01"
+      ],
       "concerns": [
-        { "type": "phishing" },
-        { "type": "impersonation" }
+        {
+          "type": "phishing"
+        },
+        {
+          "type": "impersonation"
+        }
       ]
     },
     {
       "id": "self-website",
       "type": "website",
       "value": "www.jayjajoo.github.com/portfolio-v2",
-      "aliases": ["jayjajoo.github.com", "jayjajoo portfolio", "portfolio-v2"],
+      "aliases": [
+        "jayjajoo.github.com",
+        "jayjajoo portfolio",
+        "portfolio-v2"
+      ],
       "concerns": [
-        { "type": "impersonation", "note": "cloned / typosquatted portfolio sites" },
-        { "type": "mention" }
+        {
+          "type": "impersonation",
+          "note": "cloned / typosquatted portfolio sites"
+        },
+        {
+          "type": "mention"
+        }
       ]
     },
     {
       "id": "self-phone",
       "type": "phone",
       "value": "8573511955",
-      "aliases": ["+1 857 351 1955", "857-351-1955"],
+      "aliases": [
+        "+1 857 351 1955",
+        "857-351-1955"
+      ],
       "concerns": [
-        { "type": "scam", "note": "smishing / robocall targeting" },
-        { "type": "data_leak" }
+        {
+          "type": "scam",
+          "note": "smishing / robocall targeting"
+        },
+        {
+          "type": "data_leak"
+        }
       ]
     },
     {
       "id": "self-address",
       "type": "address",
       "value": "1704 Alphonsus St, Jvue Apt, Boston, MA 02120",
-      "aliases": ["1704 Alphonsus St", "Boston MA 02120"],
+      "aliases": [
+        "1704 Alphonsus St",
+        "Boston MA 02120"
+      ],
       "concerns": [
-        { "type": "doxxing", "note": "home address exposure" },
-        { "type": "physical_attack", "note": "physical-safety concern if address is circulated" }
+        {
+          "type": "doxxing",
+          "note": "home address exposure"
+        },
+        {
+          "type": "physical_attack",
+          "note": "physical-safety concern if address is circulated"
+        },
+        {
+          "type": "online_death_threat"
+        },
+        {
+          "type": "assault_threat"
+        }
       ]
     },
     {
       "id": "self-handle",
       "type": "social_handle",
       "value": "@jayjajoo",
-      "aliases": ["jayjajoo", "jajoo"],
+      "aliases": [
+        "jayjajoo",
+        "jajoo"
+      ],
       "concerns": [
-        { "type": "impersonation", "note": "lookalike / fake profiles (inferred from portfolio URL — edit if wrong)" }
+        {
+          "type": "impersonation",
+          "note": "lookalike / fake profiles (inferred from portfolio URL \u2014 edit if wrong)"
+        },
+        {
+          "type": "sextortion_threat"
+        }
       ]
     },
     {
       "id": "self-card",
       "type": "credit_card",
       "value": "4242 4242 4242 4242",
-      "aliases": ["card ending 4242"],
+      "aliases": [
+        "card ending 4242"
+      ],
       "concerns": [
-        { "type": "data_leak", "note": "SYNTHETIC test card (not real) — monitor for card-dump exposure" },
-        { "type": "financial_fraud" }
+        {
+          "type": "data_leak",
+          "note": "SYNTHETIC test card (not real) \u2014 monitor for card-dump exposure"
+        },
+        {
+          "type": "financial_fraud"
+        }
       ]
     },
     {
       "id": "self-bank",
       "type": "bank_account",
       "value": "ACCT 000111222333",
-      "aliases": ["account ending 2333"],
+      "aliases": [
+        "account ending 2333"
+      ],
       "concerns": [
-        { "type": "data_leak", "note": "SYNTHETIC test account number (not real)" },
-        { "type": "financial_fraud" }
+        {
+          "type": "data_leak",
+          "note": "SYNTHETIC test account number (not real)"
+        },
+        {
+          "type": "financial_fraud"
+        }
       ]
     }
   ]

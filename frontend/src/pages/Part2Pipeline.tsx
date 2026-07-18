@@ -128,20 +128,45 @@ function RollupItem({ r }: { r: any }) {
         </span>
       </button>
       {open && (
-        <div className="space-y-1 border-t bg-card p-2 text-xs">
-          {r.summary && <p className="mb-1 text-muted-foreground">{r.summary}</p>}
-          {!detail && <p className="text-muted-foreground">loading assets…</p>}
-          {detail?.assets.map((a) => (
-            <div key={a.id} className="flex flex-wrap items-center gap-1">
-              <span className="rounded bg-secondary px-1 py-0.5 text-[10px]">{a.type}</span>
-              <span className="font-mono">{a.value}</span>
-              {a.concerns.map((c, i) => (
-                <span key={i} className="rounded bg-destructive/10 px-1 py-0.5 text-[10px] text-destructive">
-                  {c.type}
-                </span>
-              ))}
+        <div className="space-y-2 border-t bg-card p-2 text-xs">
+          {!detail && <p className="text-muted-foreground">loading…</p>}
+          {detail && (
+            <div className="text-muted-foreground">
+              <span className="font-medium text-foreground">{detail.name}</span> · {detail.type}
+              {detail.industry ? ` · ${detail.industry}` : ''}
+              {detail.description && (
+                <div className="mt-1 leading-relaxed text-foreground/80">{detail.description}</div>
+              )}
+              {detail.protect_summary && (
+                <div className="mt-1">
+                  <span className="font-medium">Protects:</span> {detail.protect_summary}
+                </div>
+              )}
             </div>
-          ))}
+          )}
+          {r.summary && (
+            <div className="text-muted-foreground">
+              <span className="font-medium">Verdict:</span> {r.summary}
+            </div>
+          )}
+          {detail && (
+            <div>
+              <div className="mb-0.5 font-medium">Assets &amp; concerns</div>
+              <div className="space-y-1">
+                {detail.assets.map((a) => (
+                  <div key={a.id} className="flex flex-wrap items-center gap-1">
+                    <span className="rounded bg-secondary px-1 py-0.5 text-[10px]">{a.type}</span>
+                    <span className="font-mono">{a.value}</span>
+                    {a.concerns.map((c, i) => (
+                      <span key={i} className="rounded bg-destructive/10 px-1 py-0.5 text-[10px] text-destructive">
+                        {c.type}
+                      </span>
+                    ))}
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
       )}
     </div>

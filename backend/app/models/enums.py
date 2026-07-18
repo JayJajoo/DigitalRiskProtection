@@ -28,6 +28,9 @@ class AssetType(str, Enum):
 class ConcernType(str, Enum):
     physical_attack = "physical_attack"
     online_threat = "online_threat"
+    online_death_threat = "online_death_threat"
+    assault_threat = "assault_threat"
+    sextortion_threat = "sextortion_threat"
     impersonation = "impersonation"
     data_leak = "data_leak"
     financial_fraud = "financial_fraud"

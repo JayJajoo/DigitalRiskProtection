@@ -161,9 +161,11 @@ output. Steps:
    the JSON and query the asset index (see the field map below).
 4. **Merge + de-duplicate per `asset_id`.** Union the vector and string candidate sets, keeping
    provenance (`matched_by`: `vector`/`exact`/`fuzzy`) and the best score.
-5. **Threat classification (Claude Opus) — per matched asset.** For **each** de-duplicated
-   asset, run (content + JSON + that asset's context) → `is_threat` / `severity` / `threat_type`
-   / `reason`. Aggregate into a per-company rollup.
+5. **Threat classification (Claude Opus) — one call per matched company.** De-duplicated assets
+   are grouped by customer; each group's call runs concurrently → per-asset `is_threat` /
+   `threat_type` / `reason`. **Severity is derived from the model's confidence** (>0.7 high, >0.5
+   medium, ≤0.5 low). Results aggregate into a per-company rollup. If the LLM refuses a piece of
+   content, deterministic regex/rule fallbacks keep the pipeline flagging genuinely-matched threats.
 
 ### Elasticsearch string-match field map
 
@@ -390,6 +392,21 @@ DRP/
 - **Phase 6 — Classifier.** Claude Opus per-asset threat verdict + company rollup.
 - **Phase 7 — Part 2 UI.** Pipeline runner with pause/play/replay + per-stage inspectors.
 - **Phase 8 — Demo & docs.** End-to-end pass, README run instructions.
+
+### Post-build additions (beyond the original blueprint)
+
+Design refinements made while building; the running system is described in **README.md**:
+- **Rich entity context.** Every entity gets a generated description (HQ, revenue, headcount,
+  fame; for people: spouse, net worth, cars). Each asset embeds as *entity context + the asset's
+  unique info*, greatly improving semantic matching. Adds `vector_only` corpus items — no exact
+  identifiers, so only the vector search catches them (verified: right entity, high severity).
+- **Per-company classification** (one Opus call per matched customer, run concurrently) with
+  **severity derived from confidence**, plus new `threat_type`s (assault / online-death / sextortion).
+- **Deterministic fallbacks** for enrichment + classification when the LLM declines content.
+- **Metrics DB** (SQLite) capturing per-stage + per-company timings, surfaced in a **Metrics tab**
+  (charts + time series) and live timers in the pipeline.
+- **Customer create / delete** (with store purge) and **re-ingest**; **live ingest detail**
+  (embedding preview + Chroma record + ES document per asset); **content type/label filters**.
 
 ---
 

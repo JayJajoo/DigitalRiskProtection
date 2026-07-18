@@ -4,13 +4,67 @@
     "name": "Dax Holloway",
     "type": "person",
     "industry": "Music",
-    "description": "A chart-topping singer-songwriter known for indie-pop crossover hits.",
+    "description": "Dax Holloway is a music based in Cape Town, South Africa, best known for a wildly popular live-streaming channel. They have an estimated 8.7 million followers across platforms and have been active publicly since 2006. Dax is married to Mateo Alvarez, a Grammy-winning music producer, has an estimated net worth of $18M, and is often seen driving an Aston Martin DB11. They are active on social as @daxholloway, with an official site at daxholloway.example. Monitored assets include email, social handle, website, phone; tracked digital-risk threats include phishing, data leak, impersonation, doxxing, scam.",
     "protect_summary": "Wants to stop fake ticket scams and impersonation accounts trading on his name.",
     "assets": [
-      { "id": "bb-dax-email", "type": "email", "value": "dax.holloway@daxholloway.example", "aliases": [], "concerns": [ { "type": "phishing", "note": "Targeted by fake label offers" }, { "type": "data_leak" } ] },
-      { "id": "bb-dax-instagram", "type": "social_handle", "value": "@daxholloway", "aliases": ["@dax.holloway.music"], "concerns": [ { "type": "impersonation", "note": "Multiple clone accounts" }, { "type": "doxxing" } ] },
-      { "id": "bb-dax-website", "type": "website", "value": "daxholloway.example", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "bb-dax-phone", "type": "phone", "value": "+1 555 0142", "aliases": [], "concerns": [ { "type": "doxxing" }, { "type": "scam", "note": "Number spoofed in ticket scam texts" } ] }
+      {
+        "id": "bb-dax-email",
+        "type": "email",
+        "value": "dax.holloway@daxholloway.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "Targeted by fake label offers"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "bb-dax-instagram",
+        "type": "social_handle",
+        "value": "@daxholloway",
+        "aliases": [
+          "@dax.holloway.music"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation",
+            "note": "Multiple clone accounts"
+          },
+          {
+            "type": "doxxing"
+          }
+        ]
+      },
+      {
+        "id": "bb-dax-website",
+        "type": "website",
+        "value": "daxholloway.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "bb-dax-phone",
+        "type": "phone",
+        "value": "+1 555 0142",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "doxxing"
+          },
+          {
+            "type": "scam",
+            "note": "Number spoofed in ticket scam texts"
+          }
+        ]
+      }
     ]
   },
   {
@@ -18,13 +72,62 @@
     "name": "Seraphina Cole",
     "type": "person",
     "industry": "Film & Television",
-    "description": "An award-winning film actress recognized for leading roles in prestige dramas.",
+    "description": "Seraphina Cole is a film & television based in Singapore, best known for a landmark championship win and endorsement deals. They have an estimated 0.9 million followers across platforms and have been active publicly since 2005. Seraphina is married to Dara Lindqvist, a billionaire tech investor, has an estimated net worth of $45M, and is often seen driving a Bentley Continental GT. They are active on social as @seraphinacole, with an official site at seraphinacole.example. Monitored assets include social handle, email, website, address; tracked digital-risk threats include impersonation, online threat, phishing, data leak, physical attack, doxxing.",
     "protect_summary": "Wants to protect her personal safety and prevent fabricated statements attributed to her.",
     "assets": [
-      { "id": "bb-sera-social", "type": "social_handle", "value": "@seraphinacole", "aliases": ["@thesercole"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
-      { "id": "bb-sera-email", "type": "email", "value": "contact@seraphinacole.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
-      { "id": "bb-sera-website", "type": "website", "value": "seraphinacole.example", "aliases": [], "concerns": [ { "type": "data_leak" } ] },
-      { "id": "bb-sera-address", "type": "address", "value": "442 Larchwood Ave, Fictionville, CA (fan-club mailing address)", "aliases": [], "concerns": [ { "type": "physical_attack", "note": "Repeated stalker attempts" }, { "type": "doxxing" } ] }
+      {
+        "id": "bb-sera-social",
+        "type": "social_handle",
+        "value": "@seraphinacole",
+        "aliases": [
+          "@thesercole"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "online_threat"
+          }
+        ]
+      },
+      {
+        "id": "bb-sera-email",
+        "type": "email",
+        "value": "contact@seraphinacole.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-sera-website",
+        "type": "website",
+        "value": "seraphinacole.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "bb-sera-address",
+        "type": "address",
+        "value": "442 Larchwood Ave, Fictionville, CA (fan-club mailing address)",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "physical_attack",
+            "note": "Repeated stalker attempts"
+          },
+          {
+            "type": "doxxing"
+          }
+        ]
+      }
     ]
   },
   {
@@ -32,13 +135,62 @@
     "name": "Dominic Reyes",
     "type": "person",
     "industry": "Professional Sports",
-    "description": "A professional forward for a national basketball league team.",
+    "description": "Dominic Reyes is a professional sports based in Dublin, Ireland, best known for a blockbuster franchise role. They have an estimated 4.3 million followers across platforms and have been active publicly since 2016. Dominic is married to Idris Bello, a star NBA point guard, has an estimated net worth of $4M, and is often seen driving a Porsche 911 and a Range Rover. They are active on social as @dreyes23, associated with the brand Reyes23 Athletics. Monitored assets include social handle, email, credit card, brand; tracked digital-risk threats include impersonation, online threat, phishing, financial fraud.",
     "protect_summary": "Wants to stop counterfeit merchandise scams and financial fraud using his brand.",
     "assets": [
-      { "id": "bb-dom-social", "type": "social_handle", "value": "@dreyes23", "aliases": ["@dominicreyesofficial"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
-      { "id": "bb-dom-email", "type": "email", "value": "dominic@reyesofficial.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
-      { "id": "bb-dom-cc", "type": "credit_card", "value": "4242 4242 4242 4242", "aliases": [], "concerns": [ { "type": "financial_fraud", "note": "Test card flagged in fraud monitoring demo" } ] },
-      { "id": "bb-dom-brand", "type": "brand", "value": "Reyes23 Athletics", "aliases": ["Reyes23"], "concerns": [ { "type": "impersonation", "note": "Fake merch storefronts" } ] }
+      {
+        "id": "bb-dom-social",
+        "type": "social_handle",
+        "value": "@dreyes23",
+        "aliases": [
+          "@dominicreyesofficial"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "online_threat"
+          }
+        ]
+      },
+      {
+        "id": "bb-dom-email",
+        "type": "email",
+        "value": "dominic@reyesofficial.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-dom-cc",
+        "type": "credit_card",
+        "value": "4242 4242 4242 4242",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "financial_fraud",
+            "note": "Test card flagged in fraud monitoring demo"
+          }
+        ]
+      },
+      {
+        "id": "bb-dom-brand",
+        "type": "brand",
+        "value": "Reyes23 Athletics",
+        "aliases": [
+          "Reyes23"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation",
+            "note": "Fake merch storefronts"
+          }
+        ]
+      }
     ]
   },
   {
@@ -46,13 +198,61 @@
     "name": "Eleanor Whitfield",
     "type": "person",
     "industry": "Politics (fictional public office)",
-    "description": "A fictional state senator running a re-election campaign.",
+    "description": "Eleanor Whitfield is a politics (fictional public office) based in Cape Town, South Africa, best known for a landmark championship win and endorsement deals. They have an estimated 8.7 million followers across platforms and have been active publicly since 2021. Eleanor is married to Dara Lindqvist, a billionaire tech investor, has an estimated net worth of $18M, and is often seen driving a Lamborghini Urus. They are active on social as @SenWhitfield, with an official site at whitfieldforsenate.example. Monitored assets include social handle, website, email, address; tracked digital-risk threats include impersonation, mention, data leak, scam, phishing, physical attack.",
     "protect_summary": "Wants to prevent disinformation and fraudulent donation pages misusing her name.",
     "assets": [
-      { "id": "bb-elea-social", "type": "social_handle", "value": "@SenWhitfield", "aliases": [], "concerns": [ { "type": "impersonation" }, { "type": "mention", "note": "Frequently misquoted" } ] },
-      { "id": "bb-elea-website", "type": "website", "value": "whitfieldforsenate.example", "aliases": [], "concerns": [ { "type": "data_leak" }, { "type": "scam", "note": "Cloned donation site" } ] },
-      { "id": "bb-elea-email", "type": "email", "value": "press@whitfieldforsenate.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
-      { "id": "bb-elea-office", "type": "address", "value": "1200 Capitol Way, Suite 400, Fictionville", "aliases": [], "concerns": [ { "type": "physical_attack" } ] }
+      {
+        "id": "bb-elea-social",
+        "type": "social_handle",
+        "value": "@SenWhitfield",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "mention",
+            "note": "Frequently misquoted"
+          }
+        ]
+      },
+      {
+        "id": "bb-elea-website",
+        "type": "website",
+        "value": "whitfieldforsenate.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "data_leak"
+          },
+          {
+            "type": "scam",
+            "note": "Cloned donation site"
+          }
+        ]
+      },
+      {
+        "id": "bb-elea-email",
+        "type": "email",
+        "value": "press@whitfieldforsenate.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-elea-office",
+        "type": "address",
+        "value": "1200 Capitol Way, Suite 400, Fictionville",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "physical_attack"
+          }
+        ]
+      }
     ]
   },
   {
@@ -60,13 +260,60 @@
     "name": "Tobias Kessler",
     "type": "person",
     "industry": "Technology Startups",
-    "description": "Founder and CEO of a logistics-optimization software startup.",
+    "description": "Tobias Kessler is a technology startups based in Sydney, Australia, best known for a wildly popular live-streaming channel. They have an estimated 0.3 million followers across platforms and have been active publicly since 2018. Tobias is married to Sofia Marchetti, a real-estate magnate, has an estimated net worth of $18M, and is often seen driving an Aston Martin DB11. They are active on social as @tobiaskessler, with an official site at nimbusloop.example. Monitored assets include email, social handle, domain, executive; tracked digital-risk threats include phishing, impersonation, data leak, doxxing.",
     "protect_summary": "Wants to prevent executive impersonation used to defraud investors and partners.",
     "assets": [
-      { "id": "bb-tobi-email", "type": "email", "value": "tobias@nimbusloop.example", "aliases": [], "concerns": [ { "type": "phishing" }, { "type": "impersonation" } ] },
-      { "id": "bb-tobi-social", "type": "social_handle", "value": "@tobiaskessler", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "bb-tobi-domain", "type": "domain", "value": "nimbusloop.example", "aliases": [], "concerns": [ { "type": "data_leak" } ] },
-      { "id": "bb-tobi-exec", "type": "executive", "value": "Tobias Kessler, CEO of Nimbusloop", "aliases": [], "concerns": [ { "type": "impersonation", "note": "Fake wire-transfer requests" }, { "type": "doxxing" } ] }
+      {
+        "id": "bb-tobi-email",
+        "type": "email",
+        "value": "tobias@nimbusloop.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "bb-tobi-social",
+        "type": "social_handle",
+        "value": "@tobiaskessler",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "bb-tobi-domain",
+        "type": "domain",
+        "value": "nimbusloop.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "bb-tobi-exec",
+        "type": "executive",
+        "value": "Tobias Kessler, CEO of Nimbusloop",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation",
+            "note": "Fake wire-transfer requests"
+          },
+          {
+            "type": "doxxing"
+          }
+        ]
+      }
     ]
   },
   {
@@ -74,13 +321,62 @@
     "name": "Mika Sunwoo",
     "type": "person",
     "industry": "Beauty & Lifestyle Influencer",
-    "description": "A beauty influencer with a large following across short-form video platforms.",
+    "description": "Mika Sunwoo is a beauty & lifestyle influencer based in Bengaluru, India, best known for a blockbuster franchise role. They have an estimated 15 million followers across platforms and have been active publicly since 2007. Mika is married to Yuki Tanaka, a Formula 1 team principal, has an estimated net worth of $45M, and is often seen driving a matte-black Mercedes G-Wagon. They are active on social as @mikasunwoo, with an official site at mikasunwoo.example. Monitored assets include social handle, app, email, website; tracked digital-risk threats include impersonation, scam, phishing, data leak.",
     "protect_summary": "Wants to shut down fake giveaway scams and counterfeit product listings using her image.",
     "assets": [
-      { "id": "bb-mika-social", "type": "social_handle", "value": "@mikasunwoo", "aliases": ["@mika.sunwoo.beauty"], "concerns": [ { "type": "impersonation" }, { "type": "scam", "note": "Fake giveaway DMs" } ] },
-      { "id": "bb-mika-app", "type": "app", "value": "Mika Sunwoo Beauty companion app", "aliases": [], "concerns": [ { "type": "scam" }, { "type": "phishing" } ] },
-      { "id": "bb-mika-email", "type": "email", "value": "hello@mikasunwoo.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
-      { "id": "bb-mika-website", "type": "website", "value": "mikasunwoo.example", "aliases": [], "concerns": [ { "type": "data_leak" } ] }
+      {
+        "id": "bb-mika-social",
+        "type": "social_handle",
+        "value": "@mikasunwoo",
+        "aliases": [
+          "@mika.sunwoo.beauty"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "scam",
+            "note": "Fake giveaway DMs"
+          }
+        ]
+      },
+      {
+        "id": "bb-mika-app",
+        "type": "app",
+        "value": "Mika Sunwoo Beauty companion app",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam"
+          },
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-mika-email",
+        "type": "email",
+        "value": "hello@mikasunwoo.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-mika-website",
+        "type": "website",
+        "value": "mikasunwoo.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "data_leak"
+          }
+        ]
+      }
     ]
   },
   {
@@ -88,13 +384,63 @@
     "name": "Renata Vosk",
     "type": "person",
     "industry": "Investigative Journalism",
-    "description": "An investigative reporter covering corporate corruption for a major news outlet.",
+    "description": "Renata Vosk is a investigative journalism based in Bengaluru, India, best known for a wildly popular live-streaming channel. They have an estimated 2.1 million followers across platforms and have been active publicly since 2008. Renata is married to Dara Lindqvist, a billionaire tech investor, has an estimated net worth of $45M, and is often seen driving two Teslas and a vintage Mercedes. They are active on social as @renatavosk, with an official site at renatavosk.example. Monitored assets include email, social handle, phone, website; tracked digital-risk threats include phishing, data leak, doxxing, online threat, physical attack, impersonation.",
     "protect_summary": "Wants protection from doxxing and physical threats tied to ongoing investigations.",
     "assets": [
-      { "id": "bb-ren-email", "type": "email", "value": "renata.vosk@ledgerinvestigates.example", "aliases": [], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] },
-      { "id": "bb-ren-social", "type": "social_handle", "value": "@renatavosk", "aliases": [], "concerns": [ { "type": "doxxing", "note": "Home address posted by hostile forum" }, { "type": "online_threat" } ] },
-      { "id": "bb-ren-phone", "type": "phone", "value": "+1 555 0187", "aliases": [], "concerns": [ { "type": "physical_attack" }, { "type": "doxxing" } ] },
-      { "id": "bb-ren-website", "type": "website", "value": "renatavosk.example", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+      {
+        "id": "bb-ren-email",
+        "type": "email",
+        "value": "renata.vosk@ledgerinvestigates.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "bb-ren-social",
+        "type": "social_handle",
+        "value": "@renatavosk",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "doxxing",
+            "note": "Home address posted by hostile forum"
+          },
+          {
+            "type": "online_threat"
+          }
+        ]
+      },
+      {
+        "id": "bb-ren-phone",
+        "type": "phone",
+        "value": "+1 555 0187",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "physical_attack"
+          },
+          {
+            "type": "doxxing"
+          }
+        ]
+      },
+      {
+        "id": "bb-ren-website",
+        "type": "website",
+        "value": "renatavosk.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      }
     ]
   },
   {
@@ -102,13 +448,60 @@
     "name": "Casey \"GlitchNova\" Doyle",
     "type": "person",
     "industry": "Livestreaming & Gaming",
-    "description": "A full-time variety streamer known for competitive gaming content.",
+    "description": "Casey \"GlitchNova\" Doyle is a livestreaming & gaming based in Singapore, best known for a best-selling debut album. They have an estimated 8.7 million followers across platforms and have been active publicly since 2012. Casey is married to Hannah Cole, a bestselling novelist, has an estimated net worth of $4M, and is often seen driving a Ferrari Roma and a Rivian R1S. They are active on social as @GlitchNova. Monitored assets include social handle, app, email, bank account; tracked digital-risk threats include impersonation, online threat, scam, phishing, financial fraud.",
     "protect_summary": "Wants to stop fraudulent donation bots and channel-impersonation scams targeting fans.",
     "assets": [
-      { "id": "bb-glitch-social", "type": "social_handle", "value": "@GlitchNova", "aliases": ["@GlitchNovaLive"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
-      { "id": "bb-glitch-app", "type": "app", "value": "GlitchNova channel on StreamPulse.example", "aliases": [], "concerns": [ { "type": "scam", "note": "Fake donation bots" } ] },
-      { "id": "bb-glitch-email", "type": "email", "value": "business@glitchnova.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
-      { "id": "bb-glitch-bank", "type": "bank_account", "value": "ACCT 000987654321", "aliases": [], "concerns": [ { "type": "financial_fraud", "note": "Fraudulent payout redirect attempt" } ] }
+      {
+        "id": "bb-glitch-social",
+        "type": "social_handle",
+        "value": "@GlitchNova",
+        "aliases": [
+          "@GlitchNovaLive"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "online_threat"
+          }
+        ]
+      },
+      {
+        "id": "bb-glitch-app",
+        "type": "app",
+        "value": "GlitchNova channel on StreamPulse.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "Fake donation bots"
+          }
+        ]
+      },
+      {
+        "id": "bb-glitch-email",
+        "type": "email",
+        "value": "business@glitchnova.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-glitch-bank",
+        "type": "bank_account",
+        "value": "ACCT 000987654321",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "financial_fraud",
+            "note": "Fraudulent payout redirect attempt"
+          }
+        ]
+      }
     ]
   },
   {
@@ -116,13 +509,60 @@
     "name": "Brightpath Relief Alliance",
     "type": "company",
     "industry": "NGO / Humanitarian Charity",
-    "description": "A nonprofit alliance coordinating disaster relief and refugee support programs.",
+    "description": "Brightpath Relief Alliance is a mid-size firm in ngo / humanitarian charity, founded in 2019 and headquartered in San Francisco, USA. It employs roughly 2,400 people, reports about $540M in annual revenue, and is recently valued at over $1B in its latest round. It is best known for its flagship platform and rapid growth, serving an estimated 6.2 million customers. It operates online at brightpathrelief.example, on social as @BrightpathRelief, led by CEO Helena Marsh, Executive Director. Monitored assets include domain, website, social handle, executive; tracked digital-risk threats include scam, phishing, financial fraud, impersonation.",
     "protect_summary": "Wants to stop fraudulent donation clones that divert funds from disaster relief efforts.",
     "assets": [
-      { "id": "bb-bright-domain", "type": "domain", "value": "brightpathrelief.example", "aliases": [], "concerns": [ { "type": "scam" }, { "type": "phishing" } ] },
-      { "id": "bb-bright-donate", "type": "website", "value": "donate.brightpathrelief.example", "aliases": [], "concerns": [ { "type": "financial_fraud", "note": "Cloned donation checkout pages" }, { "type": "scam" } ] },
-      { "id": "bb-bright-social", "type": "social_handle", "value": "@BrightpathRelief", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "bb-bright-exec", "type": "executive", "value": "Helena Marsh, Executive Director", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+      {
+        "id": "bb-bright-domain",
+        "type": "domain",
+        "value": "brightpathrelief.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam"
+          },
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-bright-donate",
+        "type": "website",
+        "value": "donate.brightpathrelief.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "financial_fraud",
+            "note": "Cloned donation checkout pages"
+          },
+          {
+            "type": "scam"
+          }
+        ]
+      },
+      {
+        "id": "bb-bright-social",
+        "type": "social_handle",
+        "value": "@BrightpathRelief",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "bb-bright-exec",
+        "type": "executive",
+        "value": "Helena Marsh, Executive Director",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      }
     ]
   },
   {
@@ -130,13 +570,62 @@
     "name": "Ashcombe University",
     "type": "company",
     "industry": "Higher Education",
-    "description": "A mid-sized public research university with a global student body.",
+    "description": "Ashcombe University is a fast-growing scale-up in higher education, founded in 2005 and headquartered in Singapore. It employs roughly 600 people, reports about $34M in annual revenue, and is listed on the NASDAQ. It is best known for its flagship platform and rapid growth, serving an estimated 6.2 million customers. It operates online at ashcombe.example, under the brand Ashcombe University, on social as @AshcombeUniv. Monitored assets include domain, email, social handle, brand; tracked digital-risk threats include phishing, data leak, impersonation, mention.",
     "protect_summary": "Wants to prevent phishing campaigns targeting students and staff credentials.",
     "assets": [
-      { "id": "bb-ash-domain", "type": "domain", "value": "ashcombe.example", "aliases": [], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] },
-      { "id": "bb-ash-email", "type": "email", "value": "registrar@ashcombe.example", "aliases": [], "concerns": [ { "type": "phishing", "note": "Fake tuition refund emails" } ] },
-      { "id": "bb-ash-social", "type": "social_handle", "value": "@AshcombeUniv", "aliases": [], "concerns": [ { "type": "impersonation" }, { "type": "mention" } ] },
-      { "id": "bb-ash-brand", "type": "brand", "value": "Ashcombe University", "aliases": ["Ashcombe U"], "concerns": [ { "type": "impersonation" } ] }
+      {
+        "id": "bb-ash-domain",
+        "type": "domain",
+        "value": "ashcombe.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "bb-ash-email",
+        "type": "email",
+        "value": "registrar@ashcombe.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "Fake tuition refund emails"
+          }
+        ]
+      },
+      {
+        "id": "bb-ash-social",
+        "type": "social_handle",
+        "value": "@AshcombeUniv",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "mention"
+          }
+        ]
+      },
+      {
+        "id": "bb-ash-brand",
+        "type": "brand",
+        "value": "Ashcombe University",
+        "aliases": [
+          "Ashcombe U"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      }
     ]
   },
   {
@@ -144,13 +633,61 @@
     "name": "Meridian Health Network",
     "type": "company",
     "industry": "Hospital & Healthcare Network",
-    "description": "A regional network of hospitals and outpatient clinics.",
+    "description": "Meridian Health Network is an early-stage startup in hospital & healthcare network, founded in 2008 and headquartered in Dublin, Ireland. It employs roughly 80 people, reports about $68M in annual revenue, and is backed by top-tier venture investors. It is best known for its telehealth platform and at-home diagnostics, serving an estimated 6.2 million customers. It operates online at meridianhealthnetwork.example, led by CEO Dr. Priyanka Nair, Chief Medical Officer. Monitored assets include domain, website, phone, executive; tracked digital-risk threats include data leak, phishing, financial fraud, scam, impersonation.",
     "protect_summary": "Wants to protect patient data and prevent fraudulent billing schemes impersonating its brand.",
     "assets": [
-      { "id": "bb-mer-domain", "type": "domain", "value": "meridianhealthnetwork.example", "aliases": [], "concerns": [ { "type": "data_leak" }, { "type": "phishing" } ] },
-      { "id": "bb-mer-patient-portal", "type": "website", "value": "portal.meridianhealthnetwork.example", "aliases": [], "concerns": [ { "type": "data_leak", "note": "Patient record exposure risk" }, { "type": "financial_fraud" } ] },
-      { "id": "bb-mer-phone", "type": "phone", "value": "+1 555 0199", "aliases": [], "concerns": [ { "type": "scam", "note": "Spoofed billing calls" } ] },
-      { "id": "bb-mer-exec", "type": "executive", "value": "Dr. Priyanka Nair, Chief Medical Officer", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+      {
+        "id": "bb-mer-domain",
+        "type": "domain",
+        "value": "meridianhealthnetwork.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "data_leak"
+          },
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-mer-patient-portal",
+        "type": "website",
+        "value": "portal.meridianhealthnetwork.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "data_leak",
+            "note": "Patient record exposure risk"
+          },
+          {
+            "type": "financial_fraud"
+          }
+        ]
+      },
+      {
+        "id": "bb-mer-phone",
+        "type": "phone",
+        "value": "+1 555 0199",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "Spoofed billing calls"
+          }
+        ]
+      },
+      {
+        "id": "bb-mer-exec",
+        "type": "executive",
+        "value": "Dr. Priyanka Nair, Chief Medical Officer",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      }
     ]
   },
   {
@@ -158,13 +695,61 @@
     "name": "Kestrel & Thorne LLP",
     "type": "company",
     "industry": "Law Firm",
-    "description": "A corporate law firm specializing in mergers, acquisitions, and litigation.",
+    "description": "Kestrel & Thorne LLP is a fast-growing scale-up in law firm, founded in 2016 and headquartered in Toronto, Canada. It employs roughly 320 people, reports about $540M in annual revenue, and is part of a larger holding group. It is best known for its flagship platform and rapid growth, serving an estimated 3.5 million customers. It operates online at kestrelthorne.example, under the brand Kestrel & Thorne LLP, on social as @KestrelThorneLaw. Monitored assets include domain, email, social handle, brand; tracked digital-risk threats include phishing, impersonation, mention, data leak.",
     "protect_summary": "Wants to prevent phishing emails that impersonate partners to extract client wire transfers.",
     "assets": [
-      { "id": "bb-kt-domain", "type": "domain", "value": "kestrelthorne.example", "aliases": [], "concerns": [ { "type": "phishing" }, { "type": "impersonation" } ] },
-      { "id": "bb-kt-email", "type": "email", "value": "intake@kestrelthorne.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
-      { "id": "bb-kt-social", "type": "social_handle", "value": "@KestrelThorneLaw", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "bb-kt-brand", "type": "brand", "value": "Kestrel & Thorne LLP", "aliases": ["K&T LLP"], "concerns": [ { "type": "mention" }, { "type": "data_leak" } ] }
+      {
+        "id": "bb-kt-domain",
+        "type": "domain",
+        "value": "kestrelthorne.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "bb-kt-email",
+        "type": "email",
+        "value": "intake@kestrelthorne.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-kt-social",
+        "type": "social_handle",
+        "value": "@KestrelThorneLaw",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "bb-kt-brand",
+        "type": "brand",
+        "value": "Kestrel & Thorne LLP",
+        "aliases": [
+          "K&T LLP"
+        ],
+        "concerns": [
+          {
+            "type": "mention"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      }
     ]
   },
   {
@@ -172,13 +757,63 @@
     "name": "Noir Vellum",
     "type": "company",
     "industry": "Fashion Label",
-    "description": "A high-end fashion label known for minimalist ready-to-wear collections.",
+    "description": "Noir Vellum is a large enterprise in fashion label, founded in 2007 and headquartered in Dublin, Ireland. It employs roughly 9,800 people, reports about $12M in annual revenue, and is listed on the NASDAQ. It is best known for its flagship platform and rapid growth, serving an estimated 12 million customers. It operates online at noirvellum.example, under the brand Noir Vellum, on social as @noirvellum. Monitored assets include domain, social handle, website, brand; tracked digital-risk threats include scam, phishing, impersonation, financial fraud.",
     "protect_summary": "Wants to shut down counterfeit storefronts selling fake products under its name.",
     "assets": [
-      { "id": "bb-nv-domain", "type": "domain", "value": "noirvellum.example", "aliases": [], "concerns": [ { "type": "scam" }, { "type": "phishing" } ] },
-      { "id": "bb-nv-social", "type": "social_handle", "value": "@noirvellum", "aliases": [], "concerns": [ { "type": "impersonation" }, { "type": "scam" } ] },
-      { "id": "bb-nv-store", "type": "website", "value": "shop.noirvellum.example", "aliases": [], "concerns": [ { "type": "financial_fraud", "note": "Counterfeit checkout clones" }, { "type": "scam" } ] },
-      { "id": "bb-nv-brand", "type": "brand", "value": "Noir Vellum", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+      {
+        "id": "bb-nv-domain",
+        "type": "domain",
+        "value": "noirvellum.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam"
+          },
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-nv-social",
+        "type": "social_handle",
+        "value": "@noirvellum",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "scam"
+          }
+        ]
+      },
+      {
+        "id": "bb-nv-store",
+        "type": "website",
+        "value": "shop.noirvellum.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "financial_fraud",
+            "note": "Counterfeit checkout clones"
+          },
+          {
+            "type": "scam"
+          }
+        ]
+      },
+      {
+        "id": "bb-nv-brand",
+        "type": "brand",
+        "value": "Noir Vellum",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      }
     ]
   },
   {
@@ -186,13 +821,62 @@
     "name": "Obsidian Wolves",
     "type": "company",
     "industry": "Esports Organization",
-    "description": "A professional esports team competing across multiple international titles.",
+    "description": "Obsidian Wolves is a fast-growing scale-up in esports organization, founded in 2014 and headquartered in Berlin, Germany. It employs roughly 600 people, reports about $68M in annual revenue, and is part of a larger holding group. It is best known for its flagship platform and rapid growth, serving an estimated 0.4 million customers. It operates online at obsidianwolves.example, on social as @ObsidianWolves, led by CEO Jonas Falk, Team Manager. Monitored assets include social handle, domain, website, executive; tracked digital-risk threats include impersonation, online threat, phishing, scam, financial fraud.",
     "protect_summary": "Wants to stop counterfeit merch scams and impersonation of players and staff.",
     "assets": [
-      { "id": "bb-ow-social", "type": "social_handle", "value": "@ObsidianWolves", "aliases": ["@OWolvesGG"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
-      { "id": "bb-ow-domain", "type": "domain", "value": "obsidianwolves.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
-      { "id": "bb-ow-store", "type": "website", "value": "merch.obsidianwolves.example", "aliases": [], "concerns": [ { "type": "scam", "note": "Fake jersey drop sites" }, { "type": "financial_fraud" } ] },
-      { "id": "bb-ow-exec", "type": "executive", "value": "Jonas Falk, Team Manager", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+      {
+        "id": "bb-ow-social",
+        "type": "social_handle",
+        "value": "@ObsidianWolves",
+        "aliases": [
+          "@OWolvesGG"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "online_threat"
+          }
+        ]
+      },
+      {
+        "id": "bb-ow-domain",
+        "type": "domain",
+        "value": "obsidianwolves.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-ow-store",
+        "type": "website",
+        "value": "merch.obsidianwolves.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "Fake jersey drop sites"
+          },
+          {
+            "type": "financial_fraud"
+          }
+        ]
+      },
+      {
+        "id": "bb-ow-exec",
+        "type": "executive",
+        "value": "Jonas Falk, Team Manager",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      }
     ]
   },
   {
@@ -200,13 +884,61 @@
     "name": "The Daylight Ledger",
     "type": "company",
     "industry": "News Outlet",
-    "description": "An independent digital newspaper covering national politics and business.",
+    "description": "The Daylight Ledger is a large enterprise in news outlet, founded in 2013 and headquartered in Singapore. It employs roughly 9,800 people, reports about $34M in annual revenue, and is recently valued at over $1B in its latest round. It is best known for its flagship platform and rapid growth, serving an estimated 6.2 million customers. It operates online at daylightledger.example, on social as @DaylightLedger. Monitored assets include domain, social handle, email, app; tracked digital-risk threats include impersonation, data leak, mention, phishing, scam.",
     "protect_summary": "Wants to prevent fabricated articles falsely attributed to its masthead from spreading.",
     "assets": [
-      { "id": "bb-dl-domain", "type": "domain", "value": "daylightledger.example", "aliases": [], "concerns": [ { "type": "impersonation", "note": "Cloned lookalike news domains" }, { "type": "data_leak" } ] },
-      { "id": "bb-dl-social", "type": "social_handle", "value": "@DaylightLedger", "aliases": [], "concerns": [ { "type": "impersonation" }, { "type": "mention" } ] },
-      { "id": "bb-dl-email", "type": "email", "value": "tips@daylightledger.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
-      { "id": "bb-dl-app", "type": "app", "value": "The Daylight Ledger news app", "aliases": [], "concerns": [ { "type": "scam", "note": "Fake app clones in third-party stores" } ] }
+      {
+        "id": "bb-dl-domain",
+        "type": "domain",
+        "value": "daylightledger.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation",
+            "note": "Cloned lookalike news domains"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "bb-dl-social",
+        "type": "social_handle",
+        "value": "@DaylightLedger",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "mention"
+          }
+        ]
+      },
+      {
+        "id": "bb-dl-email",
+        "type": "email",
+        "value": "tips@daylightledger.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "bb-dl-app",
+        "type": "app",
+        "value": "The Daylight Ledger news app",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "Fake app clones in third-party stores"
+          }
+        ]
+      }
     ]
   }
 ]

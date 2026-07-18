@@ -18,20 +18,26 @@ def asset_keywords(asset: Asset) -> List[str]:
 
 
 def asset_embedding_text(customer: Customer, asset: Asset) -> str:
+    """Rich ENTITY CONTEXT (name, industry, description, what-they-protect) + the ASSET's unique
+    info. The context makes semantic/descriptive threats match far better in the vector search."""
     concerns = ", ".join(
         c.type.value + (f" ({c.note})" if c.note else "") for c in asset.concerns
     )
-    parts = [
-        f"{customer.name} — {customer.type.value}",
-        f"{asset.type.value}: {asset.value}",
-    ]
-    if asset.aliases:
-        parts.append("aka " + ", ".join(asset.aliases))
-    if concerns:
-        parts.append("concerns: " + concerns)
+    context = [f"{customer.name} — {customer.type.value}"]
+    if customer.industry:
+        context.append(customer.industry)
+    if customer.description:
+        context.append(customer.description)
     if customer.protect_summary:
-        parts.append(customer.protect_summary)
-    return " | ".join(parts)
+        context.append(customer.protect_summary)
+
+    asset_bits = [f"{asset.type.value}: {asset.value}"]
+    if asset.aliases:
+        asset_bits.append("aka " + ", ".join(asset.aliases))
+    if concerns:
+        asset_bits.append("concerns: " + concerns)
+
+    return ". ".join(context) + " || ASSET — " + " | ".join(asset_bits)
 
 
 def asset_es_doc(customer: Customer, asset: Asset) -> Dict:

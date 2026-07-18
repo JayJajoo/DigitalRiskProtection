@@ -384,9 +384,17 @@ export default function Part1Ingest() {
                 <div>
                   <CardTitle>{detail.name}</CardTitle>
                   <p className="mt-1 text-sm text-muted-foreground">
-                    {detail.type} · {detail.industry}
+                    {detail.type}
+                    {detail.industry ? ` · ${detail.industry}` : ''}
                   </p>
-                  <p className="mt-2 max-w-2xl text-sm">{detail.protect_summary}</p>
+                  {detail.description && (
+                    <p className="mt-2 max-w-2xl text-sm">{detail.description}</p>
+                  )}
+                  {detail.protect_summary && (
+                    <p className="mt-1 max-w-2xl text-xs text-muted-foreground">
+                      <span className="font-medium">Protects:</span> {detail.protect_summary}
+                    </p>
+                  )}
                 </div>
                 <Button
                   onClick={() => ingest(detail.id)}

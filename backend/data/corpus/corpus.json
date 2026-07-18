@@ -2438,5 +2438,75 @@
     "image_path": null,
     "label": "online_threat",
     "targets_hint": "Priya Sharma"
+  },
+  {
+    "id": "vec-1",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "that pro striker who runs a youth charity thinks nobody can touch him. we've clocked his morning training spot and his usual route home \u2014 he should start looking over his shoulder.",
+    "image_path": null,
+    "label": "vector_only",
+    "targets_hint": "athlete physical threat (semantic, no name)"
+  },
+  {
+    "id": "vec-2",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "found out which hotel that indie acoustic singer stays at after every gig. dropping the floor and room number in the fan chat so people can go 'surprise' her tonight.",
+    "image_path": null,
+    "label": "vector_only",
+    "targets_hint": "musician doxxing/stalking (semantic, no name)"
+  },
+  {
+    "id": "vec-3",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "i've got the private messages and unposted photos from that big lifestyle-and-travel creator. she pays me by midnight or her entire following gets the full album.",
+    "image_path": null,
+    "label": "vector_only",
+    "targets_hint": "influencer extortion (semantic, no name)"
+  },
+  {
+    "id": "vec-4",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "i'm sitting on the complete internal dump from that hardware-automation startup \u2014 CAD files, source code, exec mailboxes. auctioning it off tonight before they even notice it's gone.",
+    "image_path": null,
+    "label": "vector_only",
+    "targets_hint": "hardware startup data-leak (semantic, no name)"
+  },
+  {
+    "id": "vec-5",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "got a working admin session into that coin-trading platform everyone's on. going to sweep the hot wallets clean before their support team clocks in tomorrow.",
+    "image_path": null,
+    "label": "vector_only",
+    "targets_hint": "coin exchange account-drain (semantic, no name)"
+  },
+  {
+    "id": "vec-6",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "spinning up a lookalike login page for that app-only money service millions of people use, then blasting their customers a 'verify now or lose access' email within the hour to harvest credentials.",
+    "image_path": null,
+    "label": "vector_only",
+    "targets_hint": "finance app phishing campaign (semantic, no name)"
+  },
+  {
+    "id": "vec-7",
+    "source": "synthetic-corpus",
+    "origin": "synthetic",
+    "type": "text",
+    "text": "that developer who's always flexing his personal coding site and side projects \u2014 someone just dropped his home street and is egging people on to go pay him an in-person visit.",
+    "image_path": null,
+    "label": "vector_only",
+    "targets_hint": "developer doxxing/physical (semantic, no name)"
   }
 ]

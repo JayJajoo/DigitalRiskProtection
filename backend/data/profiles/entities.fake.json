@@ -4,13 +4,70 @@
     "name": "Aria Vance",
     "type": "person",
     "industry": "Lifestyle influencer",
-    "description": "Fictional lifestyle and travel content creator.",
+    "description": "Aria Vance is a lifestyle influencer based in Dubai, UAE, best known for a viral travel-and-lifestyle following. They have an estimated 0.3 million followers across platforms and have been active publicly since 2009. Aria is married to Camille Dubois, a celebrated fashion designer, has an estimated net worth of $18M, and is often seen driving a Lamborghini Urus. They are active on social as @ariavance, with an official site at ariavance.example. Monitored assets include social handle, website, email, credit card; tracked digital-risk threats include impersonation, scam, sextortion threat, phishing, data leak, financial fraud.",
     "protect_summary": "Protect social handles, personal website, and email from impersonation and giveaway scams.",
     "assets": [
-      { "id": "aria-ig", "type": "social_handle", "value": "@ariavance", "aliases": ["ariavance"], "concerns": [ { "type": "impersonation" }, { "type": "scam", "note": "fake giveaway accounts" } ] },
-      { "id": "aria-web", "type": "website", "value": "ariavance.example", "aliases": ["aria vance"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "aria-email", "type": "email", "value": "hello@ariavance.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
-      { "id": "aria-card", "type": "credit_card", "value": "4000 0000 0000 0002", "aliases": ["card ending 0002"], "concerns": [ { "type": "data_leak", "note": "synthetic test card" }, { "type": "financial_fraud" } ] }
+      {
+        "id": "aria-ig",
+        "type": "social_handle",
+        "value": "@ariavance",
+        "aliases": [
+          "ariavance"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "scam",
+            "note": "fake giveaway accounts"
+          },
+          {
+            "type": "sextortion_threat"
+          }
+        ]
+      },
+      {
+        "id": "aria-web",
+        "type": "website",
+        "value": "ariavance.example",
+        "aliases": [
+          "aria vance"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "aria-email",
+        "type": "email",
+        "value": "hello@ariavance.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "aria-card",
+        "type": "credit_card",
+        "value": "4000 0000 0000 0002",
+        "aliases": [
+          "card ending 0002"
+        ],
+        "concerns": [
+          {
+            "type": "data_leak",
+            "note": "synthetic test card"
+          },
+          {
+            "type": "financial_fraud"
+          }
+        ]
+      }
     ]
   },
   {
@@ -18,14 +75,87 @@
     "name": "Novabank",
     "type": "company",
     "industry": "Fintech / banking",
-    "description": "Fictional digital bank.",
+    "description": "Novabank is a large enterprise in fintech / banking, founded in 2006 and headquartered in Cape Town, South Africa. It employs roughly 9,800 people, reports about $890M in annual revenue, and is part of a larger holding group. It is best known for its app-only current accounts and instant transfers, serving an estimated 6.2 million customers. It operates online at novabank.example, under the brand Novabank, on social as @novabank_support, led by CEO Elena Ruiz. Monitored assets include domain, brand, social handle, executive, bank account; tracked digital-risk threats include phishing, data leak, impersonation, scam, online threat, financial fraud.",
     "protect_summary": "Protect the banking domain, brand, support handle, and CEO from phishing and impersonation.",
     "assets": [
-      { "id": "nova-domain", "type": "domain", "value": "novabank.example", "aliases": ["novabank"], "concerns": [ { "type": "phishing", "note": "spoofed login pages" }, { "type": "data_leak" } ] },
-      { "id": "nova-brand", "type": "brand", "value": "Novabank", "aliases": ["nova bank"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "nova-support", "type": "social_handle", "value": "@novabank_support", "aliases": ["novabank support"], "concerns": [ { "type": "scam", "note": "fake support accounts" } ] },
-      { "id": "nova-ceo", "type": "executive", "value": "Elena Ruiz", "aliases": ["Dr. Elena Ruiz", "E. Ruiz"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
-      { "id": "nova-acct", "type": "bank_account", "value": "ACCT 000987654321", "aliases": ["account ending 4321"], "concerns": [ { "type": "data_leak", "note": "synthetic corporate account" }, { "type": "financial_fraud" } ] }
+      {
+        "id": "nova-domain",
+        "type": "domain",
+        "value": "novabank.example",
+        "aliases": [
+          "novabank"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "spoofed login pages"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "nova-brand",
+        "type": "brand",
+        "value": "Novabank",
+        "aliases": [
+          "nova bank"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "nova-support",
+        "type": "social_handle",
+        "value": "@novabank_support",
+        "aliases": [
+          "novabank support"
+        ],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake support accounts"
+          }
+        ]
+      },
+      {
+        "id": "nova-ceo",
+        "type": "executive",
+        "value": "Elena Ruiz",
+        "aliases": [
+          "Dr. Elena Ruiz",
+          "E. Ruiz"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "online_threat"
+          }
+        ]
+      },
+      {
+        "id": "nova-acct",
+        "type": "bank_account",
+        "value": "ACCT 000987654321",
+        "aliases": [
+          "account ending 4321"
+        ],
+        "concerns": [
+          {
+            "type": "data_leak",
+            "note": "synthetic corporate account"
+          },
+          {
+            "type": "financial_fraud"
+          }
+        ]
+      }
     ]
   },
   {
@@ -33,12 +163,47 @@
     "name": "Lumen Skincare",
     "type": "company",
     "industry": "Consumer beauty brand",
-    "description": "Fictional skincare brand.",
+    "description": "Lumen Skincare is a mid-size firm in consumer beauty brand, founded in 2018 and headquartered in London, UK. It employs roughly 1,200 people, reports about $890M in annual revenue, and is privately held by its founders. It is best known for its flagship platform and rapid growth, serving an estimated 0.4 million customers. It operates online at lumenskincare.example, under the brand Lumen Skincare, on social as @lumenskincare. Monitored assets include domain, brand, social handle; tracked digital-risk threats include impersonation, scam.",
     "protect_summary": "Protect the brand and store domain from counterfeit shops and impersonation.",
     "assets": [
-      { "id": "lumen-domain", "type": "domain", "value": "lumenskincare.example", "aliases": ["lumen skincare"], "concerns": [ { "type": "impersonation", "note": "counterfeit storefronts" } ] },
-      { "id": "lumen-brand", "type": "brand", "value": "Lumen Skincare", "aliases": ["lumen"], "concerns": [ { "type": "scam" } ] },
-      { "id": "lumen-ig", "type": "social_handle", "value": "@lumenskincare", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+      {
+        "id": "lumen-domain",
+        "type": "domain",
+        "value": "lumenskincare.example",
+        "aliases": [
+          "lumen skincare"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation",
+            "note": "counterfeit storefronts"
+          }
+        ]
+      },
+      {
+        "id": "lumen-brand",
+        "type": "brand",
+        "value": "Lumen Skincare",
+        "aliases": [
+          "lumen"
+        ],
+        "concerns": [
+          {
+            "type": "scam"
+          }
+        ]
+      },
+      {
+        "id": "lumen-ig",
+        "type": "social_handle",
+        "value": "@lumenskincare",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      }
     ]
   },
   {
@@ -46,12 +211,49 @@
     "name": "CryptoNest",
     "type": "company",
     "industry": "Crypto exchange",
-    "description": "Fictional cryptocurrency exchange.",
+    "description": "CryptoNest is an early-stage startup in crypto exchange, founded in 2007 and headquartered in Stockholm, Sweden. It employs roughly 140 people, reports about $540M in annual revenue, and is part of a larger holding group. It is best known for its low-fee token trading and staking products, serving an estimated 12 million customers. It operates online at cryptonest.example, under the brand CryptoNest, on social as @cryptonest. Monitored assets include domain, brand, social handle; tracked digital-risk threats include phishing, financial fraud, impersonation, scam.",
     "protect_summary": "Protect the exchange domain and brand from phishing and money-flipping scams.",
     "assets": [
-      { "id": "cn-domain", "type": "domain", "value": "cryptonest.example", "aliases": ["cryptonest", "crypto nest"], "concerns": [ { "type": "phishing" }, { "type": "financial_fraud", "note": "money-flipping / giveaway scams" } ] },
-      { "id": "cn-brand", "type": "brand", "value": "CryptoNest", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "cn-x", "type": "social_handle", "value": "@cryptonest", "aliases": [], "concerns": [ { "type": "scam" } ] }
+      {
+        "id": "cn-domain",
+        "type": "domain",
+        "value": "cryptonest.example",
+        "aliases": [
+          "cryptonest",
+          "crypto nest"
+        ],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "financial_fraud",
+            "note": "money-flipping / giveaway scams"
+          }
+        ]
+      },
+      {
+        "id": "cn-brand",
+        "type": "brand",
+        "value": "CryptoNest",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "cn-x",
+        "type": "social_handle",
+        "value": "@cryptonest",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam"
+          }
+        ]
+      }
     ]
   },
   {
@@ -59,11 +261,44 @@
     "name": "Marcus Webb",
     "type": "person",
     "industry": "Professional athlete",
-    "description": "Fictional professional athlete.",
+    "description": "Marcus Webb is a professional athlete based in Amsterdam, Netherlands, best known for a landmark championship win and endorsement deals. They have an estimated 8.7 million followers across platforms and have been active publicly since 2018. Marcus is married to Sofia Marchetti, a real-estate magnate, has an estimated net worth of $120M, and is often seen driving a Lamborghini Urus. They are active on social as @marcuswebb, associated with the brand Webb Foundation. Monitored assets include social handle, brand; tracked digital-risk threats include impersonation, scam, online death threat, assault threat.",
     "protect_summary": "Protect social handles from impersonation and fake endorsement scams.",
     "assets": [
-      { "id": "webb-ig", "type": "social_handle", "value": "@marcuswebb", "aliases": ["marcus webb"], "concerns": [ { "type": "impersonation" }, { "type": "scam", "note": "fake endorsements" } ] },
-      { "id": "webb-brand", "type": "brand", "value": "Webb Foundation", "aliases": [], "concerns": [ { "type": "scam", "note": "fake charity drives" } ] }
+      {
+        "id": "webb-ig",
+        "type": "social_handle",
+        "value": "@marcuswebb",
+        "aliases": [
+          "marcus webb"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "scam",
+            "note": "fake endorsements"
+          },
+          {
+            "type": "online_death_threat"
+          },
+          {
+            "type": "assault_threat"
+          }
+        ]
+      },
+      {
+        "id": "webb-brand",
+        "type": "brand",
+        "value": "Webb Foundation",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake charity drives"
+          }
+        ]
+      }
     ]
   },
   {
@@ -71,12 +306,52 @@
     "name": "Helios Airlines",
     "type": "company",
     "industry": "Airline",
-    "description": "Fictional airline.",
+    "description": "Helios Airlines is a large enterprise in airline, founded in 2021 and headquartered in Singapore. It employs roughly 5,200 people, reports about $1.6B in annual revenue, and is part of a larger holding group. It is best known for its ultra-low-cost fares and dense regional network, serving an estimated 12 million customers. It operates online at heliosair.example, under the brand Helios Airlines, on social as @helios_air. Monitored assets include domain, brand, social handle; tracked digital-risk threats include phishing, scam, impersonation.",
     "protect_summary": "Protect the booking domain and brand from fake ticket and refund scams.",
     "assets": [
-      { "id": "helios-domain", "type": "domain", "value": "heliosair.example", "aliases": ["helios airlines", "helios air"], "concerns": [ { "type": "phishing", "note": "fake refund pages" }, { "type": "scam" } ] },
-      { "id": "helios-brand", "type": "brand", "value": "Helios Airlines", "aliases": ["helios"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "helios-x", "type": "social_handle", "value": "@helios_air", "aliases": [], "concerns": [ { "type": "scam", "note": "fake customer support" } ] }
+      {
+        "id": "helios-domain",
+        "type": "domain",
+        "value": "heliosair.example",
+        "aliases": [
+          "helios airlines",
+          "helios air"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "fake refund pages"
+          },
+          {
+            "type": "scam"
+          }
+        ]
+      },
+      {
+        "id": "helios-brand",
+        "type": "brand",
+        "value": "Helios Airlines",
+        "aliases": [
+          "helios"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "helios-x",
+        "type": "social_handle",
+        "value": "@helios_air",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake customer support"
+          }
+        ]
+      }
     ]
   },
   {
@@ -84,11 +359,36 @@
     "name": "Zenpay",
     "type": "company",
     "industry": "Payments",
-    "description": "Fictional payments provider.",
+    "description": "Zenpay is an early-stage startup in payments, founded in 2016 and headquartered in San Francisco, USA. It employs roughly 140 people, reports about $890M in annual revenue, and is part of a larger holding group. It is best known for its one-tap checkout and peer-to-peer payments, serving an estimated 6.2 million customers. It operates online at zenpay.example, under the brand Zenpay. Monitored assets include domain, brand; tracked digital-risk threats include phishing, data leak, impersonation.",
     "protect_summary": "Protect the payments domain and brand from phishing and credential leaks.",
     "assets": [
-      { "id": "zen-domain", "type": "domain", "value": "zenpay.example", "aliases": ["zen pay"], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] },
-      { "id": "zen-brand", "type": "brand", "value": "Zenpay", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+      {
+        "id": "zen-domain",
+        "type": "domain",
+        "value": "zenpay.example",
+        "aliases": [
+          "zen pay"
+        ],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "zen-brand",
+        "type": "brand",
+        "value": "Zenpay",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      }
     ]
   },
   {
@@ -96,11 +396,43 @@
     "name": "Priya Sharma",
     "type": "person",
     "industry": "Musician",
-    "description": "Fictional independent musician.",
+    "description": "Priya Sharma is a musician based in Dubai, UAE, best known for a best-selling debut album. They have an estimated 2.1 million followers across platforms and have been active publicly since 2020. Priya is married to Ravi Anand, an award-winning film producer, has an estimated net worth of $18M, and is often seen driving a Lamborghini Urus. They are active on social as @priyasharmamusic, with an official site at priyasharma.example. Monitored assets include social handle, website; tracked digital-risk threats include impersonation, scam, sextortion threat, online death threat, mention.",
     "protect_summary": "Protect artist handles and website from impersonation and ticket scams.",
     "assets": [
-      { "id": "priya-ig", "type": "social_handle", "value": "@priyasharmamusic", "aliases": ["priya sharma"], "concerns": [ { "type": "impersonation" }, { "type": "scam", "note": "fake concert tickets" } ] },
-      { "id": "priya-web", "type": "website", "value": "priyasharma.example", "aliases": [], "concerns": [ { "type": "mention" } ] }
+      {
+        "id": "priya-ig",
+        "type": "social_handle",
+        "value": "@priyasharmamusic",
+        "aliases": [
+          "priya sharma"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "scam",
+            "note": "fake concert tickets"
+          },
+          {
+            "type": "sextortion_threat"
+          },
+          {
+            "type": "online_death_threat"
+          }
+        ]
+      },
+      {
+        "id": "priya-web",
+        "type": "website",
+        "value": "priyasharma.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "mention"
+          }
+        ]
+      }
     ]
   },
   {
@@ -108,12 +440,53 @@
     "name": "Vertex Robotics",
     "type": "company",
     "industry": "Technology / robotics",
-    "description": "Fictional robotics company.",
+    "description": "Vertex Robotics is a mid-size firm in technology / robotics, founded in 2020 and headquartered in Tokyo, Japan. It employs roughly 1,200 people, reports about $130M in annual revenue, and is part of a larger holding group. It is best known for its warehouse-automation robots and industrial arms, serving an estimated 28 million customers. It operates online at vertexrobotics.example, under the brand Vertex Robotics, led by CEO Daniel Okafor. Monitored assets include domain, brand, executive; tracked digital-risk threats include data leak, phishing, impersonation, online threat.",
     "protect_summary": "Protect the corporate domain, brand, and executives from impersonation and data leaks.",
     "assets": [
-      { "id": "vertex-domain", "type": "domain", "value": "vertexrobotics.example", "aliases": ["vertex robotics", "vertex"], "concerns": [ { "type": "data_leak" }, { "type": "phishing" } ] },
-      { "id": "vertex-brand", "type": "brand", "value": "Vertex Robotics", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "vertex-ceo", "type": "executive", "value": "Daniel Okafor", "aliases": ["D. Okafor"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] }
+      {
+        "id": "vertex-domain",
+        "type": "domain",
+        "value": "vertexrobotics.example",
+        "aliases": [
+          "vertex robotics",
+          "vertex"
+        ],
+        "concerns": [
+          {
+            "type": "data_leak"
+          },
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "vertex-brand",
+        "type": "brand",
+        "value": "Vertex Robotics",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "vertex-ceo",
+        "type": "executive",
+        "value": "Daniel Okafor",
+        "aliases": [
+          "D. Okafor"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "online_threat"
+          }
+        ]
+      }
     ]
   }
 ]

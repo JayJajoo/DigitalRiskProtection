@@ -4,15 +4,98 @@
     "name": "Quillpay",
     "type": "company",
     "industry": "Fintech / digital payments",
-    "description": "Fictional fintech company offering peer-to-peer payments and digital wallets.",
+    "description": "Quillpay is a large enterprise in fintech / digital payments, founded in 2010 and headquartered in Austin, Texas, USA. It employs roughly 9,800 people, reports about $34M in annual revenue, and is listed on the NASDAQ. It is best known for its app-only current accounts and instant transfers, serving an estimated 28 million customers. It operates online at quillpay.example, under the brand Quillpay, on social as @quillpay_support, led by CEO Rosalind Kanter. Monitored assets include domain, brand, social handle, executive, bank account, phone; tracked digital-risk threats include phishing, data leak, impersonation, scam, online threat, financial fraud.",
     "protect_summary": "Protect the payments domain, brand, support channel, and finance executive from phishing and financial fraud.",
     "assets": [
-      { "id": "ba-quillpay-domain", "type": "domain", "value": "quillpay.example", "aliases": ["quill pay"], "concerns": [ { "type": "phishing", "note": "spoofed login pages" }, { "type": "data_leak" } ] },
-      { "id": "ba-quillpay-brand", "type": "brand", "value": "Quillpay", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-quillpay-support", "type": "social_handle", "value": "@quillpay_support", "aliases": ["quillpay support"], "concerns": [ { "type": "scam", "note": "fake support accounts" } ] },
-      { "id": "ba-quillpay-cfo", "type": "executive", "value": "Rosalind Kanter", "aliases": ["R. Kanter"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
-      { "id": "ba-quillpay-acct", "type": "bank_account", "value": "ACCT 000456781234", "aliases": ["account ending 1234"], "concerns": [ { "type": "financial_fraud" }, { "type": "data_leak", "note": "synthetic corporate account" } ] },
-      { "id": "ba-quillpay-phone", "type": "phone", "value": "+1 555 0118", "aliases": ["support line"], "concerns": [ { "type": "scam", "note": "spoofed caller-ID scams" } ] }
+      {
+        "id": "ba-quillpay-domain",
+        "type": "domain",
+        "value": "quillpay.example",
+        "aliases": [
+          "quill pay"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "spoofed login pages"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "ba-quillpay-brand",
+        "type": "brand",
+        "value": "Quillpay",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-quillpay-support",
+        "type": "social_handle",
+        "value": "@quillpay_support",
+        "aliases": [
+          "quillpay support"
+        ],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake support accounts"
+          }
+        ]
+      },
+      {
+        "id": "ba-quillpay-cfo",
+        "type": "executive",
+        "value": "Rosalind Kanter",
+        "aliases": [
+          "R. Kanter"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "online_threat"
+          }
+        ]
+      },
+      {
+        "id": "ba-quillpay-acct",
+        "type": "bank_account",
+        "value": "ACCT 000456781234",
+        "aliases": [
+          "account ending 1234"
+        ],
+        "concerns": [
+          {
+            "type": "financial_fraud"
+          },
+          {
+            "type": "data_leak",
+            "note": "synthetic corporate account"
+          }
+        ]
+      },
+      {
+        "id": "ba-quillpay-phone",
+        "type": "phone",
+        "value": "+1 555 0118",
+        "aliases": [
+          "support line"
+        ],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "spoofed caller-ID scams"
+          }
+        ]
+      }
     ]
   },
   {
@@ -20,14 +103,79 @@
     "name": "Cobblestone Market",
     "type": "company",
     "industry": "E-commerce / retail",
-    "description": "Fictional online marketplace for home goods and apparel.",
+    "description": "Cobblestone Market is a mid-size firm in e-commerce / retail, founded in 2006 and headquartered in Sydney, Australia. It employs roughly 2,400 people, reports about $540M in annual revenue, and is part of a larger holding group. It is best known for its curated online marketplace, serving an estimated 1.2 million customers. It operates online at cobblestonemarket.example, under the brand Cobblestone Market, on social as @cobblestonemarket. Monitored assets include domain, brand, app, social handle, credit card; tracked digital-risk threats include phishing, scam, impersonation, data leak, financial fraud.",
     "protect_summary": "Protect the storefront domain, brand, mobile app, and checkout flow from counterfeit sellers and payment fraud.",
     "assets": [
-      { "id": "ba-cobblestone-domain", "type": "domain", "value": "cobblestonemarket.example", "aliases": ["cobblestone market"], "concerns": [ { "type": "phishing" }, { "type": "scam", "note": "fake storefront clones" } ] },
-      { "id": "ba-cobblestone-brand", "type": "brand", "value": "Cobblestone Market", "aliases": ["cobblestone"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-cobblestone-app", "type": "app", "value": "Cobblestone Market App", "aliases": [], "concerns": [ { "type": "scam", "note": "fraudulent lookalike apps" } ] },
-      { "id": "ba-cobblestone-ig", "type": "social_handle", "value": "@cobblestonemarket", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-cobblestone-card", "type": "credit_card", "value": "4242 4242 4242 4242", "aliases": ["test card"], "concerns": [ { "type": "data_leak", "note": "synthetic test card" }, { "type": "financial_fraud" } ] }
+      {
+        "id": "ba-cobblestone-domain",
+        "type": "domain",
+        "value": "cobblestonemarket.example",
+        "aliases": [
+          "cobblestone market"
+        ],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "scam",
+            "note": "fake storefront clones"
+          }
+        ]
+      },
+      {
+        "id": "ba-cobblestone-brand",
+        "type": "brand",
+        "value": "Cobblestone Market",
+        "aliases": [
+          "cobblestone"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-cobblestone-app",
+        "type": "app",
+        "value": "Cobblestone Market App",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fraudulent lookalike apps"
+          }
+        ]
+      },
+      {
+        "id": "ba-cobblestone-ig",
+        "type": "social_handle",
+        "value": "@cobblestonemarket",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-cobblestone-card",
+        "type": "credit_card",
+        "value": "4242 4242 4242 4242",
+        "aliases": [
+          "test card"
+        ],
+        "concerns": [
+          {
+            "type": "data_leak",
+            "note": "synthetic test card"
+          },
+          {
+            "type": "financial_fraud"
+          }
+        ]
+      }
     ]
   },
   {
@@ -35,13 +183,67 @@
     "name": "Pixel Foundry Games",
     "type": "company",
     "industry": "Gaming studio",
-    "description": "Fictional independent video game studio behind a multiplayer arena title.",
+    "description": "Pixel Foundry Games is a fast-growing scale-up in gaming studio, founded in 2014 and headquartered in S\u00e3o Paulo, Brazil. It employs roughly 320 people, reports about $12M in annual revenue, and is listed on the NASDAQ. It is best known for its hit multiplayer titles and live-service updates, serving an estimated 0.4 million customers. It operates online at pixelfoundry.example, under the brand Pixel Foundry Games, on social as @pixelfoundrygames, led by CEO Nadia Ellison. Monitored assets include domain, brand, social handle, executive; tracked digital-risk threats include phishing, data leak, impersonation, scam, doxxing, online threat.",
     "protect_summary": "Protect the studio domain, brand, and lead designer from impersonation and harassment.",
     "assets": [
-      { "id": "ba-pixelfoundry-domain", "type": "domain", "value": "pixelfoundry.example", "aliases": ["pixel foundry"], "concerns": [ { "type": "phishing", "note": "fake account-recovery pages" }, { "type": "data_leak" } ] },
-      { "id": "ba-pixelfoundry-brand", "type": "brand", "value": "Pixel Foundry Games", "aliases": ["pixel foundry"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-pixelfoundry-x", "type": "social_handle", "value": "@pixelfoundrygames", "aliases": [], "concerns": [ { "type": "scam", "note": "fake skin/currency giveaways" } ] },
-      { "id": "ba-pixelfoundry-lead", "type": "executive", "value": "Nadia Ellison", "aliases": ["N. Ellison"], "concerns": [ { "type": "doxxing" }, { "type": "online_threat" } ] }
+      {
+        "id": "ba-pixelfoundry-domain",
+        "type": "domain",
+        "value": "pixelfoundry.example",
+        "aliases": [
+          "pixel foundry"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "fake account-recovery pages"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "ba-pixelfoundry-brand",
+        "type": "brand",
+        "value": "Pixel Foundry Games",
+        "aliases": [
+          "pixel foundry"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-pixelfoundry-x",
+        "type": "social_handle",
+        "value": "@pixelfoundrygames",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake skin/currency giveaways"
+          }
+        ]
+      },
+      {
+        "id": "ba-pixelfoundry-lead",
+        "type": "executive",
+        "value": "Nadia Ellison",
+        "aliases": [
+          "N. Ellison"
+        ],
+        "concerns": [
+          {
+            "type": "doxxing"
+          },
+          {
+            "type": "online_threat"
+          }
+        ]
+      }
     ]
   },
   {
@@ -49,14 +251,79 @@
     "name": "Windward Airlines",
     "type": "company",
     "industry": "Airline / travel",
-    "description": "Fictional regional airline offering domestic and short-haul international flights.",
+    "description": "Windward Airlines is a large enterprise in airline / travel, founded in 2010 and headquartered in Stockholm, Sweden. It employs roughly 9,800 people, reports about $12M in annual revenue, and is backed by top-tier venture investors. It is best known for its ultra-low-cost fares and dense regional network, serving an estimated 6.2 million customers. It operates online at windwardair.example, under the brand Windward Airlines, on social as @windwardair, led by CEO Callum Reyes. Monitored assets include domain, brand, social handle, executive, phone; tracked digital-risk threats include phishing, scam, impersonation.",
     "protect_summary": "Protect the booking domain, brand, reservations line, and CEO from ticket scams and impersonation.",
     "assets": [
-      { "id": "ba-windward-domain", "type": "domain", "value": "windwardair.example", "aliases": ["windward airlines", "windward air"], "concerns": [ { "type": "phishing", "note": "fake refund pages" }, { "type": "scam" } ] },
-      { "id": "ba-windward-brand", "type": "brand", "value": "Windward Airlines", "aliases": ["windward"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-windward-x", "type": "social_handle", "value": "@windwardair", "aliases": [], "concerns": [ { "type": "scam", "note": "fake customer support DMs" } ] },
-      { "id": "ba-windward-ceo", "type": "executive", "value": "Callum Reyes", "aliases": ["C. Reyes"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-windward-phone", "type": "phone", "value": "+1 555 0134", "aliases": ["reservations line"], "concerns": [ { "type": "scam", "note": "spoofed reservation call centers" } ] }
+      {
+        "id": "ba-windward-domain",
+        "type": "domain",
+        "value": "windwardair.example",
+        "aliases": [
+          "windward airlines",
+          "windward air"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "fake refund pages"
+          },
+          {
+            "type": "scam"
+          }
+        ]
+      },
+      {
+        "id": "ba-windward-brand",
+        "type": "brand",
+        "value": "Windward Airlines",
+        "aliases": [
+          "windward"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-windward-x",
+        "type": "social_handle",
+        "value": "@windwardair",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake customer support DMs"
+          }
+        ]
+      },
+      {
+        "id": "ba-windward-ceo",
+        "type": "executive",
+        "value": "Callum Reyes",
+        "aliases": [
+          "C. Reyes"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-windward-phone",
+        "type": "phone",
+        "value": "+1 555 0134",
+        "aliases": [
+          "reservations line"
+        ],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "spoofed reservation call centers"
+          }
+        ]
+      }
     ]
   },
   {
@@ -64,13 +331,67 @@
     "name": "Cascadia Health Partners",
     "type": "company",
     "industry": "Health insurance",
-    "description": "Fictional regional health insurance provider.",
+    "description": "Cascadia Health Partners is a large enterprise in health insurance, founded in 2014 and headquartered in Singapore. It employs roughly 9,800 people, reports about $1.6B in annual revenue, and is backed by top-tier venture investors. It is best known for its usage-based policies and fast claims processing, serving an estimated 3.5 million customers. It operates online at cascadiahealthpartners.example, under the brand Cascadia Health Partners, led by CEO Simone Achterberg. Monitored assets include domain, brand, email, executive; tracked digital-risk threats include phishing, data leak, impersonation, doxxing, physical attack.",
     "protect_summary": "Protect the member portal domain, brand, and CEO from phishing and threats tied to coverage disputes.",
     "assets": [
-      { "id": "ba-cascadia-domain", "type": "domain", "value": "cascadiahealthpartners.example", "aliases": ["cascadia health"], "concerns": [ { "type": "phishing", "note": "fake member portal" }, { "type": "data_leak" } ] },
-      { "id": "ba-cascadia-brand", "type": "brand", "value": "Cascadia Health Partners", "aliases": ["cascadia"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-cascadia-email", "type": "email", "value": "claims@cascadiahealthpartners.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
-      { "id": "ba-cascadia-ceo", "type": "executive", "value": "Simone Achterberg", "aliases": ["S. Achterberg"], "concerns": [ { "type": "doxxing" }, { "type": "physical_attack", "note": "threats tied to claim denials" } ] }
+      {
+        "id": "ba-cascadia-domain",
+        "type": "domain",
+        "value": "cascadiahealthpartners.example",
+        "aliases": [
+          "cascadia health"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "fake member portal"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "ba-cascadia-brand",
+        "type": "brand",
+        "value": "Cascadia Health Partners",
+        "aliases": [
+          "cascadia"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-cascadia-email",
+        "type": "email",
+        "value": "claims@cascadiahealthpartners.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          }
+        ]
+      },
+      {
+        "id": "ba-cascadia-ceo",
+        "type": "executive",
+        "value": "Simone Achterberg",
+        "aliases": [
+          "S. Achterberg"
+        ],
+        "concerns": [
+          {
+            "type": "doxxing"
+          },
+          {
+            "type": "physical_attack",
+            "note": "threats tied to claim denials"
+          }
+        ]
+      }
     ]
   },
   {
@@ -78,15 +399,90 @@
     "name": "Fiberlynk Communications",
     "type": "company",
     "industry": "Telecom",
-    "description": "Fictional telecom provider offering mobile and home internet service.",
+    "description": "Fiberlynk Communications is a fast-growing scale-up in telecom, founded in 2009 and headquartered in Cape Town, South Africa. It employs roughly 320 people, reports about $130M in annual revenue, and is recently valued at over $1B in its latest round. It is best known for its nationwide fiber and 5G network, serving an estimated 6.2 million customers. It operates online at fiberlynk.example, under the brand Fiberlynk Communications, on social as @fiberlynk_help, led by CEO Tobias Lindqvist. Monitored assets include domain, brand, social handle, executive, app, phone; tracked digital-risk threats include phishing, data leak, impersonation, scam.",
     "protect_summary": "Protect the account domain, brand, support handle, app, and CTO from phishing and SIM-swap style fraud.",
     "assets": [
-      { "id": "ba-fiberlynk-domain", "type": "domain", "value": "fiberlynk.example", "aliases": ["fiberlynk"], "concerns": [ { "type": "phishing", "note": "spoofed bill-pay pages" }, { "type": "data_leak" } ] },
-      { "id": "ba-fiberlynk-brand", "type": "brand", "value": "Fiberlynk Communications", "aliases": ["fiberlynk"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-fiberlynk-support", "type": "social_handle", "value": "@fiberlynk_help", "aliases": [], "concerns": [ { "type": "scam", "note": "fake support agents" } ] },
-      { "id": "ba-fiberlynk-cto", "type": "executive", "value": "Tobias Lindqvist", "aliases": ["T. Lindqvist"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-fiberlynk-app", "type": "app", "value": "Fiberlynk MyAccount", "aliases": [], "concerns": [ { "type": "phishing", "note": "cloned account-management app" } ] },
-      { "id": "ba-fiberlynk-phone", "type": "phone", "value": "+1 555 0161", "aliases": ["billing support"], "concerns": [ { "type": "scam", "note": "spoofed billing calls" } ] }
+      {
+        "id": "ba-fiberlynk-domain",
+        "type": "domain",
+        "value": "fiberlynk.example",
+        "aliases": [
+          "fiberlynk"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "spoofed bill-pay pages"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "ba-fiberlynk-brand",
+        "type": "brand",
+        "value": "Fiberlynk Communications",
+        "aliases": [
+          "fiberlynk"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-fiberlynk-support",
+        "type": "social_handle",
+        "value": "@fiberlynk_help",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake support agents"
+          }
+        ]
+      },
+      {
+        "id": "ba-fiberlynk-cto",
+        "type": "executive",
+        "value": "Tobias Lindqvist",
+        "aliases": [
+          "T. Lindqvist"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-fiberlynk-app",
+        "type": "app",
+        "value": "Fiberlynk MyAccount",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "cloned account-management app"
+          }
+        ]
+      },
+      {
+        "id": "ba-fiberlynk-phone",
+        "type": "phone",
+        "value": "+1 555 0161",
+        "aliases": [
+          "billing support"
+        ],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "spoofed billing calls"
+          }
+        ]
+      }
     ]
   },
   {
@@ -94,12 +490,51 @@
     "name": "Amberfield Energy",
     "type": "company",
     "industry": "Energy utility",
-    "description": "Fictional regional electric and gas utility.",
+    "description": "Amberfield Energy is a large enterprise in energy utility, founded in 2016 and headquartered in Dubai, UAE. It employs roughly 5,200 people, reports about $890M in annual revenue, and is part of a larger holding group. It is best known for its clean-energy plans and smart-home integrations, serving an estimated 3.5 million customers. It operates online at amberfieldenergy.example, under the brand Amberfield Energy. Monitored assets include domain, brand, phone; tracked digital-risk threats include phishing, scam, impersonation.",
     "protect_summary": "Protect the customer-facing domain, brand, and billing line from disconnect-notice scams.",
     "assets": [
-      { "id": "ba-amberfield-domain", "type": "domain", "value": "amberfieldenergy.example", "aliases": ["amberfield"], "concerns": [ { "type": "phishing", "note": "fake bill-pay portals" }, { "type": "scam" } ] },
-      { "id": "ba-amberfield-brand", "type": "brand", "value": "Amberfield Energy", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-amberfield-phone", "type": "phone", "value": "+1 555 0177", "aliases": ["billing support"], "concerns": [ { "type": "scam", "note": "fake disconnect-notice calls" } ] }
+      {
+        "id": "ba-amberfield-domain",
+        "type": "domain",
+        "value": "amberfieldenergy.example",
+        "aliases": [
+          "amberfield"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "fake bill-pay portals"
+          },
+          {
+            "type": "scam"
+          }
+        ]
+      },
+      {
+        "id": "ba-amberfield-brand",
+        "type": "brand",
+        "value": "Amberfield Energy",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-amberfield-phone",
+        "type": "phone",
+        "value": "+1 555 0177",
+        "aliases": [
+          "billing support"
+        ],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake disconnect-notice calls"
+          }
+        ]
+      }
     ]
   },
   {
@@ -107,14 +542,72 @@
     "name": "Snapbite Delivery",
     "type": "company",
     "industry": "Food delivery",
-    "description": "Fictional on-demand food delivery platform connecting restaurants and couriers.",
+    "description": "Snapbite Delivery is a fast-growing scale-up in food delivery, founded in 2018 and headquartered in Bengaluru, India. It employs roughly 600 people, reports about $68M in annual revenue, and is backed by top-tier venture investors. It is best known for its rapid grocery and meal delivery, serving an estimated 1.2 million customers. It operates online at snapbite.example, under the brand Snapbite, on social as @snapbite, led by CEO Miles Okoye. Monitored assets include domain, brand, app, social handle, executive; tracked digital-risk threats include phishing, data leak, impersonation, scam, online threat.",
     "protect_summary": "Protect the ordering domain, brand, rider app, and CEO from fake job scams and data leaks.",
     "assets": [
-      { "id": "ba-snapbite-domain", "type": "domain", "value": "snapbite.example", "aliases": ["snap bite"], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] },
-      { "id": "ba-snapbite-brand", "type": "brand", "value": "Snapbite", "aliases": ["snapbite delivery"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-snapbite-app", "type": "app", "value": "Snapbite Rider", "aliases": [], "concerns": [ { "type": "scam", "note": "fake courier recruitment" } ] },
-      { "id": "ba-snapbite-ig", "type": "social_handle", "value": "@snapbite", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-snapbite-ceo", "type": "executive", "value": "Miles Okoye", "aliases": [], "concerns": [ { "type": "online_threat" } ] }
+      {
+        "id": "ba-snapbite-domain",
+        "type": "domain",
+        "value": "snapbite.example",
+        "aliases": [
+          "snap bite"
+        ],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "ba-snapbite-brand",
+        "type": "brand",
+        "value": "Snapbite",
+        "aliases": [
+          "snapbite delivery"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-snapbite-app",
+        "type": "app",
+        "value": "Snapbite Rider",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake courier recruitment"
+          }
+        ]
+      },
+      {
+        "id": "ba-snapbite-ig",
+        "type": "social_handle",
+        "value": "@snapbite",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-snapbite-ceo",
+        "type": "executive",
+        "value": "Miles Okoye",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "online_threat"
+          }
+        ]
+      }
     ]
   },
   {
@@ -122,13 +615,68 @@
     "name": "Reelwave Streaming",
     "type": "company",
     "industry": "Streaming media",
-    "description": "Fictional subscription video streaming service.",
+    "description": "Reelwave Streaming is an early-stage startup in streaming media, founded in 2018 and headquartered in S\u00e3o Paulo, Brazil. It employs roughly 80 people, reports about $130M in annual revenue, and is privately held by its founders. It is best known for its original streaming series, serving an estimated 6.2 million customers. It operates online at reelwave.example, under the brand Reelwave. Monitored assets include domain, brand, app, credit card; tracked digital-risk threats include phishing, scam, impersonation, data leak, financial fraud.",
     "protect_summary": "Protect the streaming domain, brand app, and billing details from fake free-trial scams.",
     "assets": [
-      { "id": "ba-reelwave-domain", "type": "domain", "value": "reelwave.example", "aliases": ["reel wave"], "concerns": [ { "type": "phishing" }, { "type": "scam", "note": "fake free-subscription offers" } ] },
-      { "id": "ba-reelwave-brand", "type": "brand", "value": "Reelwave", "aliases": ["reelwave streaming"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-reelwave-app", "type": "app", "value": "Reelwave", "aliases": [], "concerns": [ { "type": "impersonation", "note": "cloned streaming apps" } ] },
-      { "id": "ba-reelwave-card", "type": "credit_card", "value": "5555 5555 5555 4444", "aliases": ["billing test card"], "concerns": [ { "type": "data_leak", "note": "synthetic test card" }, { "type": "financial_fraud" } ] }
+      {
+        "id": "ba-reelwave-domain",
+        "type": "domain",
+        "value": "reelwave.example",
+        "aliases": [
+          "reel wave"
+        ],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "scam",
+            "note": "fake free-subscription offers"
+          }
+        ]
+      },
+      {
+        "id": "ba-reelwave-brand",
+        "type": "brand",
+        "value": "Reelwave",
+        "aliases": [
+          "reelwave streaming"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-reelwave-app",
+        "type": "app",
+        "value": "Reelwave",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "impersonation",
+            "note": "cloned streaming apps"
+          }
+        ]
+      },
+      {
+        "id": "ba-reelwave-card",
+        "type": "credit_card",
+        "value": "5555 5555 5555 4444",
+        "aliases": [
+          "billing test card"
+        ],
+        "concerns": [
+          {
+            "type": "data_leak",
+            "note": "synthetic test card"
+          },
+          {
+            "type": "financial_fraud"
+          }
+        ]
+      }
     ]
   },
   {
@@ -136,14 +684,78 @@
     "name": "Cargolane Logistics",
     "type": "company",
     "industry": "Logistics / shipping",
-    "description": "Fictional freight and parcel logistics company.",
+    "description": "Cargolane Logistics is a mid-size firm in logistics / shipping, founded in 2008 and headquartered in London, UK. It employs roughly 2,400 people, reports about $1.6B in annual revenue, and is backed by top-tier venture investors. It is best known for its same-day delivery network, serving an estimated 12 million customers. It operates online at cargolane.example, under the brand Cargolane Logistics, on social as @cargolane, led by CEO Grant Pellegrino. Monitored assets include domain, brand, social handle, executive, address; tracked digital-risk threats include phishing, scam, impersonation, mention.",
     "protect_summary": "Protect the tracking domain, brand, support handle, and regional hub from fake delivery-fee scams.",
     "assets": [
-      { "id": "ba-cargolane-domain", "type": "domain", "value": "cargolane.example", "aliases": ["cargo lane"], "concerns": [ { "type": "phishing", "note": "fake tracking pages" }, { "type": "scam" } ] },
-      { "id": "ba-cargolane-brand", "type": "brand", "value": "Cargolane Logistics", "aliases": ["cargolane"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-cargolane-x", "type": "social_handle", "value": "@cargolane", "aliases": [], "concerns": [ { "type": "scam", "note": "fake delivery-fee texts" } ] },
-      { "id": "ba-cargolane-coo", "type": "executive", "value": "Grant Pellegrino", "aliases": ["G. Pellegrino"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-cargolane-hub", "type": "address", "value": "780 Portside Drive, Harborview, NJ", "aliases": ["Harborview hub"], "concerns": [ { "type": "mention", "note": "referenced in fraudulent shipment scam messages" } ] }
+      {
+        "id": "ba-cargolane-domain",
+        "type": "domain",
+        "value": "cargolane.example",
+        "aliases": [
+          "cargo lane"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "fake tracking pages"
+          },
+          {
+            "type": "scam"
+          }
+        ]
+      },
+      {
+        "id": "ba-cargolane-brand",
+        "type": "brand",
+        "value": "Cargolane Logistics",
+        "aliases": [
+          "cargolane"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-cargolane-x",
+        "type": "social_handle",
+        "value": "@cargolane",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake delivery-fee texts"
+          }
+        ]
+      },
+      {
+        "id": "ba-cargolane-coo",
+        "type": "executive",
+        "value": "Grant Pellegrino",
+        "aliases": [
+          "G. Pellegrino"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-cargolane-hub",
+        "type": "address",
+        "value": "780 Portside Drive, Harborview, NJ",
+        "aliases": [
+          "Harborview hub"
+        ],
+        "concerns": [
+          {
+            "type": "mention",
+            "note": "referenced in fraudulent shipment scam messages"
+          }
+        ]
+      }
     ]
   },
   {
@@ -151,13 +763,68 @@
     "name": "Torque Motors",
     "type": "company",
     "industry": "Automotive",
-    "description": "Fictional automaker producing electric and hybrid passenger vehicles.",
+    "description": "Torque Motors is a mid-size firm in automotive, founded in 2013 and headquartered in S\u00e3o Paulo, Brazil. It employs roughly 1,200 people, reports about $540M in annual revenue, and is part of a larger holding group. It is best known for its electric drivetrains and connected-car software, serving an estimated 6.2 million customers. It operates online at torquemotors.example, under the brand Torque Motors, led by CEO Bianca Hollis. Monitored assets include domain, brand, executive, app; tracked digital-risk threats include phishing, data leak, impersonation, physical attack.",
     "protect_summary": "Protect the corporate domain, brand, owner app, and CEO from fake recall notices and impersonation.",
     "assets": [
-      { "id": "ba-torque-domain", "type": "domain", "value": "torquemotors.example", "aliases": ["torque motors"], "concerns": [ { "type": "phishing", "note": "fake recall notices" }, { "type": "data_leak" } ] },
-      { "id": "ba-torque-brand", "type": "brand", "value": "Torque Motors", "aliases": ["torque"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-torque-ceo", "type": "executive", "value": "Bianca Hollis", "aliases": ["B. Hollis"], "concerns": [ { "type": "impersonation" }, { "type": "physical_attack", "note": "protest-related threats" } ] },
-      { "id": "ba-torque-app", "type": "app", "value": "Torque Connect", "aliases": [], "concerns": [ { "type": "phishing", "note": "cloned vehicle-connect app" } ] }
+      {
+        "id": "ba-torque-domain",
+        "type": "domain",
+        "value": "torquemotors.example",
+        "aliases": [
+          "torque motors"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "fake recall notices"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "ba-torque-brand",
+        "type": "brand",
+        "value": "Torque Motors",
+        "aliases": [
+          "torque"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-torque-ceo",
+        "type": "executive",
+        "value": "Bianca Hollis",
+        "aliases": [
+          "B. Hollis"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "physical_attack",
+            "note": "protest-related threats"
+          }
+        ]
+      },
+      {
+        "id": "ba-torque-app",
+        "type": "app",
+        "value": "Torque Connect",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "cloned vehicle-connect app"
+          }
+        ]
+      }
     ]
   },
   {
@@ -165,14 +832,78 @@
     "name": "Brightacre Realty",
     "type": "company",
     "industry": "Real estate",
-    "description": "Fictional residential and commercial real estate brokerage.",
+    "description": "Brightacre Realty is a fast-growing scale-up in real estate, founded in 2010 and headquartered in Stockholm, Sweden. It employs roughly 600 people, reports about $12M in annual revenue, and is part of a larger holding group. It is best known for its digital home-buying platform, serving an estimated 0.4 million customers. It operates online at brightacrerealty.example, under the brand Brightacre Realty, on social as @brightacrerealty, led by CEO Owen Castellan. Monitored assets include domain, brand, social handle, executive, phone; tracked digital-risk threats include phishing, scam, impersonation.",
     "protect_summary": "Protect the listings domain, brand, and leasing line from fake rental listing scams.",
     "assets": [
-      { "id": "ba-brightacre-domain", "type": "domain", "value": "brightacrerealty.example", "aliases": ["brightacre"], "concerns": [ { "type": "phishing" }, { "type": "scam", "note": "fake rental listings" } ] },
-      { "id": "ba-brightacre-brand", "type": "brand", "value": "Brightacre Realty", "aliases": ["brightacre"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-brightacre-ig", "type": "social_handle", "value": "@brightacrerealty", "aliases": [], "concerns": [ { "type": "scam", "note": "fake deposit-collection listings" } ] },
-      { "id": "ba-brightacre-ceo", "type": "executive", "value": "Owen Castellan", "aliases": ["O. Castellan"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-brightacre-phone", "type": "phone", "value": "+1 555 0192", "aliases": ["leasing office"], "concerns": [ { "type": "scam", "note": "spoofed leasing calls" } ] }
+      {
+        "id": "ba-brightacre-domain",
+        "type": "domain",
+        "value": "brightacrerealty.example",
+        "aliases": [
+          "brightacre"
+        ],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "scam",
+            "note": "fake rental listings"
+          }
+        ]
+      },
+      {
+        "id": "ba-brightacre-brand",
+        "type": "brand",
+        "value": "Brightacre Realty",
+        "aliases": [
+          "brightacre"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-brightacre-ig",
+        "type": "social_handle",
+        "value": "@brightacrerealty",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake deposit-collection listings"
+          }
+        ]
+      },
+      {
+        "id": "ba-brightacre-ceo",
+        "type": "executive",
+        "value": "Owen Castellan",
+        "aliases": [
+          "O. Castellan"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-brightacre-phone",
+        "type": "phone",
+        "value": "+1 555 0192",
+        "aliases": [
+          "leasing office"
+        ],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "spoofed leasing calls"
+          }
+        ]
+      }
     ]
   },
   {
@@ -180,13 +911,63 @@
     "name": "Learnforge Academy",
     "type": "company",
     "industry": "Edtech",
-    "description": "Fictional online learning platform offering professional certification courses.",
+    "description": "Learnforge Academy is a fast-growing scale-up in edtech, founded in 2015 and headquartered in Dublin, Ireland. It employs roughly 600 people, reports about $890M in annual revenue, and is listed on the NASDAQ. It is best known for its online certification courses, serving an estimated 3.5 million customers. It operates online at learnforge.example, under the brand Learnforge Academy, led by CEO Naomi Berg. Monitored assets include domain, brand, executive, email; tracked digital-risk threats include phishing, data leak, impersonation, doxxing.",
     "protect_summary": "Protect the enrollment domain, brand, admissions inbox, and CEO from fake certificate scams.",
     "assets": [
-      { "id": "ba-learnforge-domain", "type": "domain", "value": "learnforge.example", "aliases": ["learn forge"], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] },
-      { "id": "ba-learnforge-brand", "type": "brand", "value": "Learnforge Academy", "aliases": ["learnforge"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-learnforge-ceo", "type": "executive", "value": "Naomi Berg", "aliases": ["N. Berg"], "concerns": [ { "type": "doxxing" } ] },
-      { "id": "ba-learnforge-email", "type": "email", "value": "admissions@learnforge.example", "aliases": [], "concerns": [ { "type": "phishing", "note": "fake certificate-sale emails" } ] }
+      {
+        "id": "ba-learnforge-domain",
+        "type": "domain",
+        "value": "learnforge.example",
+        "aliases": [
+          "learn forge"
+        ],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      },
+      {
+        "id": "ba-learnforge-brand",
+        "type": "brand",
+        "value": "Learnforge Academy",
+        "aliases": [
+          "learnforge"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-learnforge-ceo",
+        "type": "executive",
+        "value": "Naomi Berg",
+        "aliases": [
+          "N. Berg"
+        ],
+        "concerns": [
+          {
+            "type": "doxxing"
+          }
+        ]
+      },
+      {
+        "id": "ba-learnforge-email",
+        "type": "email",
+        "value": "admissions@learnforge.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "fake certificate-sale emails"
+          }
+        ]
+      }
     ]
   },
   {
@@ -194,15 +975,96 @@
     "name": "Sentrywall Security",
     "type": "company",
     "industry": "Cybersecurity vendor",
-    "description": "Fictional cybersecurity vendor providing endpoint protection and threat monitoring.",
+    "description": "Sentrywall Security is an early-stage startup in cybersecurity vendor, founded in 2007 and headquartered in Tokyo, Japan. It employs roughly 140 people, reports about $68M in annual revenue, and is listed on the NASDAQ. It is best known for its threat-detection platform, serving an estimated 28 million customers. It operates online at sentrywall.example, under the brand Sentrywall Security, on social as @sentrywallsec, led by CEO Victor Amadi. Monitored assets include domain, brand, social handle, executive, bank account, phone; tracked digital-risk threats include phishing, impersonation, scam, online threat, financial fraud, data leak.",
     "protect_summary": "Protect the corporate domain, brand, support handle, CEO, and billing details from impersonation and fraud.",
     "assets": [
-      { "id": "ba-sentrywall-domain", "type": "domain", "value": "sentrywall.example", "aliases": ["sentry wall"], "concerns": [ { "type": "phishing", "note": "fake security-alert pages" }, { "type": "impersonation" } ] },
-      { "id": "ba-sentrywall-brand", "type": "brand", "value": "Sentrywall Security", "aliases": ["sentrywall"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-sentrywall-x", "type": "social_handle", "value": "@sentrywallsec", "aliases": [], "concerns": [ { "type": "scam", "note": "fake security-alert phishing using the brand" } ] },
-      { "id": "ba-sentrywall-ceo", "type": "executive", "value": "Victor Amadi", "aliases": ["V. Amadi"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
-      { "id": "ba-sentrywall-acct", "type": "bank_account", "value": "ACCT 000778899001", "aliases": [], "concerns": [ { "type": "financial_fraud" }, { "type": "data_leak", "note": "synthetic corporate account" } ] },
-      { "id": "ba-sentrywall-phone", "type": "phone", "value": "+1 555 0145", "aliases": ["incident hotline"], "concerns": [ { "type": "scam", "note": "spoofed incident-response calls" } ] }
+      {
+        "id": "ba-sentrywall-domain",
+        "type": "domain",
+        "value": "sentrywall.example",
+        "aliases": [
+          "sentry wall"
+        ],
+        "concerns": [
+          {
+            "type": "phishing",
+            "note": "fake security-alert pages"
+          },
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-sentrywall-brand",
+        "type": "brand",
+        "value": "Sentrywall Security",
+        "aliases": [
+          "sentrywall"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-sentrywall-x",
+        "type": "social_handle",
+        "value": "@sentrywallsec",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake security-alert phishing using the brand"
+          }
+        ]
+      },
+      {
+        "id": "ba-sentrywall-ceo",
+        "type": "executive",
+        "value": "Victor Amadi",
+        "aliases": [
+          "V. Amadi"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          },
+          {
+            "type": "online_threat"
+          }
+        ]
+      },
+      {
+        "id": "ba-sentrywall-acct",
+        "type": "bank_account",
+        "value": "ACCT 000778899001",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "financial_fraud"
+          },
+          {
+            "type": "data_leak",
+            "note": "synthetic corporate account"
+          }
+        ]
+      },
+      {
+        "id": "ba-sentrywall-phone",
+        "type": "phone",
+        "value": "+1 555 0145",
+        "aliases": [
+          "incident hotline"
+        ],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "spoofed incident-response calls"
+          }
+        ]
+      }
     ]
   },
   {
@@ -210,14 +1072,78 @@
     "name": "Wellspring Pharmacy",
     "type": "company",
     "industry": "Online pharmacy",
-    "description": "Fictional online pharmacy offering prescription delivery and refill management.",
+    "description": "Wellspring Pharmacy is an early-stage startup in online pharmacy, founded in 2007 and headquartered in Sydney, Australia. It employs roughly 80 people, reports about $1.6B in annual revenue, and is recently valued at over $1B in its latest round. It is best known for its mail-order prescriptions and same-day pickup, serving an estimated 3.5 million customers. It operates online at wellspringrx.example, under the brand Wellspring Pharmacy, on social as @wellspringrx, led by CEO Renata Solis. Monitored assets include domain, brand, social handle, executive, email; tracked digital-risk threats include phishing, scam, impersonation, data leak.",
     "protect_summary": "Protect the pharmacy domain, brand, support handle, and chief pharmacist from counterfeit-medication scams.",
     "assets": [
-      { "id": "ba-wellspring-domain", "type": "domain", "value": "wellspringrx.example", "aliases": ["wellspring pharmacy"], "concerns": [ { "type": "phishing" }, { "type": "scam", "note": "counterfeit discount pharmacy sites" } ] },
-      { "id": "ba-wellspring-brand", "type": "brand", "value": "Wellspring Pharmacy", "aliases": ["wellspring"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-wellspring-x", "type": "social_handle", "value": "@wellspringrx", "aliases": [], "concerns": [ { "type": "scam", "note": "fake discount-medication ads" } ] },
-      { "id": "ba-wellspring-pharmacist", "type": "executive", "value": "Renata Solis", "aliases": ["R. Solis"], "concerns": [ { "type": "impersonation" } ] },
-      { "id": "ba-wellspring-email", "type": "email", "value": "support@wellspringrx.example", "aliases": [], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] }
+      {
+        "id": "ba-wellspring-domain",
+        "type": "domain",
+        "value": "wellspringrx.example",
+        "aliases": [
+          "wellspring pharmacy"
+        ],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "scam",
+            "note": "counterfeit discount pharmacy sites"
+          }
+        ]
+      },
+      {
+        "id": "ba-wellspring-brand",
+        "type": "brand",
+        "value": "Wellspring Pharmacy",
+        "aliases": [
+          "wellspring"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-wellspring-x",
+        "type": "social_handle",
+        "value": "@wellspringrx",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "scam",
+            "note": "fake discount-medication ads"
+          }
+        ]
+      },
+      {
+        "id": "ba-wellspring-pharmacist",
+        "type": "executive",
+        "value": "Renata Solis",
+        "aliases": [
+          "R. Solis"
+        ],
+        "concerns": [
+          {
+            "type": "impersonation"
+          }
+        ]
+      },
+      {
+        "id": "ba-wellspring-email",
+        "type": "email",
+        "value": "support@wellspringrx.example",
+        "aliases": [],
+        "concerns": [
+          {
+            "type": "phishing"
+          },
+          {
+            "type": "data_leak"
+          }
+        ]
+      }
     ]
   }
 ]
