@@ -1,0 +1,212 @@
+[
+  {
+    "id": "cust-bb-dax-holloway",
+    "name": "Dax Holloway",
+    "type": "person",
+    "industry": "Music",
+    "description": "A chart-topping singer-songwriter known for indie-pop crossover hits.",
+    "protect_summary": "Wants to stop fake ticket scams and impersonation accounts trading on his name.",
+    "assets": [
+      { "id": "bb-dax-email", "type": "email", "value": "dax.holloway@daxholloway.example", "aliases": [], "concerns": [ { "type": "phishing", "note": "Targeted by fake label offers" }, { "type": "data_leak" } ] },
+      { "id": "bb-dax-instagram", "type": "social_handle", "value": "@daxholloway", "aliases": ["@dax.holloway.music"], "concerns": [ { "type": "impersonation", "note": "Multiple clone accounts" }, { "type": "doxxing" } ] },
+      { "id": "bb-dax-website", "type": "website", "value": "daxholloway.example", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "bb-dax-phone", "type": "phone", "value": "+1 555 0142", "aliases": [], "concerns": [ { "type": "doxxing" }, { "type": "scam", "note": "Number spoofed in ticket scam texts" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-seraphina-cole",
+    "name": "Seraphina Cole",
+    "type": "person",
+    "industry": "Film & Television",
+    "description": "An award-winning film actress recognized for leading roles in prestige dramas.",
+    "protect_summary": "Wants to protect her personal safety and prevent fabricated statements attributed to her.",
+    "assets": [
+      { "id": "bb-sera-social", "type": "social_handle", "value": "@seraphinacole", "aliases": ["@thesercole"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
+      { "id": "bb-sera-email", "type": "email", "value": "contact@seraphinacole.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
+      { "id": "bb-sera-website", "type": "website", "value": "seraphinacole.example", "aliases": [], "concerns": [ { "type": "data_leak" } ] },
+      { "id": "bb-sera-address", "type": "address", "value": "442 Larchwood Ave, Fictionville, CA (fan-club mailing address)", "aliases": [], "concerns": [ { "type": "physical_attack", "note": "Repeated stalker attempts" }, { "type": "doxxing" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-dominic-reyes",
+    "name": "Dominic Reyes",
+    "type": "person",
+    "industry": "Professional Sports",
+    "description": "A professional forward for a national basketball league team.",
+    "protect_summary": "Wants to stop counterfeit merchandise scams and financial fraud using his brand.",
+    "assets": [
+      { "id": "bb-dom-social", "type": "social_handle", "value": "@dreyes23", "aliases": ["@dominicreyesofficial"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
+      { "id": "bb-dom-email", "type": "email", "value": "dominic@reyesofficial.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
+      { "id": "bb-dom-cc", "type": "credit_card", "value": "4242 4242 4242 4242", "aliases": [], "concerns": [ { "type": "financial_fraud", "note": "Test card flagged in fraud monitoring demo" } ] },
+      { "id": "bb-dom-brand", "type": "brand", "value": "Reyes23 Athletics", "aliases": ["Reyes23"], "concerns": [ { "type": "impersonation", "note": "Fake merch storefronts" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-eleanor-whitfield",
+    "name": "Eleanor Whitfield",
+    "type": "person",
+    "industry": "Politics (fictional public office)",
+    "description": "A fictional state senator running a re-election campaign.",
+    "protect_summary": "Wants to prevent disinformation and fraudulent donation pages misusing her name.",
+    "assets": [
+      { "id": "bb-elea-social", "type": "social_handle", "value": "@SenWhitfield", "aliases": [], "concerns": [ { "type": "impersonation" }, { "type": "mention", "note": "Frequently misquoted" } ] },
+      { "id": "bb-elea-website", "type": "website", "value": "whitfieldforsenate.example", "aliases": [], "concerns": [ { "type": "data_leak" }, { "type": "scam", "note": "Cloned donation site" } ] },
+      { "id": "bb-elea-email", "type": "email", "value": "press@whitfieldforsenate.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
+      { "id": "bb-elea-office", "type": "address", "value": "1200 Capitol Way, Suite 400, Fictionville", "aliases": [], "concerns": [ { "type": "physical_attack" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-tobias-kessler",
+    "name": "Tobias Kessler",
+    "type": "person",
+    "industry": "Technology Startups",
+    "description": "Founder and CEO of a logistics-optimization software startup.",
+    "protect_summary": "Wants to prevent executive impersonation used to defraud investors and partners.",
+    "assets": [
+      { "id": "bb-tobi-email", "type": "email", "value": "tobias@nimbusloop.example", "aliases": [], "concerns": [ { "type": "phishing" }, { "type": "impersonation" } ] },
+      { "id": "bb-tobi-social", "type": "social_handle", "value": "@tobiaskessler", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "bb-tobi-domain", "type": "domain", "value": "nimbusloop.example", "aliases": [], "concerns": [ { "type": "data_leak" } ] },
+      { "id": "bb-tobi-exec", "type": "executive", "value": "Tobias Kessler, CEO of Nimbusloop", "aliases": [], "concerns": [ { "type": "impersonation", "note": "Fake wire-transfer requests" }, { "type": "doxxing" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-mika-sunwoo",
+    "name": "Mika Sunwoo",
+    "type": "person",
+    "industry": "Beauty & Lifestyle Influencer",
+    "description": "A beauty influencer with a large following across short-form video platforms.",
+    "protect_summary": "Wants to shut down fake giveaway scams and counterfeit product listings using her image.",
+    "assets": [
+      { "id": "bb-mika-social", "type": "social_handle", "value": "@mikasunwoo", "aliases": ["@mika.sunwoo.beauty"], "concerns": [ { "type": "impersonation" }, { "type": "scam", "note": "Fake giveaway DMs" } ] },
+      { "id": "bb-mika-app", "type": "app", "value": "Mika Sunwoo Beauty companion app", "aliases": [], "concerns": [ { "type": "scam" }, { "type": "phishing" } ] },
+      { "id": "bb-mika-email", "type": "email", "value": "hello@mikasunwoo.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
+      { "id": "bb-mika-website", "type": "website", "value": "mikasunwoo.example", "aliases": [], "concerns": [ { "type": "data_leak" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-renata-vosk",
+    "name": "Renata Vosk",
+    "type": "person",
+    "industry": "Investigative Journalism",
+    "description": "An investigative reporter covering corporate corruption for a major news outlet.",
+    "protect_summary": "Wants protection from doxxing and physical threats tied to ongoing investigations.",
+    "assets": [
+      { "id": "bb-ren-email", "type": "email", "value": "renata.vosk@ledgerinvestigates.example", "aliases": [], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] },
+      { "id": "bb-ren-social", "type": "social_handle", "value": "@renatavosk", "aliases": [], "concerns": [ { "type": "doxxing", "note": "Home address posted by hostile forum" }, { "type": "online_threat" } ] },
+      { "id": "bb-ren-phone", "type": "phone", "value": "+1 555 0187", "aliases": [], "concerns": [ { "type": "physical_attack" }, { "type": "doxxing" } ] },
+      { "id": "bb-ren-website", "type": "website", "value": "renatavosk.example", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-glitchnova",
+    "name": "Casey \"GlitchNova\" Doyle",
+    "type": "person",
+    "industry": "Livestreaming & Gaming",
+    "description": "A full-time variety streamer known for competitive gaming content.",
+    "protect_summary": "Wants to stop fraudulent donation bots and channel-impersonation scams targeting fans.",
+    "assets": [
+      { "id": "bb-glitch-social", "type": "social_handle", "value": "@GlitchNova", "aliases": ["@GlitchNovaLive"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
+      { "id": "bb-glitch-app", "type": "app", "value": "GlitchNova channel on StreamPulse.example", "aliases": [], "concerns": [ { "type": "scam", "note": "Fake donation bots" } ] },
+      { "id": "bb-glitch-email", "type": "email", "value": "business@glitchnova.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
+      { "id": "bb-glitch-bank", "type": "bank_account", "value": "ACCT 000987654321", "aliases": [], "concerns": [ { "type": "financial_fraud", "note": "Fraudulent payout redirect attempt" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-brightpath-relief",
+    "name": "Brightpath Relief Alliance",
+    "type": "company",
+    "industry": "NGO / Humanitarian Charity",
+    "description": "A nonprofit alliance coordinating disaster relief and refugee support programs.",
+    "protect_summary": "Wants to stop fraudulent donation clones that divert funds from disaster relief efforts.",
+    "assets": [
+      { "id": "bb-bright-domain", "type": "domain", "value": "brightpathrelief.example", "aliases": [], "concerns": [ { "type": "scam" }, { "type": "phishing" } ] },
+      { "id": "bb-bright-donate", "type": "website", "value": "donate.brightpathrelief.example", "aliases": [], "concerns": [ { "type": "financial_fraud", "note": "Cloned donation checkout pages" }, { "type": "scam" } ] },
+      { "id": "bb-bright-social", "type": "social_handle", "value": "@BrightpathRelief", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "bb-bright-exec", "type": "executive", "value": "Helena Marsh, Executive Director", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-ashcombe-university",
+    "name": "Ashcombe University",
+    "type": "company",
+    "industry": "Higher Education",
+    "description": "A mid-sized public research university with a global student body.",
+    "protect_summary": "Wants to prevent phishing campaigns targeting students and staff credentials.",
+    "assets": [
+      { "id": "bb-ash-domain", "type": "domain", "value": "ashcombe.example", "aliases": [], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] },
+      { "id": "bb-ash-email", "type": "email", "value": "registrar@ashcombe.example", "aliases": [], "concerns": [ { "type": "phishing", "note": "Fake tuition refund emails" } ] },
+      { "id": "bb-ash-social", "type": "social_handle", "value": "@AshcombeUniv", "aliases": [], "concerns": [ { "type": "impersonation" }, { "type": "mention" } ] },
+      { "id": "bb-ash-brand", "type": "brand", "value": "Ashcombe University", "aliases": ["Ashcombe U"], "concerns": [ { "type": "impersonation" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-meridian-health",
+    "name": "Meridian Health Network",
+    "type": "company",
+    "industry": "Hospital & Healthcare Network",
+    "description": "A regional network of hospitals and outpatient clinics.",
+    "protect_summary": "Wants to protect patient data and prevent fraudulent billing schemes impersonating its brand.",
+    "assets": [
+      { "id": "bb-mer-domain", "type": "domain", "value": "meridianhealthnetwork.example", "aliases": [], "concerns": [ { "type": "data_leak" }, { "type": "phishing" } ] },
+      { "id": "bb-mer-patient-portal", "type": "website", "value": "portal.meridianhealthnetwork.example", "aliases": [], "concerns": [ { "type": "data_leak", "note": "Patient record exposure risk" }, { "type": "financial_fraud" } ] },
+      { "id": "bb-mer-phone", "type": "phone", "value": "+1 555 0199", "aliases": [], "concerns": [ { "type": "scam", "note": "Spoofed billing calls" } ] },
+      { "id": "bb-mer-exec", "type": "executive", "value": "Dr. Priyanka Nair, Chief Medical Officer", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-kestrel-thorne",
+    "name": "Kestrel & Thorne LLP",
+    "type": "company",
+    "industry": "Law Firm",
+    "description": "A corporate law firm specializing in mergers, acquisitions, and litigation.",
+    "protect_summary": "Wants to prevent phishing emails that impersonate partners to extract client wire transfers.",
+    "assets": [
+      { "id": "bb-kt-domain", "type": "domain", "value": "kestrelthorne.example", "aliases": [], "concerns": [ { "type": "phishing" }, { "type": "impersonation" } ] },
+      { "id": "bb-kt-email", "type": "email", "value": "intake@kestrelthorne.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
+      { "id": "bb-kt-social", "type": "social_handle", "value": "@KestrelThorneLaw", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "bb-kt-brand", "type": "brand", "value": "Kestrel & Thorne LLP", "aliases": ["K&T LLP"], "concerns": [ { "type": "mention" }, { "type": "data_leak" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-noir-vellum",
+    "name": "Noir Vellum",
+    "type": "company",
+    "industry": "Fashion Label",
+    "description": "A high-end fashion label known for minimalist ready-to-wear collections.",
+    "protect_summary": "Wants to shut down counterfeit storefronts selling fake products under its name.",
+    "assets": [
+      { "id": "bb-nv-domain", "type": "domain", "value": "noirvellum.example", "aliases": [], "concerns": [ { "type": "scam" }, { "type": "phishing" } ] },
+      { "id": "bb-nv-social", "type": "social_handle", "value": "@noirvellum", "aliases": [], "concerns": [ { "type": "impersonation" }, { "type": "scam" } ] },
+      { "id": "bb-nv-store", "type": "website", "value": "shop.noirvellum.example", "aliases": [], "concerns": [ { "type": "financial_fraud", "note": "Counterfeit checkout clones" }, { "type": "scam" } ] },
+      { "id": "bb-nv-brand", "type": "brand", "value": "Noir Vellum", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-obsidian-wolves",
+    "name": "Obsidian Wolves",
+    "type": "company",
+    "industry": "Esports Organization",
+    "description": "A professional esports team competing across multiple international titles.",
+    "protect_summary": "Wants to stop counterfeit merch scams and impersonation of players and staff.",
+    "assets": [
+      { "id": "bb-ow-social", "type": "social_handle", "value": "@ObsidianWolves", "aliases": ["@OWolvesGG"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
+      { "id": "bb-ow-domain", "type": "domain", "value": "obsidianwolves.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
+      { "id": "bb-ow-store", "type": "website", "value": "merch.obsidianwolves.example", "aliases": [], "concerns": [ { "type": "scam", "note": "Fake jersey drop sites" }, { "type": "financial_fraud" } ] },
+      { "id": "bb-ow-exec", "type": "executive", "value": "Jonas Falk, Team Manager", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+    ]
+  },
+  {
+    "id": "cust-bb-daylight-ledger",
+    "name": "The Daylight Ledger",
+    "type": "company",
+    "industry": "News Outlet",
+    "description": "An independent digital newspaper covering national politics and business.",
+    "protect_summary": "Wants to prevent fabricated articles falsely attributed to its masthead from spreading.",
+    "assets": [
+      { "id": "bb-dl-domain", "type": "domain", "value": "daylightledger.example", "aliases": [], "concerns": [ { "type": "impersonation", "note": "Cloned lookalike news domains" }, { "type": "data_leak" } ] },
+      { "id": "bb-dl-social", "type": "social_handle", "value": "@DaylightLedger", "aliases": [], "concerns": [ { "type": "impersonation" }, { "type": "mention" } ] },
+      { "id": "bb-dl-email", "type": "email", "value": "tips@daylightledger.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
+      { "id": "bb-dl-app", "type": "app", "value": "The Daylight Ledger news app", "aliases": [], "concerns": [ { "type": "scam", "note": "Fake app clones in third-party stores" } ] }
+    ]
+  }
+]

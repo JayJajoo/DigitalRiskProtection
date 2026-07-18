@@ -1,0 +1,119 @@
+[
+  {
+    "id": "cust-aria-vance",
+    "name": "Aria Vance",
+    "type": "person",
+    "industry": "Lifestyle influencer",
+    "description": "Fictional lifestyle and travel content creator.",
+    "protect_summary": "Protect social handles, personal website, and email from impersonation and giveaway scams.",
+    "assets": [
+      { "id": "aria-ig", "type": "social_handle", "value": "@ariavance", "aliases": ["ariavance"], "concerns": [ { "type": "impersonation" }, { "type": "scam", "note": "fake giveaway accounts" } ] },
+      { "id": "aria-web", "type": "website", "value": "ariavance.example", "aliases": ["aria vance"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "aria-email", "type": "email", "value": "hello@ariavance.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
+      { "id": "aria-card", "type": "credit_card", "value": "4000 0000 0000 0002", "aliases": ["card ending 0002"], "concerns": [ { "type": "data_leak", "note": "synthetic test card" }, { "type": "financial_fraud" } ] }
+    ]
+  },
+  {
+    "id": "cust-novabank",
+    "name": "Novabank",
+    "type": "company",
+    "industry": "Fintech / banking",
+    "description": "Fictional digital bank.",
+    "protect_summary": "Protect the banking domain, brand, support handle, and CEO from phishing and impersonation.",
+    "assets": [
+      { "id": "nova-domain", "type": "domain", "value": "novabank.example", "aliases": ["novabank"], "concerns": [ { "type": "phishing", "note": "spoofed login pages" }, { "type": "data_leak" } ] },
+      { "id": "nova-brand", "type": "brand", "value": "Novabank", "aliases": ["nova bank"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "nova-support", "type": "social_handle", "value": "@novabank_support", "aliases": ["novabank support"], "concerns": [ { "type": "scam", "note": "fake support accounts" } ] },
+      { "id": "nova-ceo", "type": "executive", "value": "Elena Ruiz", "aliases": ["Dr. Elena Ruiz", "E. Ruiz"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
+      { "id": "nova-acct", "type": "bank_account", "value": "ACCT 000987654321", "aliases": ["account ending 4321"], "concerns": [ { "type": "data_leak", "note": "synthetic corporate account" }, { "type": "financial_fraud" } ] }
+    ]
+  },
+  {
+    "id": "cust-lumen-skincare",
+    "name": "Lumen Skincare",
+    "type": "company",
+    "industry": "Consumer beauty brand",
+    "description": "Fictional skincare brand.",
+    "protect_summary": "Protect the brand and store domain from counterfeit shops and impersonation.",
+    "assets": [
+      { "id": "lumen-domain", "type": "domain", "value": "lumenskincare.example", "aliases": ["lumen skincare"], "concerns": [ { "type": "impersonation", "note": "counterfeit storefronts" } ] },
+      { "id": "lumen-brand", "type": "brand", "value": "Lumen Skincare", "aliases": ["lumen"], "concerns": [ { "type": "scam" } ] },
+      { "id": "lumen-ig", "type": "social_handle", "value": "@lumenskincare", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+    ]
+  },
+  {
+    "id": "cust-cryptonest",
+    "name": "CryptoNest",
+    "type": "company",
+    "industry": "Crypto exchange",
+    "description": "Fictional cryptocurrency exchange.",
+    "protect_summary": "Protect the exchange domain and brand from phishing and money-flipping scams.",
+    "assets": [
+      { "id": "cn-domain", "type": "domain", "value": "cryptonest.example", "aliases": ["cryptonest", "crypto nest"], "concerns": [ { "type": "phishing" }, { "type": "financial_fraud", "note": "money-flipping / giveaway scams" } ] },
+      { "id": "cn-brand", "type": "brand", "value": "CryptoNest", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "cn-x", "type": "social_handle", "value": "@cryptonest", "aliases": [], "concerns": [ { "type": "scam" } ] }
+    ]
+  },
+  {
+    "id": "cust-marcus-webb",
+    "name": "Marcus Webb",
+    "type": "person",
+    "industry": "Professional athlete",
+    "description": "Fictional professional athlete.",
+    "protect_summary": "Protect social handles from impersonation and fake endorsement scams.",
+    "assets": [
+      { "id": "webb-ig", "type": "social_handle", "value": "@marcuswebb", "aliases": ["marcus webb"], "concerns": [ { "type": "impersonation" }, { "type": "scam", "note": "fake endorsements" } ] },
+      { "id": "webb-brand", "type": "brand", "value": "Webb Foundation", "aliases": [], "concerns": [ { "type": "scam", "note": "fake charity drives" } ] }
+    ]
+  },
+  {
+    "id": "cust-helios-airlines",
+    "name": "Helios Airlines",
+    "type": "company",
+    "industry": "Airline",
+    "description": "Fictional airline.",
+    "protect_summary": "Protect the booking domain and brand from fake ticket and refund scams.",
+    "assets": [
+      { "id": "helios-domain", "type": "domain", "value": "heliosair.example", "aliases": ["helios airlines", "helios air"], "concerns": [ { "type": "phishing", "note": "fake refund pages" }, { "type": "scam" } ] },
+      { "id": "helios-brand", "type": "brand", "value": "Helios Airlines", "aliases": ["helios"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "helios-x", "type": "social_handle", "value": "@helios_air", "aliases": [], "concerns": [ { "type": "scam", "note": "fake customer support" } ] }
+    ]
+  },
+  {
+    "id": "cust-zenpay",
+    "name": "Zenpay",
+    "type": "company",
+    "industry": "Payments",
+    "description": "Fictional payments provider.",
+    "protect_summary": "Protect the payments domain and brand from phishing and credential leaks.",
+    "assets": [
+      { "id": "zen-domain", "type": "domain", "value": "zenpay.example", "aliases": ["zen pay"], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] },
+      { "id": "zen-brand", "type": "brand", "value": "Zenpay", "aliases": [], "concerns": [ { "type": "impersonation" } ] }
+    ]
+  },
+  {
+    "id": "cust-priya-sharma",
+    "name": "Priya Sharma",
+    "type": "person",
+    "industry": "Musician",
+    "description": "Fictional independent musician.",
+    "protect_summary": "Protect artist handles and website from impersonation and ticket scams.",
+    "assets": [
+      { "id": "priya-ig", "type": "social_handle", "value": "@priyasharmamusic", "aliases": ["priya sharma"], "concerns": [ { "type": "impersonation" }, { "type": "scam", "note": "fake concert tickets" } ] },
+      { "id": "priya-web", "type": "website", "value": "priyasharma.example", "aliases": [], "concerns": [ { "type": "mention" } ] }
+    ]
+  },
+  {
+    "id": "cust-vertex-robotics",
+    "name": "Vertex Robotics",
+    "type": "company",
+    "industry": "Technology / robotics",
+    "description": "Fictional robotics company.",
+    "protect_summary": "Protect the corporate domain, brand, and executives from impersonation and data leaks.",
+    "assets": [
+      { "id": "vertex-domain", "type": "domain", "value": "vertexrobotics.example", "aliases": ["vertex robotics", "vertex"], "concerns": [ { "type": "data_leak" }, { "type": "phishing" } ] },
+      { "id": "vertex-brand", "type": "brand", "value": "Vertex Robotics", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "vertex-ceo", "type": "executive", "value": "Daniel Okafor", "aliases": ["D. Okafor"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] }
+    ]
+  }
+]

@@ -1,0 +1,223 @@
+[
+  {
+    "id": "cust-ba-quillpay",
+    "name": "Quillpay",
+    "type": "company",
+    "industry": "Fintech / digital payments",
+    "description": "Fictional fintech company offering peer-to-peer payments and digital wallets.",
+    "protect_summary": "Protect the payments domain, brand, support channel, and finance executive from phishing and financial fraud.",
+    "assets": [
+      { "id": "ba-quillpay-domain", "type": "domain", "value": "quillpay.example", "aliases": ["quill pay"], "concerns": [ { "type": "phishing", "note": "spoofed login pages" }, { "type": "data_leak" } ] },
+      { "id": "ba-quillpay-brand", "type": "brand", "value": "Quillpay", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-quillpay-support", "type": "social_handle", "value": "@quillpay_support", "aliases": ["quillpay support"], "concerns": [ { "type": "scam", "note": "fake support accounts" } ] },
+      { "id": "ba-quillpay-cfo", "type": "executive", "value": "Rosalind Kanter", "aliases": ["R. Kanter"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
+      { "id": "ba-quillpay-acct", "type": "bank_account", "value": "ACCT 000456781234", "aliases": ["account ending 1234"], "concerns": [ { "type": "financial_fraud" }, { "type": "data_leak", "note": "synthetic corporate account" } ] },
+      { "id": "ba-quillpay-phone", "type": "phone", "value": "+1 555 0118", "aliases": ["support line"], "concerns": [ { "type": "scam", "note": "spoofed caller-ID scams" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-cobblestone-market",
+    "name": "Cobblestone Market",
+    "type": "company",
+    "industry": "E-commerce / retail",
+    "description": "Fictional online marketplace for home goods and apparel.",
+    "protect_summary": "Protect the storefront domain, brand, mobile app, and checkout flow from counterfeit sellers and payment fraud.",
+    "assets": [
+      { "id": "ba-cobblestone-domain", "type": "domain", "value": "cobblestonemarket.example", "aliases": ["cobblestone market"], "concerns": [ { "type": "phishing" }, { "type": "scam", "note": "fake storefront clones" } ] },
+      { "id": "ba-cobblestone-brand", "type": "brand", "value": "Cobblestone Market", "aliases": ["cobblestone"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-cobblestone-app", "type": "app", "value": "Cobblestone Market App", "aliases": [], "concerns": [ { "type": "scam", "note": "fraudulent lookalike apps" } ] },
+      { "id": "ba-cobblestone-ig", "type": "social_handle", "value": "@cobblestonemarket", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-cobblestone-card", "type": "credit_card", "value": "4242 4242 4242 4242", "aliases": ["test card"], "concerns": [ { "type": "data_leak", "note": "synthetic test card" }, { "type": "financial_fraud" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-pixel-foundry-games",
+    "name": "Pixel Foundry Games",
+    "type": "company",
+    "industry": "Gaming studio",
+    "description": "Fictional independent video game studio behind a multiplayer arena title.",
+    "protect_summary": "Protect the studio domain, brand, and lead designer from impersonation and harassment.",
+    "assets": [
+      { "id": "ba-pixelfoundry-domain", "type": "domain", "value": "pixelfoundry.example", "aliases": ["pixel foundry"], "concerns": [ { "type": "phishing", "note": "fake account-recovery pages" }, { "type": "data_leak" } ] },
+      { "id": "ba-pixelfoundry-brand", "type": "brand", "value": "Pixel Foundry Games", "aliases": ["pixel foundry"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-pixelfoundry-x", "type": "social_handle", "value": "@pixelfoundrygames", "aliases": [], "concerns": [ { "type": "scam", "note": "fake skin/currency giveaways" } ] },
+      { "id": "ba-pixelfoundry-lead", "type": "executive", "value": "Nadia Ellison", "aliases": ["N. Ellison"], "concerns": [ { "type": "doxxing" }, { "type": "online_threat" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-windward-airlines",
+    "name": "Windward Airlines",
+    "type": "company",
+    "industry": "Airline / travel",
+    "description": "Fictional regional airline offering domestic and short-haul international flights.",
+    "protect_summary": "Protect the booking domain, brand, reservations line, and CEO from ticket scams and impersonation.",
+    "assets": [
+      { "id": "ba-windward-domain", "type": "domain", "value": "windwardair.example", "aliases": ["windward airlines", "windward air"], "concerns": [ { "type": "phishing", "note": "fake refund pages" }, { "type": "scam" } ] },
+      { "id": "ba-windward-brand", "type": "brand", "value": "Windward Airlines", "aliases": ["windward"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-windward-x", "type": "social_handle", "value": "@windwardair", "aliases": [], "concerns": [ { "type": "scam", "note": "fake customer support DMs" } ] },
+      { "id": "ba-windward-ceo", "type": "executive", "value": "Callum Reyes", "aliases": ["C. Reyes"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-windward-phone", "type": "phone", "value": "+1 555 0134", "aliases": ["reservations line"], "concerns": [ { "type": "scam", "note": "spoofed reservation call centers" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-cascadia-health-partners",
+    "name": "Cascadia Health Partners",
+    "type": "company",
+    "industry": "Health insurance",
+    "description": "Fictional regional health insurance provider.",
+    "protect_summary": "Protect the member portal domain, brand, and CEO from phishing and threats tied to coverage disputes.",
+    "assets": [
+      { "id": "ba-cascadia-domain", "type": "domain", "value": "cascadiahealthpartners.example", "aliases": ["cascadia health"], "concerns": [ { "type": "phishing", "note": "fake member portal" }, { "type": "data_leak" } ] },
+      { "id": "ba-cascadia-brand", "type": "brand", "value": "Cascadia Health Partners", "aliases": ["cascadia"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-cascadia-email", "type": "email", "value": "claims@cascadiahealthpartners.example", "aliases": [], "concerns": [ { "type": "phishing" } ] },
+      { "id": "ba-cascadia-ceo", "type": "executive", "value": "Simone Achterberg", "aliases": ["S. Achterberg"], "concerns": [ { "type": "doxxing" }, { "type": "physical_attack", "note": "threats tied to claim denials" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-fiberlynk-communications",
+    "name": "Fiberlynk Communications",
+    "type": "company",
+    "industry": "Telecom",
+    "description": "Fictional telecom provider offering mobile and home internet service.",
+    "protect_summary": "Protect the account domain, brand, support handle, app, and CTO from phishing and SIM-swap style fraud.",
+    "assets": [
+      { "id": "ba-fiberlynk-domain", "type": "domain", "value": "fiberlynk.example", "aliases": ["fiberlynk"], "concerns": [ { "type": "phishing", "note": "spoofed bill-pay pages" }, { "type": "data_leak" } ] },
+      { "id": "ba-fiberlynk-brand", "type": "brand", "value": "Fiberlynk Communications", "aliases": ["fiberlynk"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-fiberlynk-support", "type": "social_handle", "value": "@fiberlynk_help", "aliases": [], "concerns": [ { "type": "scam", "note": "fake support agents" } ] },
+      { "id": "ba-fiberlynk-cto", "type": "executive", "value": "Tobias Lindqvist", "aliases": ["T. Lindqvist"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-fiberlynk-app", "type": "app", "value": "Fiberlynk MyAccount", "aliases": [], "concerns": [ { "type": "phishing", "note": "cloned account-management app" } ] },
+      { "id": "ba-fiberlynk-phone", "type": "phone", "value": "+1 555 0161", "aliases": ["billing support"], "concerns": [ { "type": "scam", "note": "spoofed billing calls" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-amberfield-energy",
+    "name": "Amberfield Energy",
+    "type": "company",
+    "industry": "Energy utility",
+    "description": "Fictional regional electric and gas utility.",
+    "protect_summary": "Protect the customer-facing domain, brand, and billing line from disconnect-notice scams.",
+    "assets": [
+      { "id": "ba-amberfield-domain", "type": "domain", "value": "amberfieldenergy.example", "aliases": ["amberfield"], "concerns": [ { "type": "phishing", "note": "fake bill-pay portals" }, { "type": "scam" } ] },
+      { "id": "ba-amberfield-brand", "type": "brand", "value": "Amberfield Energy", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-amberfield-phone", "type": "phone", "value": "+1 555 0177", "aliases": ["billing support"], "concerns": [ { "type": "scam", "note": "fake disconnect-notice calls" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-snapbite-delivery",
+    "name": "Snapbite Delivery",
+    "type": "company",
+    "industry": "Food delivery",
+    "description": "Fictional on-demand food delivery platform connecting restaurants and couriers.",
+    "protect_summary": "Protect the ordering domain, brand, rider app, and CEO from fake job scams and data leaks.",
+    "assets": [
+      { "id": "ba-snapbite-domain", "type": "domain", "value": "snapbite.example", "aliases": ["snap bite"], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] },
+      { "id": "ba-snapbite-brand", "type": "brand", "value": "Snapbite", "aliases": ["snapbite delivery"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-snapbite-app", "type": "app", "value": "Snapbite Rider", "aliases": [], "concerns": [ { "type": "scam", "note": "fake courier recruitment" } ] },
+      { "id": "ba-snapbite-ig", "type": "social_handle", "value": "@snapbite", "aliases": [], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-snapbite-ceo", "type": "executive", "value": "Miles Okoye", "aliases": [], "concerns": [ { "type": "online_threat" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-reelwave-streaming",
+    "name": "Reelwave Streaming",
+    "type": "company",
+    "industry": "Streaming media",
+    "description": "Fictional subscription video streaming service.",
+    "protect_summary": "Protect the streaming domain, brand app, and billing details from fake free-trial scams.",
+    "assets": [
+      { "id": "ba-reelwave-domain", "type": "domain", "value": "reelwave.example", "aliases": ["reel wave"], "concerns": [ { "type": "phishing" }, { "type": "scam", "note": "fake free-subscription offers" } ] },
+      { "id": "ba-reelwave-brand", "type": "brand", "value": "Reelwave", "aliases": ["reelwave streaming"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-reelwave-app", "type": "app", "value": "Reelwave", "aliases": [], "concerns": [ { "type": "impersonation", "note": "cloned streaming apps" } ] },
+      { "id": "ba-reelwave-card", "type": "credit_card", "value": "5555 5555 5555 4444", "aliases": ["billing test card"], "concerns": [ { "type": "data_leak", "note": "synthetic test card" }, { "type": "financial_fraud" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-cargolane-logistics",
+    "name": "Cargolane Logistics",
+    "type": "company",
+    "industry": "Logistics / shipping",
+    "description": "Fictional freight and parcel logistics company.",
+    "protect_summary": "Protect the tracking domain, brand, support handle, and regional hub from fake delivery-fee scams.",
+    "assets": [
+      { "id": "ba-cargolane-domain", "type": "domain", "value": "cargolane.example", "aliases": ["cargo lane"], "concerns": [ { "type": "phishing", "note": "fake tracking pages" }, { "type": "scam" } ] },
+      { "id": "ba-cargolane-brand", "type": "brand", "value": "Cargolane Logistics", "aliases": ["cargolane"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-cargolane-x", "type": "social_handle", "value": "@cargolane", "aliases": [], "concerns": [ { "type": "scam", "note": "fake delivery-fee texts" } ] },
+      { "id": "ba-cargolane-coo", "type": "executive", "value": "Grant Pellegrino", "aliases": ["G. Pellegrino"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-cargolane-hub", "type": "address", "value": "780 Portside Drive, Harborview, NJ", "aliases": ["Harborview hub"], "concerns": [ { "type": "mention", "note": "referenced in fraudulent shipment scam messages" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-torque-motors",
+    "name": "Torque Motors",
+    "type": "company",
+    "industry": "Automotive",
+    "description": "Fictional automaker producing electric and hybrid passenger vehicles.",
+    "protect_summary": "Protect the corporate domain, brand, owner app, and CEO from fake recall notices and impersonation.",
+    "assets": [
+      { "id": "ba-torque-domain", "type": "domain", "value": "torquemotors.example", "aliases": ["torque motors"], "concerns": [ { "type": "phishing", "note": "fake recall notices" }, { "type": "data_leak" } ] },
+      { "id": "ba-torque-brand", "type": "brand", "value": "Torque Motors", "aliases": ["torque"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-torque-ceo", "type": "executive", "value": "Bianca Hollis", "aliases": ["B. Hollis"], "concerns": [ { "type": "impersonation" }, { "type": "physical_attack", "note": "protest-related threats" } ] },
+      { "id": "ba-torque-app", "type": "app", "value": "Torque Connect", "aliases": [], "concerns": [ { "type": "phishing", "note": "cloned vehicle-connect app" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-brightacre-realty",
+    "name": "Brightacre Realty",
+    "type": "company",
+    "industry": "Real estate",
+    "description": "Fictional residential and commercial real estate brokerage.",
+    "protect_summary": "Protect the listings domain, brand, and leasing line from fake rental listing scams.",
+    "assets": [
+      { "id": "ba-brightacre-domain", "type": "domain", "value": "brightacrerealty.example", "aliases": ["brightacre"], "concerns": [ { "type": "phishing" }, { "type": "scam", "note": "fake rental listings" } ] },
+      { "id": "ba-brightacre-brand", "type": "brand", "value": "Brightacre Realty", "aliases": ["brightacre"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-brightacre-ig", "type": "social_handle", "value": "@brightacrerealty", "aliases": [], "concerns": [ { "type": "scam", "note": "fake deposit-collection listings" } ] },
+      { "id": "ba-brightacre-ceo", "type": "executive", "value": "Owen Castellan", "aliases": ["O. Castellan"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-brightacre-phone", "type": "phone", "value": "+1 555 0192", "aliases": ["leasing office"], "concerns": [ { "type": "scam", "note": "spoofed leasing calls" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-learnforge-academy",
+    "name": "Learnforge Academy",
+    "type": "company",
+    "industry": "Edtech",
+    "description": "Fictional online learning platform offering professional certification courses.",
+    "protect_summary": "Protect the enrollment domain, brand, admissions inbox, and CEO from fake certificate scams.",
+    "assets": [
+      { "id": "ba-learnforge-domain", "type": "domain", "value": "learnforge.example", "aliases": ["learn forge"], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] },
+      { "id": "ba-learnforge-brand", "type": "brand", "value": "Learnforge Academy", "aliases": ["learnforge"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-learnforge-ceo", "type": "executive", "value": "Naomi Berg", "aliases": ["N. Berg"], "concerns": [ { "type": "doxxing" } ] },
+      { "id": "ba-learnforge-email", "type": "email", "value": "admissions@learnforge.example", "aliases": [], "concerns": [ { "type": "phishing", "note": "fake certificate-sale emails" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-sentrywall-security",
+    "name": "Sentrywall Security",
+    "type": "company",
+    "industry": "Cybersecurity vendor",
+    "description": "Fictional cybersecurity vendor providing endpoint protection and threat monitoring.",
+    "protect_summary": "Protect the corporate domain, brand, support handle, CEO, and billing details from impersonation and fraud.",
+    "assets": [
+      { "id": "ba-sentrywall-domain", "type": "domain", "value": "sentrywall.example", "aliases": ["sentry wall"], "concerns": [ { "type": "phishing", "note": "fake security-alert pages" }, { "type": "impersonation" } ] },
+      { "id": "ba-sentrywall-brand", "type": "brand", "value": "Sentrywall Security", "aliases": ["sentrywall"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-sentrywall-x", "type": "social_handle", "value": "@sentrywallsec", "aliases": [], "concerns": [ { "type": "scam", "note": "fake security-alert phishing using the brand" } ] },
+      { "id": "ba-sentrywall-ceo", "type": "executive", "value": "Victor Amadi", "aliases": ["V. Amadi"], "concerns": [ { "type": "impersonation" }, { "type": "online_threat" } ] },
+      { "id": "ba-sentrywall-acct", "type": "bank_account", "value": "ACCT 000778899001", "aliases": [], "concerns": [ { "type": "financial_fraud" }, { "type": "data_leak", "note": "synthetic corporate account" } ] },
+      { "id": "ba-sentrywall-phone", "type": "phone", "value": "+1 555 0145", "aliases": ["incident hotline"], "concerns": [ { "type": "scam", "note": "spoofed incident-response calls" } ] }
+    ]
+  },
+  {
+    "id": "cust-ba-wellspring-pharmacy",
+    "name": "Wellspring Pharmacy",
+    "type": "company",
+    "industry": "Online pharmacy",
+    "description": "Fictional online pharmacy offering prescription delivery and refill management.",
+    "protect_summary": "Protect the pharmacy domain, brand, support handle, and chief pharmacist from counterfeit-medication scams.",
+    "assets": [
+      { "id": "ba-wellspring-domain", "type": "domain", "value": "wellspringrx.example", "aliases": ["wellspring pharmacy"], "concerns": [ { "type": "phishing" }, { "type": "scam", "note": "counterfeit discount pharmacy sites" } ] },
+      { "id": "ba-wellspring-brand", "type": "brand", "value": "Wellspring Pharmacy", "aliases": ["wellspring"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-wellspring-x", "type": "social_handle", "value": "@wellspringrx", "aliases": [], "concerns": [ { "type": "scam", "note": "fake discount-medication ads" } ] },
+      { "id": "ba-wellspring-pharmacist", "type": "executive", "value": "Renata Solis", "aliases": ["R. Solis"], "concerns": [ { "type": "impersonation" } ] },
+      { "id": "ba-wellspring-email", "type": "email", "value": "support@wellspringrx.example", "aliases": [], "concerns": [ { "type": "phishing" }, { "type": "data_leak" } ] }
+    ]
+  }
+]
