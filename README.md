@@ -88,9 +88,10 @@ npm run dev
    Elasticsearch document.
 3. **Ingest all** populates everything at once (166 assets); the top pills show ES assets / Chroma
    vectors climbing. **Reset** wipes the stores to replay.
-4. **+ New customer** opens a form pre-filled with a random fake company (with a rich description);
-   edit or **Randomize**, then **Add & ingest** to embed + index it immediately. The **🗑** on each
-   row deletes a customer and purges its assets from both stores.
+4. **+ New customer** opens a form pre-filled with a random fake company, including its **rich
+   description** (the context that gets embedded); edit or **Randomize**, then **Add & ingest** —
+   which embeds + indexes the new customer while streaming the same live per-asset log as a normal
+   ingest. The **🗑** on each row deletes a customer and purges its assets from both stores.
 
 ### Part 2 · Pipeline
 1. Open **Part 2 · Pipeline**. Filter the queue by **content type** (text / image / text+image) or
