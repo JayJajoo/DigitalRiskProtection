@@ -93,6 +93,15 @@ class ESAssets:
         except Exception:  # noqa: BLE001
             return []
 
+    def delete_by_customer(self, customer_id: str) -> int:
+        try:
+            r = self._es.delete_by_query(
+                index=self.index, query={"term": {"customer_id": customer_id}}, refresh=True
+            )
+            return int(r.get("deleted", 0))
+        except Exception:  # noqa: BLE001
+            return 0
+
     def delete_index(self) -> None:
         if self._es.indices.exists(index=self.index):
             self._es.indices.delete(index=self.index)

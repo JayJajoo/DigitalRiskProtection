@@ -69,6 +69,10 @@ class ChromaAssets:
             )
         return out
 
+    def delete(self, ids: List[str]) -> None:
+        if ids:
+            self._col.delete(ids=ids)
+
     def count(self) -> int:
         return self._col.count()
 

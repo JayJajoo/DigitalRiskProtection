@@ -87,6 +87,45 @@ export async function ingestAll(): Promise<void> {
 // SSE endpoint URL for ingesting one customer (consumed via EventSource).
 export const ingestStreamUrl = (id: string) => `/api/ingest/${id}/stream`
 
+// ── Create a new customer ───────────────────────────────────────────
+export interface DraftAsset {
+  id?: string
+  type: string
+  value: string
+  aliases?: string[]
+  concerns: { type: string; note?: string | null }[]
+  keywords?: string[]
+}
+export interface DraftCustomer {
+  id?: string
+  name: string
+  type: string
+  industry?: string | null
+  description?: string
+  protect_summary: string
+  assets: DraftAsset[]
+  ingested?: boolean
+}
+
+export const suggestCustomer = () => apiGet<DraftCustomer>('/customers/suggest')
+
+export async function createCustomer(
+  c: DraftCustomer,
+): Promise<{ customer: DraftCustomer; assets_ingested: number }> {
+  const res = await fetch('/api/customers', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(c),
+  })
+  if (!res.ok) throw new Error((await res.text()) || 'create failed')
+  return res.json()
+}
+
+export async function deleteCustomer(id: string): Promise<void> {
+  const res = await fetch(`/api/customers/${id}`, { method: 'DELETE' })
+  if (!res.ok) throw new Error('delete failed')
+}
+
 // ── Part 2: content corpus + pipeline ───────────────────────────────
 export interface ContentSummary {
   id: string

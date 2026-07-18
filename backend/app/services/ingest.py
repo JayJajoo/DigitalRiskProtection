@@ -10,6 +10,7 @@ import time
 from threading import Lock
 from typing import Dict, Iterator, List
 
+from ..config import settings
 from ..db.chroma_client import ChromaAssets
 from ..db.es_client import ESAssets
 from ..models import Customer
@@ -41,6 +42,10 @@ class IngestionState:
         with self._lock:
             self._ingested.update(customer_ids)
 
+    def unmark(self, customer_id: str) -> None:
+        with self._lock:
+            self._ingested.discard(customer_id)
+
     def clear(self) -> None:
         with self._lock:
             self._ingested.clear()
@@ -65,30 +70,46 @@ def ingest_customer_events(customer: Customer) -> Iterator[Dict]:
 
     try:
         texts = [asset_embedding_text(customer, a) for a in assets]
+        metadatas = [asset_chroma_metadata(customer, a) for a in assets]
+        es_docs = [asset_es_doc(customer, a) for a in assets]
+
         yield {"event": "embedding", "message": f"Embedding {len(assets)} asset(s) via OpenAI"}
         embeddings = embed_texts(texts) if assets else []
-        yield {"event": "embedded", "count": len(embeddings)}
+        yield {
+            "event": "embedded",
+            "count": len(embeddings),
+            "model": settings.openai_embedding_model,
+            "dim": len(embeddings[0]) if embeddings else 0,
+        }
 
         if assets:
             chroma.upsert(
                 ids=[a.id for a in assets],
                 embeddings=embeddings,
                 documents=texts,
-                metadatas=[asset_chroma_metadata(customer, a) for a in assets],
+                metadatas=metadatas,
             )
         yield {"event": "vectors_stored", "count": len(assets)}
 
-        docs = [asset_es_doc(customer, a) for a in assets]
-        if docs:
-            es.bulk_index(docs)
-        yield {"event": "indexed", "count": len(docs)}
+        if es_docs:
+            es.bulk_index(es_docs)
+        yield {"event": "indexed", "count": len(es_docs)}
 
-        for a in assets:
+        # Per-asset detail: the exact vector (preview), Chroma record, and ES document inserted.
+        for i, a in enumerate(assets):
+            emb = embeddings[i] if i < len(embeddings) else []
             yield {
                 "event": "asset_done",
                 "asset_id": a.id,
                 "asset_type": a.type.value,
                 "asset_value": a.value,
+                "embedding": {
+                    "model": settings.openai_embedding_model,
+                    "dim": len(emb),
+                    "preview": [round(float(x), 5) for x in emb[:8]],
+                },
+                "chroma": {"collection": "assets", "id": a.id, "document": texts[i], "metadata": metadatas[i]},
+                "elasticsearch": {"index": es.index, "id": a.id, "document": es_docs[i]},
             }
             if PER_ASSET_DELAY:
                 time.sleep(PER_ASSET_DELAY)

@@ -24,6 +24,7 @@ frontend/vite.config.d.ts
 # Data stores (runtime-generated; not committed)
 backend/data/chroma/
 backend/data/metrics.db
+backend/data/profiles/deleted_ids.json
 *.log
 
 # NOTE: full seed data (profiles incl. self.private.json, corpus, images) is committed
